@@ -1,0 +1,885 @@
+﻿Log file open, 05/22/20 21:17:29
+LogInit: Display: Running engine for game: MainFile
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 83 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.560279
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineFramework
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [D:/ue4/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/MainFile.uproject" -Output="C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Intermediate/TargetInfo.json"]
+Launching UnrealBuildTool... [D:/ue4/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/MainFile.uproject" -Output="C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Intermediate/TargetInfo.json"]
+LogDesktopPlatform: Warning: Unable to read target info for C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/MainFile.uproject
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: Null
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [Null]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 9 3950X 16-Core Processor            , GPU: NVIDIA GeForce RTX 2080 Ti
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/ue4/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.23-01.17.31:366][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.23-01.17.31:366][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Engine.ini]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Engine.ini]
+[2020.05.23-01.17.31:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Engine.ini]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Engine.ini]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.23-01.17.31:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Engine.ini]
+[2020.05.23-01.17.31:367][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Engine.ini]
+[2020.05.23-01.17.31:373][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.23-01.17.31:373][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:373][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.23-01.17.31:374][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.23-01.17.31:374][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:374][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.23-01.17.31:374][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.23-01.17.31:374][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.23-01.17.31:374][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.05.23-01.17.31:374][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.05.23-01.17.31:374][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.05.23-01.17.31:374][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.05.23-01.17.31:374][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.23-01.17.31:374][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.23-01.17.31:375][  0]LogHAL: Display: Platform has ~ 32 GB [34272866304 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.23-01.17.31:375][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.23-01.17.31:376][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.23-01.17.31:376][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Scalability.ini]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2020.05.23-01.17.31:377][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.23-01.17.31:381][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.23-01.17.31:381][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.23-01.17.31:381][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.05.23-01.17.31:381][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Config/Windows/Engine.ini]
+[2020.05.23-01.17.31:381][  0]LogInit: Computer: DESKTOP-JTCN789
+[2020.05.23-01.17.31:381][  0]LogInit: User: waldp
+[2020.05.23-01.17.31:381][  0]LogInit: CPU Page size=4096, Cores=16
+[2020.05.23-01.17.31:381][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.23-01.17.31:381][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.05.23-01.17.31:381][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.23-01.17.31:381][  0]LogMemory: Process Physical Memory: 118.08 MB used, 118.08 MB peak
+[2020.05.23-01.17.31:381][  0]LogMemory: Process Virtual Memory: 101.45 MB used, 101.45 MB peak
+[2020.05.23-01.17.31:381][  0]LogMemory: Physical Memory: 5662.29 MB used,  27022.87 MB free, 32685.15 MB total
+[2020.05.23-01.17.31:381][  0]LogMemory: Virtual Memory: 5252.37 MB used,  134212472.00 MB free, 134217728.00 MB total
+[2020.05.23-01.17.31:386][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.23-01.17.31:628][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.05.23-01.17.31:629][  0]LogInit: Using OS detected language (en-US).
+[2020.05.23-01.17.31:629][  0]LogInit: Using OS detected locale (en-US).
+[2020.05.23-01.17.31:646][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.05.23-01.17.31:857][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.23-01.17.31:936][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.23-01.17.31:936][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.23-01.17.33:718][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.23-01.17.33:718][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.23-01.17.33:718][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.23-01.17.33:718][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.23-01.17.33:771][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2020.05.23-01.17.33:771][  0]LogD3D11RHI:       11049/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.05.23-01.17.33:773][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.23-01.17.33:773][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.23-01.17.33:773][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.23-01.17.33:779][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.23-01.17.33:779][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.23-01.17.33:779][  0]LogWindows: EnumDisplayDevices:
+[2020.05.23-01.17.33:779][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2020.05.23-01.17.33:779][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2020.05.23-01.17.33:779][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.05.23-01.17.33:780][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.05.23-01.17.33:780][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.05.23-01.17.33:780][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2020.05.23-01.17.33:780][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.05.23-01.17.33:780][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.05.23-01.17.33:780][  0]LogRHI: Texture pool is 7734 MB (70% of 11049 MB)
+[2020.05.23-01.17.33:819][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.23-01.17.33:823][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.05.23-01.17.33:824][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.23-01.17.33:824][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.05.23-01.17.33:825][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2020.05.23-01.17.33:852][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.05.23-01.17.34:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.23-01.17.34:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.23-01.17.34:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.23-01.17.34:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.23-01.17.34:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.23-01.17.34:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.23-01.17.34:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.23-01.17.34:041][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.23-01.17.34:041][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.23-01.17.34:041][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.23-01.17.34:041][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.23-01.17.34:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.23-01.17.34:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.23-01.17.34:124][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.05.23-01.17.34:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.23-01.17.34:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.23-01.17.34:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.23-01.17.34:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.23-01.17.34:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.23-01.17.34:233][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.23-01.17.34:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.23-01.17.34:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.23-01.17.34:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.23-01.17.34:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.23-01.17.34:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.23-01.17.34:333][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.23-01.17.34:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.23-01.17.34:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.23-01.17.34:370][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.23-01.17.34:423][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.23-01.17.34:699][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Intermediate/Shaders/WorkingDirectory/9700/).
+[2020.05.23-01.17.34:700][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/waldp/AppData/Local/Temp/UnrealShaderWorkingDir/5282A44945DDED10D10FC6A6B7B965DE/'.
+[2020.05.23-01.17.34:700][  0]LogXGEController: Cleaning working directory: C:/Users/waldp/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.05.23-01.17.34:701][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2020.05.23-01.17.36:902][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.23-01.17.37:133][  0]LogDerivedDataCache: Loaded boot cache 0.23s 104MB C:/Users/waldp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.05.23-01.17.37:133][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/waldp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.05.23-01.17.37:133][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.23-01.17.37:133][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.23-01.17.37:133][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.23-01.17.37:133][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.23-01.17.37:151][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.23-01.17.37:151][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.23-01.17.37:151][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.23-01.17.37:152][  0]LogDerivedDataCache: Using Local data cache path C:/Users/waldp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.23-01.17.37:152][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.23-01.17.37:152][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.23-01.17.37:206][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.23-01.17.37:219][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.23-01.17.37:261][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
+[2020.05.23-01.17.37:545][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.23-01.17.37:903][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.23-01.17.37:903][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.23-01.17.37:903][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.23-01.17.37:903][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.23-01.17.37:903][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.23-01.17.37:963][  0]LogNetVersion: MainFile 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 229109931)
+[2020.05.23-01.17.38:925][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000260ABC6A680), frame # 0
+[2020.05.23-01.17.38:925][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000260ACBF9440), frame # 0
+[2020.05.23-01.17.38:929][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000260ABD76200), frame # 0
+[2020.05.23-01.17.38:998][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.044560 seconds
+[2020.05.23-01.17.39:002][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.05.23-01.17.39:002][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.05.23-01.17.39:002][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.23-01.17.40:508][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.23-01.17.40:526][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.23-01.17.40:852][  0]SourceControl: Source control is disabled
+[2020.05.23-01.17.40:853][  0]SourceControl: Source control is disabled
+[2020.05.23-01.17.40:874][  0]SourceControl: Source control is disabled
+[2020.05.23-01.17.40:891][  0]SourceControl: Source control is disabled
+[2020.05.23-01.17.40:923][  0]SourceControl: Source control is disabled
+[2020.05.23-01.17.42:128][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.23-01.17.42:214][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.23-01.17.42:214][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.23-01.17.42:384][  0]LogOcInput: OculusInput pre-init called
+[2020.05.23-01.17.42:419][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.23-01.17.42:419][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.23-01.17.42:616][  0]LogEngine: Initializing Engine...
+[2020.05.23-01.17.42:618][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.23-01.17.42:618][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.05.23-01.17.42:620][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.05.23-01.17.42:837][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.23-01.17.42:875][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.23-01.17.42:875][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000260B00CBC00), frame # 0
+[2020.05.23-01.17.42:875][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000260B0122480), frame # 0
+[2020.05.23-01.17.42:896][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-01.17.42:896][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-01.17.42:896][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-01.17.42:896][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-01.17.42:896][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-01.17.42:896][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-01.17.42:896][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-01.17.42:897][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-01.17.42:898][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-01.17.42:898][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-01.17.42:929][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-01.17.42:929][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-01.17.42:953][  0]LogAudioMixer: Display: Using Audio Device Speakers (Scarlett Solo USB)
+[2020.05.23-01.17.42:955][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.23-01.17.42:971][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.23-01.17.42:971][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.23-01.17.42:972][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.23-01.17.42:973][  0]LogInit: FAudioDevice initialized.
+[2020.05.23-01.17.42:973][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.23-01.17.43:044][  0]LogDerivedDataCache: Saved boot cache 0.07s 104MB C:/Users/waldp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.05.23-01.17.43:049][  0]LogInit: Texture streaming: Enabled
+[2020.05.23-01.17.43:108][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.23-01.17.43:108][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.23-01.17.43:109][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.23-01.17.43:262][  0]LogInit: Transaction tracking system initialized
+[2020.05.23-01.17.43:361][  0]BlueprintLog: New page: Editor Load
+[2020.05.23-01.17.43:696][  0]LocalizationService: Localization service is disabled
+[2020.05.23-01.17.44:347][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.23-01.17.44:347][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.23-01.17.44:865][  0]LogFileCache: Scanning file cache for directory 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/' took 0.03s
+[2020.05.23-01.17.45:085][  0]SourceControl: Source control is disabled
+[2020.05.23-01.17.45:085][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.606
+[2020.05.23-01.17.45:086][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.23-01.17.45:090][  0]LightingResults: New page: Lighting Build
+[2020.05.23-01.17.45:093][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-01.17.45:094][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-01.17.45:094][  0]MapCheck: New page: Map Check
+[2020.05.23-01.17.45:094][  0]LightingResults: New page: Lighting Build
+[2020.05.23-01.17.45:126][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000260B00CBC00), frame # 0
+[2020.05.23-01.17.45:126][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000260B0122480), frame # 0
+[2020.05.23-01.17.45:127][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.05.23-01.17.45:255][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.05.23-01.17.45:255][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002609B230200), frame # 0
+[2020.05.23-01.17.45:255][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000260A7965D00), frame # 0
+[2020.05.23-01.17.45:270][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.23-01.17.45:282][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.05.23-01.17.45:282][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.23-01.17.45:283][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.325ms to complete.
+[2020.05.23-01.17.45:283][  0]LogFileHelpers: Loading map 'Template_Default' took 0.197
+[2020.05.23-01.17.45:301][  0]LogUnrealEdMisc: Total Editor Startup Time, took 18.822
+[2020.05.23-01.17.45:432][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-01.17.45:438][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-01.17.45:443][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-01.17.45:448][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-01.17.45:471][  0]LogCollectionManager: Loaded 0 collections in 0.000622 seconds
+[2020.05.23-01.17.45:498][  0]LogFileCache: Scanning file cache for directory 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Collections/' took 0.00s
+[2020.05.23-01.17.45:498][  0]LogFileCache: Scanning file cache for directory 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Developers/waldp/Collections/' took 0.00s
+[2020.05.23-01.17.45:498][  0]LogFileCache: Scanning file cache for directory 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Collections/' took 0.00s
+[2020.05.23-01.17.45:498][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3452 classes and 835 folders.
+[2020.05.23-01.17.45:503][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.05.23-01.17.45:770][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.05.23-01.17.45:774][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 0 folders.
+[2020.05.23-01.17.45:901][  0]LogSlate: Took 0.004245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.23-01.17.45:907][  0]LogSlate: Took 0.003645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.23-01.17.45:915][  0]LogSlate: Took 0.003598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.23-01.17.46:022][  0]LogRenderer: Reallocating scene render targets to support 1616x836 Format 10 NumSamples 1 (Frame:1).
+[2020.05.23-01.17.46:128][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.05.23-01.17.46:128][  0]LogLoad: (Engine Initialization) Total time: 19.65 seconds
+[2020.05.23-01.17.46:128][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.23-01.17.46:181][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2020.05.23-01.17.46:356][ 18]LogAssetRegistry: Asset discovery search completed in 9.0962 seconds
+[2020.05.23-01.17.46:359][ 18]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.05.23-01.17.58:232][433]LogSlate: Took 0.006465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.23-01.17.58:314][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_02/MI_Generic_Erosion_02_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_02/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:314][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_02/MI_Generic_Erosion_02_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_02/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:314][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_02/MI_Generic_Erosion_02_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_02/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:314][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_02/MI_Generic_Erosion_02_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_02/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:315][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:315][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:315][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:315][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:345][433]LogLinker: Warning: Asset 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/Meshes/Cliffs/Textures/T_CliffSurface_Coast_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.05.23-01.17.58:380][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_01/MI_Generic_Erosion_01_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_01/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:380][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_01/MI_Generic_Erosion_01_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_01/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:380][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_01/MI_Generic_Erosion_01_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_01/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:380][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_01/MI_Generic_Erosion_01_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_01/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:382][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_03/MI_Generic_Erosion_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_03/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:382][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_03/MI_Generic_Erosion_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_03/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:382][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_03/MI_Generic_Erosion_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_03/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:382][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_03/MI_Generic_Erosion_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_03/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:383][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_04/MI_Generic_Erosion_04_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_04/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:383][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_04/MI_Generic_Erosion_04_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_04/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:384][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_04/MI_Generic_Erosion_04_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_04/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:384][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_04/MI_Generic_Erosion_04_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_04/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:385][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:385][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:385][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Snow_D': Can't find file.
+[2020.05.23-01.17.58:385][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Snow_D': Can't find file.
+[2020.05.23-01.17.58:385][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:385][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:385][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Snow_D': Can't find file.
+[2020.05.23-01.17.58:385][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Snow_D': Can't find file.
+[2020.05.23-01.17.58:410][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:410][433]LoadErrors: Failed to load /Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N.T_Normal_N Referenced by MI_Mountain_Generic_03_Grasslands
+[2020.05.23-01.17.58:410][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:411][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_02/MI_Generic_Erosion_02_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_02/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:411][433]LoadErrors: Failed to load /Game/Brushify/DistanceMeshes/Generic_Erosion_02/Textures/T_Grass_D.T_Grass_D Referenced by MI_Generic_Erosion_02_Grasslands
+[2020.05.23-01.17.58:411][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_02/MI_Generic_Erosion_02_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_02/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:542][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Snow_D': Can't find file.
+[2020.05.23-01.17.58:542][433]LoadErrors: Failed to load /Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Snow_D.T_Snow_D Referenced by MI_Mountain_Generic_03_Snow
+[2020.05.23-01.17.58:543][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Snow_D': Can't find file.
+[2020.05.23-01.17.58:543][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:543][433]LoadErrors: Failed to load /Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N.T_Normal_N Referenced by MI_Mountain_Generic_03_Snow
+[2020.05.23-01.17.58:543][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Mountain_Generic_03/MI_Mountain_Generic_03_Snow.uasset' failed to load '/Game/Brushify/DistanceMeshes/Mountain_Generic_03/Textures/T_Normal_N': Can't find file.
+[2020.05.23-01.17.58:544][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_04/MI_Generic_Erosion_04_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_04/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:544][433]LoadErrors: Failed to load /Game/Brushify/DistanceMeshes/Generic_Erosion_04/Textures/T_Grass_D.T_Grass_D Referenced by MI_Generic_Erosion_04_Grasslands
+[2020.05.23-01.17.58:544][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_04/MI_Generic_Erosion_04_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_04/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:545][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_03/MI_Generic_Erosion_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_03/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:546][433]LoadErrors: Failed to load /Game/Brushify/DistanceMeshes/Generic_Erosion_03/Textures/T_Grass_D.T_Grass_D Referenced by MI_Generic_Erosion_03_Grasslands
+[2020.05.23-01.17.58:546][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_03/MI_Generic_Erosion_03_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_03/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:547][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_01/MI_Generic_Erosion_01_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_01/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.58:547][433]LoadErrors: Failed to load /Game/Brushify/DistanceMeshes/Generic_Erosion_01/Textures/T_Grass_D.T_Grass_D Referenced by MI_Generic_Erosion_01_Grasslands
+[2020.05.23-01.17.58:547][433]LogLinker: Warning: While loading 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/DistanceMeshes/Generic_Erosion_01/MI_Generic_Erosion_01_Grasslands.uasset' failed to load '/Game/Brushify/DistanceMeshes/Generic_Erosion_01/Textures/T_Grass_D': Can't find file.
+[2020.05.23-01.17.59:729][433]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Brushify/Maps/Grasslands/Grasslands.Grasslands
+[2020.05.23-01.17.59:766][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.23-01.17.59:772][433]Cmd: MAP LOAD FILE="C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/Maps/Grasslands/Grasslands.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.23-01.17.59:772][433]LightingResults: New page: Lighting Build
+[2020.05.23-01.17.59:772][433]LoadErrors: New page: Loading map: Grasslands.umap
+[2020.05.23-01.17.59:772][433]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-01.17.59:772][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-01.17.59:772][433]MapCheck: New page: Map Check
+[2020.05.23-01.17.59:772][433]LightingResults: New page: Lighting Build
+[2020.05.23-01.17.59:783][433]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002609B230200), frame # 1433
+[2020.05.23-01.17.59:783][433]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000260A7965D00), frame # 1433
+[2020.05.23-01.17.59:784][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.05.23-01.18.01:899][433]LogPhysics: Warning: ForeachShape(Trimesh): ScaledElem[0] invalid
+[2020.05.23-01.18.01:979][433]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.23-01.18.01:979][433]LogAIModule: Creating AISystem for world Grasslands
+[2020.05.23-01.18.01:979][433]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002611B0D7C00), frame # 1433
+[2020.05.23-01.18.01:979][433]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000260DA47BD80), frame # 1433
+[2020.05.23-01.18.01:993][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.05.23-01.18.02:013][433]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.23-01.18.02:013][433]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2020.05.23-01.18.02:013][433]LogFileHelpers: Loading map 'Grasslands' took 2.242
+[2020.05.23-01.18.07:822][ 64]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Brushify/Maps/Grasslands/Brushify_Assets_Grasslands.Brushify_Assets_Grasslands
+[2020.05.23-01.18.07:834][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.05.23-01.18.09:523][ 64]LogSlate: Window 'Save Content' being destroyed
+[2020.05.23-01.18.09:543][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.05.23-01.18.09:891][ 64]LogSavePackage: Moving 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Saved/Grasslands69A2720C434852916F77D4ADF87D78B3.tmp' to 'C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/Maps/Grasslands/Grasslands.umap'
+[2020.05.23-01.18.09:914][ 64]LogFileHelpers: Saving map 'Grasslands' took 0.385
+[2020.05.23-01.18.09:914][ 64]Cmd: MAP LOAD FILE="C:/Users/waldp/Documents/Unreal Projects/MyProject/MainFiles/MainFile/Content/Brushify/Maps/Grasslands/Brushify_Assets_Grasslands.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.23-01.18.09:914][ 64]LightingResults: New page: Lighting Build
+[2020.05.23-01.18.09:914][ 64]LoadErrors: New page: Loading map: Brushify_Assets_Grasslands.umap
+[2020.05.23-01.18.09:918][ 64]LogWorld: UWorld::CleanupWorld for Grasslands, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-01.18.09:918][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-01.18.09:918][ 64]MapCheck: New page: Map Check
+[2020.05.23-01.18.09:918][ 64]LightingResults: New page: Lighting Build
+[2020.05.23-01.18.09:933][ 64]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000260DA47BD80), frame # 2064
+[2020.05.23-01.18.09:933][ 64]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002611B0D7C00), frame # 2064
+[2020.05.23-01.18.09:935][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.05.23-01.18.11:099][ 64]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.23-01.18.11:099][ 64]LogAIModule: Creating AISystem for world Brushify_Assets_Grasslands
+[2020.05.23-01.18.11:099][ 64]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000260E1C53200), frame # 2064
+[2020.05.23-01.18.11:099][ 64]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000260DBBE8F40), frame # 2064
+[2020.05.23-01.18.11:111][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.05.23-01.18.11:130][ 64]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.23-01.18.11:130][ 64]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2020.05.23-01.18.11:130][ 64]LogFileHelpers: Loading map 'Brushify_Assets_Grasslands' took 1.216
+[2020.05.23-01.18.11:160][ 64]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.23-01.18.11:160][ 64]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Brushify/Maps/Grasslands/Grasslands.Mountains_BuiltData
+[2020.05.23-01.18.11:242][ 64]LogContentValidation: Display: Validating World /Game/Brushify/Maps/Grasslands/Grasslands.Grasslands
+[2020.05.23-01.18.11:951][111]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.05.23-01.18.23:641][435]LogStaticMesh: Building static mesh S_Roof_Extractor_01...
+[2020.05.23-01.18.23:760][435]LogStaticMesh: Built static mesh [0.12s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Roof/Extractors/S_Roof_Extractor_01.S_Roof_Extractor_01
+[2020.05.23-01.18.23:764][435]LogStaticMesh: Building static mesh S_HighRise_02_Roof_Var01...
+[2020.05.23-01.18.23:821][435]LogStaticMesh: Built static mesh [0.06s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Roofs/S_HighRise_02_Roof_Var01.S_HighRise_02_Roof_Var01
+[2020.05.23-01.18.23:829][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.23:878][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.23:897][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.23:913][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.23:946][435]LogMaterial: Display: Missing cached shader map for material M_CheapLandscape, compiling. 
+[2020.05.23-01.18.23:988][435]LogMaterial: Display: Missing cached shader map for material M_CheapLandscape, compiling. 
+[2020.05.23-01.18.24:067][435]LogStaticMesh: Building static mesh S_Road...
+[2020.05.23-01.18.24:103][435]LogStaticMesh: Built static mesh [0.04s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Roads/S_Road.S_Road
+[2020.05.23-01.18.24:105][435]LogStaticMesh: Building static mesh S_Road_Short...
+[2020.05.23-01.18.24:136][435]LogStaticMesh: Built static mesh [0.03s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Roads/S_Road_Short.S_Road_Short
+[2020.05.23-01.18.24:139][435]LogStaticMesh: Building static mesh S_HighRise_02_Floor_Var01...
+[2020.05.23-01.18.24:221][435]LogStaticMesh: Built static mesh [0.08s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Floors/S_HighRise_02_Floor_Var01.S_HighRise_02_Floor_Var01
+[2020.05.23-01.18.24:297][435]LogStaticMesh: Building static mesh S_Residential_02_Floor...
+[2020.05.23-01.18.26:886][435]LogStaticMesh: Built static mesh [2.59s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Floors/S_Residential_02_Floor.S_Residential_02_Floor
+[2020.05.23-01.18.26:935][435]LogStaticMesh: Building static mesh S_Residential_03_Entrance...
+[2020.05.23-01.18.28:303][435]LogStaticMesh: Built static mesh [1.37s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Floors/S_Residential_03_Entrance.S_Residential_03_Entrance
+[2020.05.23-01.18.28:343][435]LogStaticMesh: Building static mesh S_Residential_Small_Floor_Var01...
+[2020.05.23-01.18.29:322][435]LogStaticMesh: Built static mesh [0.98s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Floors/S_Residential_Small_Floor_Var01.S_Residential_Small_Floor_Var01
+[2020.05.23-01.18.29:339][435]LogStaticMesh: Building static mesh S_Residential_03_Floor_Small_Short...
+[2020.05.23-01.18.29:602][435]LogStaticMesh: Built static mesh [0.26s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Floors/S_Residential_03_Floor_Small_Short.S_Residential_03_Floor_Small_Short
+[2020.05.23-01.18.29:612][435]LogStaticMesh: Building static mesh S_Residential_03_Floor_Medium_Short...
+[2020.05.23-01.18.29:848][435]LogStaticMesh: Built static mesh [0.24s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Floors/S_Residential_03_Floor_Medium_Short.S_Residential_03_Floor_Medium_Short
+[2020.05.23-01.18.29:866][435]LogStaticMesh: Building static mesh S_Residential_03_Floor_Small...
+[2020.05.23-01.18.30:322][435]LogStaticMesh: Built static mesh [0.46s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Floors/S_Residential_03_Floor_Small.S_Residential_03_Floor_Small
+[2020.05.23-01.18.30:329][435]LogStaticMesh: Building static mesh S_Cube...
+[2020.05.23-01.18.30:330][435]LogStaticMesh: Built static mesh [0.00s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Generic/S_Cube.S_Cube
+[2020.05.23-01.18.30:338][435]LogStaticMesh: Building static mesh S_HighRise_01_Floor_Var01...
+[2020.05.23-01.18.30:433][435]LogStaticMesh: Built static mesh [0.10s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Floors/S_HighRise_01_Floor_Var01.S_HighRise_01_Floor_Var01
+[2020.05.23-01.18.30:436][435]LogStaticMesh: Building static mesh S_HighRise_01_Middle_Var01...
+[2020.05.23-01.18.30:489][435]LogStaticMesh: Built static mesh [0.05s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Middle/S_HighRise_01_Middle_Var01.S_HighRise_01_Middle_Var01
+[2020.05.23-01.18.30:491][435]LogStaticMesh: Building static mesh S_HighRise_Roof_Var02...
+[2020.05.23-01.18.30:562][435]LogStaticMesh: Built static mesh [0.07s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Roofs/S_HighRise_Roof_Var02.S_HighRise_Roof_Var02
+[2020.05.23-01.18.30:572][435]LogStaticMesh: Building static mesh S_Roof_Hut_Large...
+[2020.05.23-01.18.30:806][435]LogStaticMesh: Built static mesh [0.23s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Roof/Roof_Huts/S_Roof_Hut_Large.S_Roof_Hut_Large
+[2020.05.23-01.18.30:826][435]LogStaticMesh: Building static mesh S_HighRise_Middle_Var03...
+[2020.05.23-01.18.31:959][435]LogStaticMesh: Built static mesh [1.13s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Roofs/S_HighRise_Middle_Var03.S_HighRise_Middle_Var03
+[2020.05.23-01.18.31:981][435]LogStaticMesh: Building static mesh S_HighRise_02_Antenna_01...
+[2020.05.23-01.18.32:798][435]LogStaticMesh: Built static mesh [0.82s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Roofs/S_HighRise_02_Antenna_01.S_HighRise_02_Antenna_01
+[2020.05.23-01.18.32:808][435]LogStaticMesh: Building static mesh S_HighRise_02_Middle_Var01...
+[2020.05.23-01.18.32:862][435]LogStaticMesh: Built static mesh [0.05s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Middle/S_HighRise_02_Middle_Var01.S_HighRise_02_Middle_Var01
+[2020.05.23-01.18.32:881][435]LogStaticMesh: Building static mesh S_Roof_Extractor_02...
+[2020.05.23-01.18.33:305][435]LogStaticMesh: Built static mesh [0.42s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Roof/Extractors/S_Roof_Extractor_02.S_Roof_Extractor_02
+[2020.05.23-01.18.33:309][435]LogStaticMesh: Building static mesh S_Stairs_Platform_Small...
+[2020.05.23-01.18.33:358][435]LogStaticMesh: Built static mesh [0.05s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Stairs/S_Stairs_Platform_Small.S_Stairs_Platform_Small
+[2020.05.23-01.18.33:367][435]LogStaticMesh: Building static mesh S_HighRise_04_Floor_Var01...
+[2020.05.23-01.18.33:564][435]LogStaticMesh: Built static mesh [0.20s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Floors/S_HighRise_04_Floor_Var01.S_HighRise_04_Floor_Var01
+[2020.05.23-01.18.33:569][435]LogStaticMesh: Building static mesh S_HighRise_04_Middle_Var01...
+[2020.05.23-01.18.33:618][435]LogStaticMesh: Built static mesh [0.05s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Middle/S_HighRise_04_Middle_Var01.S_HighRise_04_Middle_Var01
+[2020.05.23-01.18.33:622][435]LogStaticMesh: Building static mesh S_HighRise_04_Roof_Var01...
+[2020.05.23-01.18.33:724][435]LogStaticMesh: Built static mesh [0.10s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Roofs/S_HighRise_04_Roof_Var01.S_HighRise_04_Roof_Var01
+[2020.05.23-01.18.33:728][435]LogStaticMesh: Building static mesh S_Contemporary_01_Middle_Lg...
+[2020.05.23-01.18.33:814][435]LogStaticMesh: Built static mesh [0.09s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Middle/S_Contemporary_01_Middle_Lg.S_Contemporary_01_Middle_Lg
+[2020.05.23-01.18.33:822][435]LogStaticMesh: Building static mesh S_Bush_01...
+[2020.05.23-01.18.33:968][435]LogStaticMesh: Built static mesh [0.15s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Park/Bush_01/S_Bush_01.S_Bush_01
+[2020.05.23-01.18.34:003][435]LogStaticMesh: Building static mesh S_Park_Grounds...
+[2020.05.23-01.18.34:104][435]LogStaticMesh: Built static mesh [0.10s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Park/Grounds_01/S_Park_Grounds.S_Park_Grounds
+[2020.05.23-01.18.34:165][435]LogStaticMesh: Building static mesh S_Tree_01...
+[2020.05.23-01.18.34:676][435]LogStaticMesh: Built static mesh [0.51s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Park/Tree_01/S_Tree_01.S_Tree_01
+[2020.05.23-01.18.34:720][435]LogStaticMesh: Building static mesh S_Residential_Small_Roof_Var01...
+[2020.05.23-01.18.36:103][435]LogStaticMesh: Built static mesh [1.38s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Roofs/S_Residential_Small_Roof_Var01.S_Residential_Small_Roof_Var01
+[2020.05.23-01.18.36:129][435]LogStaticMesh: Building static mesh S_Roof_Hut_Small...
+[2020.05.23-01.18.36:370][435]LogStaticMesh: Built static mesh [0.24s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Roof/Roof_Huts/S_Roof_Hut_Small.S_Roof_Hut_Small
+[2020.05.23-01.18.36:400][435]LogStaticMesh: Building static mesh S_Residential_Small_Middle_Var01...
+[2020.05.23-01.18.37:390][435]LogStaticMesh: Built static mesh [0.99s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Middle/S_Residential_Small_Middle_Var01.S_Residential_Small_Middle_Var01
+[2020.05.23-01.18.37:426][435]LogStaticMesh: Building static mesh S_Residential_02_Roof...
+[2020.05.23-01.18.38:488][435]LogStaticMesh: Built static mesh [1.06s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Roofs/S_Residential_02_Roof.S_Residential_02_Roof
+[2020.05.23-01.18.38:543][435]LogStaticMesh: Building static mesh S_Residential_02_Mid...
+[2020.05.23-01.18.40:095][435]LogStaticMesh: Built static mesh [1.55s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Middle/S_Residential_02_Mid.S_Residential_02_Mid
+[2020.05.23-01.18.40:138][435]LogStaticMesh: Building static mesh S_Residential_03_Middle_Large...
+[2020.05.23-01.18.40:936][435]LogStaticMesh: Built static mesh [0.80s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Middle/S_Residential_03_Middle_Large.S_Residential_03_Middle_Large
+[2020.05.23-01.18.40:990][435]LogStaticMesh: Building static mesh S_Residential_03_Roof_02...
+[2020.05.23-01.18.42:062][435]LogStaticMesh: Built static mesh [1.07s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Roofs/S_Residential_03_Roof_02.S_Residential_03_Roof_02
+[2020.05.23-01.18.42:084][435]LogStaticMesh: Building static mesh S_Pillars...
+[2020.05.23-01.18.42:183][435]LogStaticMesh: Built static mesh [0.10s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Pillars/S_Pillars.S_Pillars
+[2020.05.23-01.18.42:189][435]LogStaticMesh: Building static mesh S_Door_01...
+[2020.05.23-01.18.42:344][435]LogStaticMesh: Built static mesh [0.16s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Doors/S_Door_01.S_Door_01
+[2020.05.23-01.18.42:370][435]LogStaticMesh: Building static mesh S_Residential_03_Floor_Medium...
+[2020.05.23-01.18.43:207][435]LogStaticMesh: Built static mesh [0.84s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Floors/S_Residential_03_Floor_Medium.S_Residential_03_Floor_Medium
+[2020.05.23-01.18.43:225][435]LogStaticMesh: Building static mesh S_Residential_03_Roof...
+[2020.05.23-01.18.43:434][435]LogStaticMesh: Built static mesh [0.21s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Roofs/S_Residential_03_Roof.S_Residential_03_Roof
+[2020.05.23-01.18.43:440][435]LogStaticMesh: Building static mesh S_Stairs_Small...
+[2020.05.23-01.18.43:461][435]LogStaticMesh: Built static mesh [0.02s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/Stairs/S_Stairs_Small.S_Stairs_Small
+[2020.05.23-01.18.43:468][435]LogStaticMesh: Building static mesh S_HighRise_02_Roof_Var02...
+[2020.05.23-01.18.44:116][435]LogStaticMesh: Built static mesh [0.65s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Roofs/S_HighRise_02_Roof_Var02.S_HighRise_02_Roof_Var02
+[2020.05.23-01.18.44:123][435]LogStaticMesh: Building static mesh S_HighRise_03_Floor_Var01...
+[2020.05.23-01.18.44:235][435]LogStaticMesh: Built static mesh [0.11s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/HighRise/Floors/S_HighRise_03_Floor_Var01.S_HighRise_03_Floor_Var01
+[2020.05.23-01.18.44:293][435]LogStaticMesh: Building static mesh S_Residential_Small_Middle_Var02...
+[2020.05.23-01.18.46:632][435]LogStaticMesh: Built static mesh [2.34s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Residential/Middle/S_Residential_Small_Middle_Var02.S_Residential_Small_Middle_Var02
+[2020.05.23-01.18.46:657][435]LogStaticMesh: Building static mesh S_FireEscape...
+[2020.05.23-01.18.46:760][435]LogStaticMesh: Built static mesh [0.10s] /Game/Brushify/DesignPacks/Urban/Buildings/Geometry/Decorations/FireEscape/S_FireEscape.S_FireEscape
+[2020.05.23-01.18.46:772][435]LogMaterial: Display: Missing cached shader map for material M_SkyHDR, compiling. 
+[2020.05.23-01.18.46:781][435]LogMaterial: Display: Missing cached shader map for material M_Ocean, compiling. 
+[2020.05.23-01.18.46:846][435]LogMaterial: Display: Missing cached shader map for material M_Foliage, compiling. 
+[2020.05.23-01.18.46:888][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.46:905][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.46:921][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.46:939][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.46:964][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.46:981][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.46:997][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.47:015][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.47:032][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.47:050][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.47:067][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.47:088][435]LogMaterial: Display: Missing cached shader map for material M_MasterMaterial, compiling. 
+[2020.05.23-01.18.48:727][435]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Brushify/DesignPacks/Urban/Buildings/Maps/UrbanBuildings/UrbanBuildings.UrbanBuildings
+[2020.05.23-01.18.48:761][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.05.23-01.18.48:770][435]LightingResults: New page: Lighting Build
+[2020.05.23-01.18.48:770][435]LoadErrors: New page: Loading map: UrbanBuildings.umap
+[2020.05.23-01.18.48:771][435]LogWorld: UWorld::CleanupWorld for Brushify_Assets_Grasslands, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-01.18.48:771][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-01.18.48:771][435]MapCheck: New page: Map Check
+[2020.05.23-01.18.48:771][435]LightingResults: New page: Lighting Build
+[2020.05.23-01.18.48:791][435]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000260DBBE8F40), frame # 3435
+[2020.05.23-01.18.48:791][435]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000260E1C53200), frame # 3435
+[2020.05.23-01.18.48:792][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.05.23-01.18.48:852][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.05.23-01.18.48:866][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.23-01.19.14:595][435]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.23-01.19.14:595][435]LogAIModule: Creating AISystem for world UrbanBuildings
+[2020.05.23-01.19.14:595][435]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000261A967A400), frame # 3435
+[2020.05.23-01.19.14:595][435]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026130F7ED40), frame # 3435
+[2020.05.23-01.19.14:663][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.05.23-01.19.14:688][435]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.23-01.19.14:688][435]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.16ms to complete.
+[2020.05.23-01.19.14:688][435]LogFileHelpers: Loading map 'UrbanBuildings' took 25.918
