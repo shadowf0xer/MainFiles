@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.PointCloud.cpp.o",
+		"Module.PointCloud.gen.cpp.o"
+	]
+}

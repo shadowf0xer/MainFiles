@@ -1,0 +1,7 @@
+First need to copy ilmbase shared libraries from our Source/ThirdParty code:
+/PATH/TO/UE4/Engine/Source/ThirdParty/openexr/Deploy/lib/Linux/StaticRelease/x86_64-unknown-linux-gnu/*.a
+
+If you need to copy any headers for ilmbase, you'll need to make sure to ifndef on CA_SUPRESS to avoid compile error.
+
+There is also an issue with FBX exposing HDF5/Alembic/IlmBase symbols. So be very careful not to expose any of those symbols
+here. From the scripts we have set hidden symbol visibility.

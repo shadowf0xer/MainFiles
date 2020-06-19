@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"AutomationUtils": "UE4Editor-AutomationUtils.dll",
+		"AutomationUtilsEditor": "UE4Editor-AutomationUtilsEditor.dll"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.AutomationUtils.cppa7.o",
+		"Module.AutomationUtils.cppa8.o",
+		"Module.AutomationUtils.gen.cppa7.o",
+		"Module.AutomationUtils.gen.cppa8.o"
+	]
+}

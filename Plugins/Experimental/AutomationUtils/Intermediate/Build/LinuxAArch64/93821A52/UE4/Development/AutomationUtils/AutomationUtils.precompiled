@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.AutomationUtils.cpp.o",
+		"Module.AutomationUtils.gen.cpp.o"
+	]
+}

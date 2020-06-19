@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"AppleVision": "UE4Editor-AppleVision.dll",
+		"AppleVisionBlueprintSupport": "UE4Editor-AppleVisionBlueprintSupport.dll"
+	}
+}

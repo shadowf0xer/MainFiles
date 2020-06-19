@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.PointCloud.cppa7.o",
+		"Module.PointCloud.cppa8.o",
+		"Module.PointCloud.gen.cppa7.o",
+		"Module.PointCloud.gen.cppa8.o"
+	]
+}

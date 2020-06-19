@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.AppleVision.cppa7.o",
+		"Module.AppleVision.cppa8.o",
+		"Module.AppleVision.gen.cppa7.o",
+		"Module.AppleVision.gen.cppa8.o"
+	]
+}
