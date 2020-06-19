@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1",
+	"FriendlyName": "TargetSelectionPlugin",
+	"Description": "Plugin for select Actor in game.",
+	"Category": "Gameplay",
+	"CreatedBy": "Anatoli Kucharau",
+	"CreatedByURL": "https://github.com/filln/UE4-TargetSelectionPlugin",
+	"DocsURL": "https://github.com/filln/UE4-TargetSelectionPlugin/wiki/Maintenance",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/eca3383363614e41a3bfe349cd07c033",
+	"SupportURL": "https://forums.unrealengine.com/community/released-projects/1693021-targetselectionplugin",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TargetSelectionPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
