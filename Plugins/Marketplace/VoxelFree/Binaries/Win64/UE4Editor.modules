@@ -1,0 +1,15 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"Voxel": "UE4Editor-Voxel.dll",
+		"VoxelEditor": "UE4Editor-VoxelEditor.dll",
+		"VoxelEditorDefault": "UE4Editor-VoxelEditorDefault.dll",
+		"VoxelGraph": "UE4Editor-VoxelGraph.dll",
+		"VoxelGraphEditor": "UE4Editor-VoxelGraphEditor.dll",
+		"VoxelHelpers": "UE4Editor-VoxelHelpers.dll",
+		"VoxelNiagara": "UE4Editor-VoxelNiagara.dll",
+		"VoxelVDB": "UE4Editor-VoxelVDB.dll",
+		"VoxelVDBEditor": "UE4Editor-VoxelVDBEditor.dll"
+	}
+}

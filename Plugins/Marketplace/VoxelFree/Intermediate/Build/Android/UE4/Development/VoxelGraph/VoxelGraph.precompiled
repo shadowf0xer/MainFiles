@@ -1,0 +1,12 @@
+{
+	"OutputFiles": [
+		"Module.VoxelGraph.cppa7.o",
+		"Module.VoxelGraph.cppa8.o",
+		"Module.VoxelGraph.gen.1_of_3.cppa7.o",
+		"Module.VoxelGraph.gen.2_of_3.cppa7.o",
+		"Module.VoxelGraph.gen.3_of_3.cppa7.o",
+		"Module.VoxelGraph.gen.1_of_3.cppa8.o",
+		"Module.VoxelGraph.gen.2_of_3.cppa8.o",
+		"Module.VoxelGraph.gen.3_of_3.cppa8.o"
+	]
+}

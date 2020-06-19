@@ -1,0 +1,462 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VOXELGRAPH_VoxelGradientPerturbNodes_generated_h
+#error "VoxelGradientPerturbNodes.generated.h already included, missing '#pragma once' in VoxelGradientPerturbNodes.h"
+#endif
+#define VOXELGRAPH_VoxelGradientPerturbNodes_generated_h
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GradientPerturb(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GradientPerturb_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GradientPerturb, UVoxelNode_NoiseNode, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GradientPerturb(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GradientPerturb_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GradientPerturb, UVoxelNode_NoiseNode, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GradientPerturb(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GradientPerturb) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GradientPerturb); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GradientPerturb); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GradientPerturb(UVoxelNode_GradientPerturb&&); \
+	NO_API UVoxelNode_GradientPerturb(const UVoxelNode_GradientPerturb&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GradientPerturb(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GradientPerturb(UVoxelNode_GradientPerturb&&); \
+	NO_API UVoxelNode_GradientPerturb(const UVoxelNode_GradientPerturb&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GradientPerturb); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GradientPerturb); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_36_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_39_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_GradientPerturb>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GradientPerturbFractal(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GradientPerturbFractal_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GradientPerturbFractal, UVoxelNode_NoiseNodeFractal, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GradientPerturbFractal(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GradientPerturbFractal_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GradientPerturbFractal, UVoxelNode_NoiseNodeFractal, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GradientPerturbFractal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GradientPerturbFractal) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GradientPerturbFractal); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GradientPerturbFractal); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GradientPerturbFractal(UVoxelNode_GradientPerturbFractal&&); \
+	NO_API UVoxelNode_GradientPerturbFractal(const UVoxelNode_GradientPerturbFractal&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GradientPerturbFractal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GradientPerturbFractal(UVoxelNode_GradientPerturbFractal&&); \
+	NO_API UVoxelNode_GradientPerturbFractal(const UVoxelNode_GradientPerturbFractal&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GradientPerturbFractal); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GradientPerturbFractal); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_42_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_45_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_GradientPerturbFractal>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_2DGradientPerturb(); \
+	friend struct Z_Construct_UClass_UVoxelNode_2DGradientPerturb_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_2DGradientPerturb, UVoxelNode_GradientPerturb, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_2DGradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_2DGradientPerturb(); \
+	friend struct Z_Construct_UClass_UVoxelNode_2DGradientPerturb_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_2DGradientPerturb, UVoxelNode_GradientPerturb, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_2DGradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_2DGradientPerturb(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_2DGradientPerturb) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_2DGradientPerturb); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_2DGradientPerturb); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_2DGradientPerturb(UVoxelNode_2DGradientPerturb&&); \
+	NO_API UVoxelNode_2DGradientPerturb(const UVoxelNode_2DGradientPerturb&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_2DGradientPerturb(UVoxelNode_2DGradientPerturb&&); \
+	NO_API UVoxelNode_2DGradientPerturb(const UVoxelNode_2DGradientPerturb&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_2DGradientPerturb); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_2DGradientPerturb); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_2DGradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_52_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_55_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_2DGradientPerturb>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_2DGradientPerturbFractal(); \
+	friend struct Z_Construct_UClass_UVoxelNode_2DGradientPerturbFractal_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_2DGradientPerturbFractal, UVoxelNode_GradientPerturbFractal, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_2DGradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_2DGradientPerturbFractal(); \
+	friend struct Z_Construct_UClass_UVoxelNode_2DGradientPerturbFractal_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_2DGradientPerturbFractal, UVoxelNode_GradientPerturbFractal, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_2DGradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_2DGradientPerturbFractal(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_2DGradientPerturbFractal) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_2DGradientPerturbFractal); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_2DGradientPerturbFractal); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_2DGradientPerturbFractal(UVoxelNode_2DGradientPerturbFractal&&); \
+	NO_API UVoxelNode_2DGradientPerturbFractal(const UVoxelNode_2DGradientPerturbFractal&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_2DGradientPerturbFractal(UVoxelNode_2DGradientPerturbFractal&&); \
+	NO_API UVoxelNode_2DGradientPerturbFractal(const UVoxelNode_2DGradientPerturbFractal&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_2DGradientPerturbFractal); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_2DGradientPerturbFractal); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_2DGradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_63_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_66_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_2DGradientPerturbFractal>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_3DGradientPerturb(); \
+	friend struct Z_Construct_UClass_UVoxelNode_3DGradientPerturb_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_3DGradientPerturb, UVoxelNode_GradientPerturb, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_3DGradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_3DGradientPerturb(); \
+	friend struct Z_Construct_UClass_UVoxelNode_3DGradientPerturb_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_3DGradientPerturb, UVoxelNode_GradientPerturb, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_3DGradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_3DGradientPerturb(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_3DGradientPerturb) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_3DGradientPerturb); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_3DGradientPerturb); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_3DGradientPerturb(UVoxelNode_3DGradientPerturb&&); \
+	NO_API UVoxelNode_3DGradientPerturb(const UVoxelNode_3DGradientPerturb&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_3DGradientPerturb(UVoxelNode_3DGradientPerturb&&); \
+	NO_API UVoxelNode_3DGradientPerturb(const UVoxelNode_3DGradientPerturb&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_3DGradientPerturb); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_3DGradientPerturb); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_3DGradientPerturb)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_74_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_77_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_3DGradientPerturb>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_3DGradientPerturbFractal(); \
+	friend struct Z_Construct_UClass_UVoxelNode_3DGradientPerturbFractal_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_3DGradientPerturbFractal, UVoxelNode_GradientPerturbFractal, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_3DGradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_3DGradientPerturbFractal(); \
+	friend struct Z_Construct_UClass_UVoxelNode_3DGradientPerturbFractal_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_3DGradientPerturbFractal, UVoxelNode_GradientPerturbFractal, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_3DGradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_3DGradientPerturbFractal(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_3DGradientPerturbFractal) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_3DGradientPerturbFractal); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_3DGradientPerturbFractal); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_3DGradientPerturbFractal(UVoxelNode_3DGradientPerturbFractal&&); \
+	NO_API UVoxelNode_3DGradientPerturbFractal(const UVoxelNode_3DGradientPerturbFractal&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_3DGradientPerturbFractal(UVoxelNode_3DGradientPerturbFractal&&); \
+	NO_API UVoxelNode_3DGradientPerturbFractal(const UVoxelNode_3DGradientPerturbFractal&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_3DGradientPerturbFractal); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_3DGradientPerturbFractal); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_3DGradientPerturbFractal)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_85_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h_88_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_3DGradientPerturbFractal>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelGradientPerturbNodes_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

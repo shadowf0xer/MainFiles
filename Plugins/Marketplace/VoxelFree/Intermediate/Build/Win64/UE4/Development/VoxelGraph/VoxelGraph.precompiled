@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.VoxelGraph.cpp.obj",
+		"Module.VoxelGraph.gen.1_of_3.cpp.obj",
+		"Module.VoxelGraph.gen.2_of_3.cpp.obj",
+		"Module.VoxelGraph.gen.3_of_3.cpp.obj"
+	]
+}

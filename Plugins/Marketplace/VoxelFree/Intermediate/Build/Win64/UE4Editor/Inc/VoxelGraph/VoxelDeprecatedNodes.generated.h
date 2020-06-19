@@ -1,0 +1,752 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VOXELGRAPH_VoxelDeprecatedNodes_generated_h
+#error "VoxelDeprecatedNodes.generated.h already included, missing '#pragma once' in VoxelDeprecatedNodes.h"
+#endif
+#define VOXELGRAPH_VoxelDeprecatedNodes_generated_h
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_MakeMaterialFromSingleIndex(); \
+	friend struct Z_Construct_UClass_UVoxelNode_MakeMaterialFromSingleIndex_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_MakeMaterialFromSingleIndex, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_MakeMaterialFromSingleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_MakeMaterialFromSingleIndex(); \
+	friend struct Z_Construct_UClass_UVoxelNode_MakeMaterialFromSingleIndex_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_MakeMaterialFromSingleIndex, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_MakeMaterialFromSingleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_MakeMaterialFromSingleIndex(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_MakeMaterialFromSingleIndex) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_MakeMaterialFromSingleIndex); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_MakeMaterialFromSingleIndex); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_MakeMaterialFromSingleIndex(UVoxelNode_MakeMaterialFromSingleIndex&&); \
+	NO_API UVoxelNode_MakeMaterialFromSingleIndex(const UVoxelNode_MakeMaterialFromSingleIndex&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_MakeMaterialFromSingleIndex(UVoxelNode_MakeMaterialFromSingleIndex&&); \
+	NO_API UVoxelNode_MakeMaterialFromSingleIndex(const UVoxelNode_MakeMaterialFromSingleIndex&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_MakeMaterialFromSingleIndex); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_MakeMaterialFromSingleIndex); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_MakeMaterialFromSingleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_19_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_MakeMaterialFromSingleIndex>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetDoubleIndex(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetDoubleIndex_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetDoubleIndex, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetDoubleIndex(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetDoubleIndex_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetDoubleIndex, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GetDoubleIndex(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GetDoubleIndex) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetDoubleIndex); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetDoubleIndex); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetDoubleIndex(UVoxelNode_GetDoubleIndex&&); \
+	NO_API UVoxelNode_GetDoubleIndex(const UVoxelNode_GetDoubleIndex&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetDoubleIndex(UVoxelNode_GetDoubleIndex&&); \
+	NO_API UVoxelNode_GetDoubleIndex(const UVoxelNode_GetDoubleIndex&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetDoubleIndex); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetDoubleIndex); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_GetDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_32_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_GetDoubleIndex>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_MakeMaterialFromColor(); \
+	friend struct Z_Construct_UClass_UVoxelNode_MakeMaterialFromColor_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_MakeMaterialFromColor, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_MakeMaterialFromColor)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_MakeMaterialFromColor(); \
+	friend struct Z_Construct_UClass_UVoxelNode_MakeMaterialFromColor_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_MakeMaterialFromColor, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_MakeMaterialFromColor)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_MakeMaterialFromColor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_MakeMaterialFromColor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_MakeMaterialFromColor); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_MakeMaterialFromColor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_MakeMaterialFromColor(UVoxelNode_MakeMaterialFromColor&&); \
+	NO_API UVoxelNode_MakeMaterialFromColor(const UVoxelNode_MakeMaterialFromColor&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_MakeMaterialFromColor(UVoxelNode_MakeMaterialFromColor&&); \
+	NO_API UVoxelNode_MakeMaterialFromColor(const UVoxelNode_MakeMaterialFromColor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_MakeMaterialFromColor); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_MakeMaterialFromColor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_MakeMaterialFromColor)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_49_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_52_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_MakeMaterialFromColor>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_MakeMaterialFromDoubleIndex(); \
+	friend struct Z_Construct_UClass_UVoxelNode_MakeMaterialFromDoubleIndex_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_MakeMaterialFromDoubleIndex, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_MakeMaterialFromDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_MakeMaterialFromDoubleIndex(); \
+	friend struct Z_Construct_UClass_UVoxelNode_MakeMaterialFromDoubleIndex_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_MakeMaterialFromDoubleIndex, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_MakeMaterialFromDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_MakeMaterialFromDoubleIndex(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_MakeMaterialFromDoubleIndex) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_MakeMaterialFromDoubleIndex); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_MakeMaterialFromDoubleIndex); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_MakeMaterialFromDoubleIndex(UVoxelNode_MakeMaterialFromDoubleIndex&&); \
+	NO_API UVoxelNode_MakeMaterialFromDoubleIndex(const UVoxelNode_MakeMaterialFromDoubleIndex&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_MakeMaterialFromDoubleIndex(UVoxelNode_MakeMaterialFromDoubleIndex&&); \
+	NO_API UVoxelNode_MakeMaterialFromDoubleIndex(const UVoxelNode_MakeMaterialFromDoubleIndex&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_MakeMaterialFromDoubleIndex); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_MakeMaterialFromDoubleIndex); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_MakeMaterialFromDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_62_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_65_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_MakeMaterialFromDoubleIndex>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_CreateDoubleIndexMaterial(); \
+	friend struct Z_Construct_UClass_UVoxelNode_CreateDoubleIndexMaterial_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_CreateDoubleIndexMaterial, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_CreateDoubleIndexMaterial)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_CreateDoubleIndexMaterial(); \
+	friend struct Z_Construct_UClass_UVoxelNode_CreateDoubleIndexMaterial_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_CreateDoubleIndexMaterial, UVoxelMaterialNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_CreateDoubleIndexMaterial)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_CreateDoubleIndexMaterial(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_CreateDoubleIndexMaterial) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_CreateDoubleIndexMaterial); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_CreateDoubleIndexMaterial); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_CreateDoubleIndexMaterial(UVoxelNode_CreateDoubleIndexMaterial&&); \
+	NO_API UVoxelNode_CreateDoubleIndexMaterial(const UVoxelNode_CreateDoubleIndexMaterial&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_CreateDoubleIndexMaterial(UVoxelNode_CreateDoubleIndexMaterial&&); \
+	NO_API UVoxelNode_CreateDoubleIndexMaterial(const UVoxelNode_CreateDoubleIndexMaterial&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_CreateDoubleIndexMaterial); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_CreateDoubleIndexMaterial); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_CreateDoubleIndexMaterial)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_79_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_82_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_CreateDoubleIndexMaterial>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_SetDoubleIndex(); \
+	friend struct Z_Construct_UClass_UVoxelNode_SetDoubleIndex_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_SetDoubleIndex, UVoxelNode_MaterialSetter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_SetDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_SetDoubleIndex(); \
+	friend struct Z_Construct_UClass_UVoxelNode_SetDoubleIndex_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_SetDoubleIndex, UVoxelNode_MaterialSetter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_SetDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_SetDoubleIndex(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_SetDoubleIndex) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_SetDoubleIndex); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_SetDoubleIndex); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_SetDoubleIndex(UVoxelNode_SetDoubleIndex&&); \
+	NO_API UVoxelNode_SetDoubleIndex(const UVoxelNode_SetDoubleIndex&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_SetDoubleIndex(UVoxelNode_SetDoubleIndex&&); \
+	NO_API UVoxelNode_SetDoubleIndex(const UVoxelNode_SetDoubleIndex&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_SetDoubleIndex); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_SetDoubleIndex); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_SetDoubleIndex)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_95_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_98_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_SetDoubleIndex>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_WorldGeneratorSampler(); \
+	friend struct Z_Construct_UClass_UVoxelNode_WorldGeneratorSampler_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_WorldGeneratorSampler, UVoxelExposedNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_WorldGeneratorSampler)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_WorldGeneratorSampler(); \
+	friend struct Z_Construct_UClass_UVoxelNode_WorldGeneratorSampler_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_WorldGeneratorSampler, UVoxelExposedNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_WorldGeneratorSampler)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_WorldGeneratorSampler(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_WorldGeneratorSampler) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_WorldGeneratorSampler); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_WorldGeneratorSampler); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_WorldGeneratorSampler(UVoxelNode_WorldGeneratorSampler&&); \
+	NO_API UVoxelNode_WorldGeneratorSampler(const UVoxelNode_WorldGeneratorSampler&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_WorldGeneratorSampler(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_WorldGeneratorSampler(UVoxelNode_WorldGeneratorSampler&&); \
+	NO_API UVoxelNode_WorldGeneratorSampler(const UVoxelNode_WorldGeneratorSampler&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_WorldGeneratorSampler); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_WorldGeneratorSampler); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_WorldGeneratorSampler)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_115_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_118_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_WorldGeneratorSampler>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_XI(); \
+	friend struct Z_Construct_UClass_UVoxelNode_XI_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_XI, UVoxelNodeHelper, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_XI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_XI(); \
+	friend struct Z_Construct_UClass_UVoxelNode_XI_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_XI, UVoxelNodeHelper, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_XI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_XI(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_XI) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_XI); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_XI); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_XI(UVoxelNode_XI&&); \
+	NO_API UVoxelNode_XI(const UVoxelNode_XI&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_XI(UVoxelNode_XI&&); \
+	NO_API UVoxelNode_XI(const UVoxelNode_XI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_XI); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_XI); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_XI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_131_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_134_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_XI>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_YI(); \
+	friend struct Z_Construct_UClass_UVoxelNode_YI_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_YI, UVoxelNodeHelper, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_YI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_YI(); \
+	friend struct Z_Construct_UClass_UVoxelNode_YI_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_YI, UVoxelNodeHelper, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_YI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_YI(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_YI) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_YI); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_YI); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_YI(UVoxelNode_YI&&); \
+	NO_API UVoxelNode_YI(const UVoxelNode_YI&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_YI(UVoxelNode_YI&&); \
+	NO_API UVoxelNode_YI(const UVoxelNode_YI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_YI); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_YI); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_YI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_141_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_144_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_YI>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_ZI(); \
+	friend struct Z_Construct_UClass_UVoxelNode_ZI_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_ZI, UVoxelNodeHelper, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_ZI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_ZI(); \
+	friend struct Z_Construct_UClass_UVoxelNode_ZI_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_ZI, UVoxelNodeHelper, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_ZI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_ZI(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_ZI) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_ZI); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_ZI); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_ZI(UVoxelNode_ZI&&); \
+	NO_API UVoxelNode_ZI(const UVoxelNode_ZI&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_ZI(UVoxelNode_ZI&&); \
+	NO_API UVoxelNode_ZI(const UVoxelNode_ZI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_ZI); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_ZI); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_ZI)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_151_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h_154_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_ZI>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelDeprecatedNodes_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

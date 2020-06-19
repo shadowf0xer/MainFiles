@@ -1,0 +1,536 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VOXELGRAPH_VoxelWorldGeneratorSamplerNodes_generated_h
+#error "VoxelWorldGeneratorSamplerNodes.generated.h already included, missing '#pragma once' in VoxelWorldGeneratorSamplerNodes.h"
+#endif
+#define VOXELGRAPH_VoxelWorldGeneratorSamplerNodes_generated_h
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_WorldGeneratorSamplerBase(); \
+	friend struct Z_Construct_UClass_UVoxelNode_WorldGeneratorSamplerBase_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_WorldGeneratorSamplerBase, UVoxelExposedNode, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_WorldGeneratorSamplerBase)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_WorldGeneratorSamplerBase(); \
+	friend struct Z_Construct_UClass_UVoxelNode_WorldGeneratorSamplerBase_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_WorldGeneratorSamplerBase, UVoxelExposedNode, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_WorldGeneratorSamplerBase)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_WorldGeneratorSamplerBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_WorldGeneratorSamplerBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_WorldGeneratorSamplerBase); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_WorldGeneratorSamplerBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_WorldGeneratorSamplerBase(UVoxelNode_WorldGeneratorSamplerBase&&); \
+	NO_API UVoxelNode_WorldGeneratorSamplerBase(const UVoxelNode_WorldGeneratorSamplerBase&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_WorldGeneratorSamplerBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_WorldGeneratorSamplerBase(UVoxelNode_WorldGeneratorSamplerBase&&); \
+	NO_API UVoxelNode_WorldGeneratorSamplerBase(const UVoxelNode_WorldGeneratorSamplerBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_WorldGeneratorSamplerBase); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_WorldGeneratorSamplerBase); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_WorldGeneratorSamplerBase)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_13_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_WorldGeneratorSamplerBase>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_SingleWorldGeneratorSamplerBase(); \
+	friend struct Z_Construct_UClass_UVoxelNode_SingleWorldGeneratorSamplerBase_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_SingleWorldGeneratorSamplerBase, UVoxelNode_WorldGeneratorSamplerBase, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_SingleWorldGeneratorSamplerBase)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_SingleWorldGeneratorSamplerBase(); \
+	friend struct Z_Construct_UClass_UVoxelNode_SingleWorldGeneratorSamplerBase_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_SingleWorldGeneratorSamplerBase, UVoxelNode_WorldGeneratorSamplerBase, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_SingleWorldGeneratorSamplerBase)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_SingleWorldGeneratorSamplerBase(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_SingleWorldGeneratorSamplerBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_SingleWorldGeneratorSamplerBase); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_SingleWorldGeneratorSamplerBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_SingleWorldGeneratorSamplerBase(UVoxelNode_SingleWorldGeneratorSamplerBase&&); \
+	NO_API UVoxelNode_SingleWorldGeneratorSamplerBase(const UVoxelNode_SingleWorldGeneratorSamplerBase&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_SingleWorldGeneratorSamplerBase(UVoxelNode_SingleWorldGeneratorSamplerBase&&); \
+	NO_API UVoxelNode_SingleWorldGeneratorSamplerBase(const UVoxelNode_SingleWorldGeneratorSamplerBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_SingleWorldGeneratorSamplerBase); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_SingleWorldGeneratorSamplerBase); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_SingleWorldGeneratorSamplerBase)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_41_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_44_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_SingleWorldGeneratorSamplerBase>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetWorldGeneratorValue(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetWorldGeneratorValue_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetWorldGeneratorValue, UVoxelNode_SingleWorldGeneratorSamplerBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetWorldGeneratorValue)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetWorldGeneratorValue(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetWorldGeneratorValue_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetWorldGeneratorValue, UVoxelNode_SingleWorldGeneratorSamplerBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetWorldGeneratorValue)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GetWorldGeneratorValue(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GetWorldGeneratorValue) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetWorldGeneratorValue); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetWorldGeneratorValue); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetWorldGeneratorValue(UVoxelNode_GetWorldGeneratorValue&&); \
+	NO_API UVoxelNode_GetWorldGeneratorValue(const UVoxelNode_GetWorldGeneratorValue&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetWorldGeneratorValue(UVoxelNode_GetWorldGeneratorValue&&); \
+	NO_API UVoxelNode_GetWorldGeneratorValue(const UVoxelNode_GetWorldGeneratorValue&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetWorldGeneratorValue); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetWorldGeneratorValue); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_GetWorldGeneratorValue)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_64_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_67_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_GetWorldGeneratorValue>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetWorldGeneratorMaterial(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetWorldGeneratorMaterial_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetWorldGeneratorMaterial, UVoxelNode_SingleWorldGeneratorSamplerBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetWorldGeneratorMaterial)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetWorldGeneratorMaterial(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetWorldGeneratorMaterial_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetWorldGeneratorMaterial, UVoxelNode_SingleWorldGeneratorSamplerBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetWorldGeneratorMaterial)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GetWorldGeneratorMaterial(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GetWorldGeneratorMaterial) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetWorldGeneratorMaterial); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetWorldGeneratorMaterial); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetWorldGeneratorMaterial(UVoxelNode_GetWorldGeneratorMaterial&&); \
+	NO_API UVoxelNode_GetWorldGeneratorMaterial(const UVoxelNode_GetWorldGeneratorMaterial&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetWorldGeneratorMaterial(UVoxelNode_GetWorldGeneratorMaterial&&); \
+	NO_API UVoxelNode_GetWorldGeneratorMaterial(const UVoxelNode_GetWorldGeneratorMaterial&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetWorldGeneratorMaterial); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetWorldGeneratorMaterial); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_GetWorldGeneratorMaterial)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_73_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_76_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_GetWorldGeneratorMaterial>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetWorldGeneratorCustomOutput(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetWorldGeneratorCustomOutput_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetWorldGeneratorCustomOutput, UVoxelNode_SingleWorldGeneratorSamplerBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetWorldGeneratorCustomOutput)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetWorldGeneratorCustomOutput(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetWorldGeneratorCustomOutput_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetWorldGeneratorCustomOutput, UVoxelNode_SingleWorldGeneratorSamplerBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetWorldGeneratorCustomOutput)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GetWorldGeneratorCustomOutput(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GetWorldGeneratorCustomOutput) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetWorldGeneratorCustomOutput); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetWorldGeneratorCustomOutput); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetWorldGeneratorCustomOutput(UVoxelNode_GetWorldGeneratorCustomOutput&&); \
+	NO_API UVoxelNode_GetWorldGeneratorCustomOutput(const UVoxelNode_GetWorldGeneratorCustomOutput&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetWorldGeneratorCustomOutput(UVoxelNode_GetWorldGeneratorCustomOutput&&); \
+	NO_API UVoxelNode_GetWorldGeneratorCustomOutput(const UVoxelNode_GetWorldGeneratorCustomOutput&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetWorldGeneratorCustomOutput); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetWorldGeneratorCustomOutput); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_GetWorldGeneratorCustomOutput)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__OutputName() { return STRUCT_OFFSET(UVoxelNode_GetWorldGeneratorCustomOutput, OutputName); }
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_82_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_85_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_GetWorldGeneratorCustomOutput>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetCustomData(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetCustomData_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetCustomData, UVoxelNodeWithContext, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetCustomData)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_GetCustomData(); \
+	friend struct Z_Construct_UClass_UVoxelNode_GetCustomData_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_GetCustomData, UVoxelNodeWithContext, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_GetCustomData)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_GetCustomData(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_GetCustomData) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetCustomData); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetCustomData); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetCustomData(UVoxelNode_GetCustomData&&); \
+	NO_API UVoxelNode_GetCustomData(const UVoxelNode_GetCustomData&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_GetCustomData(UVoxelNode_GetCustomData&&); \
+	NO_API UVoxelNode_GetCustomData(const UVoxelNode_GetCustomData&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_GetCustomData); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_GetCustomData); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_GetCustomData)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_99_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_102_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_GetCustomData>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_IsCustomDataSet(); \
+	friend struct Z_Construct_UClass_UVoxelNode_IsCustomDataSet_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_IsCustomDataSet, UVoxelNodeWithContext, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_IsCustomDataSet)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelNode_IsCustomDataSet(); \
+	friend struct Z_Construct_UClass_UVoxelNode_IsCustomDataSet_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelNode_IsCustomDataSet, UVoxelNodeWithContext, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelGraph"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelNode_IsCustomDataSet)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelNode_IsCustomDataSet(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelNode_IsCustomDataSet) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_IsCustomDataSet); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_IsCustomDataSet); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_IsCustomDataSet(UVoxelNode_IsCustomDataSet&&); \
+	NO_API UVoxelNode_IsCustomDataSet(const UVoxelNode_IsCustomDataSet&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelNode_IsCustomDataSet(UVoxelNode_IsCustomDataSet&&); \
+	NO_API UVoxelNode_IsCustomDataSet(const UVoxelNode_IsCustomDataSet&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelNode_IsCustomDataSet); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelNode_IsCustomDataSet); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelNode_IsCustomDataSet)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_117_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h_120_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELGRAPH_API UClass* StaticClass<class UVoxelNode_IsCustomDataSet>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID HostProject_Plugins_VoxelFree_Source_VoxelGraph_Public_VoxelNodes_VoxelWorldGeneratorSamplerNodes_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,15 @@
+{
+	"OutputFiles": [
+		"Module.Voxel.1_of_3.cpp.obj",
+		"Module.Voxel.2_of_3.cpp.obj",
+		"Module.Voxel.3_of_3.cpp.obj",
+		"Module.Voxel.gen.1_of_8.cpp.obj",
+		"Module.Voxel.gen.2_of_8.cpp.obj",
+		"Module.Voxel.gen.3_of_8.cpp.obj",
+		"Module.Voxel.gen.4_of_8.cpp.obj",
+		"Module.Voxel.gen.5_of_8.cpp.obj",
+		"Module.Voxel.gen.6_of_8.cpp.obj",
+		"Module.Voxel.gen.7_of_8.cpp.obj",
+		"Module.Voxel.gen.8_of_8.cpp.obj"
+	]
+}

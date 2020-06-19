@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.VoxelNiagara.cppa7.o",
+		"Module.VoxelNiagara.cppa8.o",
+		"Module.VoxelNiagara.gen.cppa7.o",
+		"Module.VoxelNiagara.gen.cppa8.o"
+	]
+}

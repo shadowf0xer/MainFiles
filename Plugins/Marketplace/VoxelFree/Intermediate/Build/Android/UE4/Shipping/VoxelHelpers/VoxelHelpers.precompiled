@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.VoxelHelpers.cppa7.o",
+		"Module.VoxelHelpers.cppa8.o",
+		"Module.VoxelHelpers.gen.cppa7.o",
+		"Module.VoxelHelpers.gen.cppa8.o"
+	]
+}

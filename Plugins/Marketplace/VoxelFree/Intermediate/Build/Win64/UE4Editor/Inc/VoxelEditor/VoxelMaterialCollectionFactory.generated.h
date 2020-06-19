@@ -1,0 +1,312 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VOXELEDITOR_VoxelMaterialCollectionFactory_generated_h
+#error "VoxelMaterialCollectionFactory.generated.h already included, missing '#pragma once' in VoxelMaterialCollectionFactory.h"
+#endif
+#define VOXELEDITOR_VoxelMaterialCollectionFactory_generated_h
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelBasicMaterialCollectionFactory(); \
+	friend struct Z_Construct_UClass_UVoxelBasicMaterialCollectionFactory_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelBasicMaterialCollectionFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelEditor"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelBasicMaterialCollectionFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelBasicMaterialCollectionFactory(); \
+	friend struct Z_Construct_UClass_UVoxelBasicMaterialCollectionFactory_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelBasicMaterialCollectionFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelEditor"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelBasicMaterialCollectionFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelBasicMaterialCollectionFactory(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelBasicMaterialCollectionFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelBasicMaterialCollectionFactory); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelBasicMaterialCollectionFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelBasicMaterialCollectionFactory(UVoxelBasicMaterialCollectionFactory&&); \
+	NO_API UVoxelBasicMaterialCollectionFactory(const UVoxelBasicMaterialCollectionFactory&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelBasicMaterialCollectionFactory(UVoxelBasicMaterialCollectionFactory&&); \
+	NO_API UVoxelBasicMaterialCollectionFactory(const UVoxelBasicMaterialCollectionFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelBasicMaterialCollectionFactory); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelBasicMaterialCollectionFactory); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelBasicMaterialCollectionFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_12_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELEDITOR_API UClass* StaticClass<class UVoxelBasicMaterialCollectionFactory>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelInstancedMaterialCollectionTemplatesFactory(); \
+	friend struct Z_Construct_UClass_UVoxelInstancedMaterialCollectionTemplatesFactory_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelInstancedMaterialCollectionTemplatesFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelEditor"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelInstancedMaterialCollectionTemplatesFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelInstancedMaterialCollectionTemplatesFactory(); \
+	friend struct Z_Construct_UClass_UVoxelInstancedMaterialCollectionTemplatesFactory_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelInstancedMaterialCollectionTemplatesFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelEditor"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelInstancedMaterialCollectionTemplatesFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelInstancedMaterialCollectionTemplatesFactory(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelInstancedMaterialCollectionTemplatesFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelInstancedMaterialCollectionTemplatesFactory); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelInstancedMaterialCollectionTemplatesFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelInstancedMaterialCollectionTemplatesFactory(UVoxelInstancedMaterialCollectionTemplatesFactory&&); \
+	NO_API UVoxelInstancedMaterialCollectionTemplatesFactory(const UVoxelInstancedMaterialCollectionTemplatesFactory&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelInstancedMaterialCollectionTemplatesFactory(UVoxelInstancedMaterialCollectionTemplatesFactory&&); \
+	NO_API UVoxelInstancedMaterialCollectionTemplatesFactory(const UVoxelInstancedMaterialCollectionTemplatesFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelInstancedMaterialCollectionTemplatesFactory); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelInstancedMaterialCollectionTemplatesFactory); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelInstancedMaterialCollectionTemplatesFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_33_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_36_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELEDITOR_API UClass* StaticClass<class UVoxelInstancedMaterialCollectionTemplatesFactory>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelInstancedMaterialCollectionFactory(); \
+	friend struct Z_Construct_UClass_UVoxelInstancedMaterialCollectionFactory_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelInstancedMaterialCollectionFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelEditor"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelInstancedMaterialCollectionFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelInstancedMaterialCollectionFactory(); \
+	friend struct Z_Construct_UClass_UVoxelInstancedMaterialCollectionFactory_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelInstancedMaterialCollectionFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelEditor"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelInstancedMaterialCollectionFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelInstancedMaterialCollectionFactory(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelInstancedMaterialCollectionFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelInstancedMaterialCollectionFactory); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelInstancedMaterialCollectionFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelInstancedMaterialCollectionFactory(UVoxelInstancedMaterialCollectionFactory&&); \
+	NO_API UVoxelInstancedMaterialCollectionFactory(const UVoxelInstancedMaterialCollectionFactory&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelInstancedMaterialCollectionFactory(UVoxelInstancedMaterialCollectionFactory&&); \
+	NO_API UVoxelInstancedMaterialCollectionFactory(const UVoxelInstancedMaterialCollectionFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelInstancedMaterialCollectionFactory); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelInstancedMaterialCollectionFactory); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelInstancedMaterialCollectionFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_54_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_57_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELEDITOR_API UClass* StaticClass<class UVoxelInstancedMaterialCollectionFactory>();
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_SPARSE_DATA
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_RPC_WRAPPERS
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_RPC_WRAPPERS_NO_PURE_DECLS
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVoxelInstancedMaterialCollectionInstanceFactory(); \
+	friend struct Z_Construct_UClass_UVoxelInstancedMaterialCollectionInstanceFactory_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelInstancedMaterialCollectionInstanceFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelEditor"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelInstancedMaterialCollectionInstanceFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_INCLASS \
+private: \
+	static void StaticRegisterNativesUVoxelInstancedMaterialCollectionInstanceFactory(); \
+	friend struct Z_Construct_UClass_UVoxelInstancedMaterialCollectionInstanceFactory_Statics; \
+public: \
+	DECLARE_CLASS(UVoxelInstancedMaterialCollectionInstanceFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VoxelEditor"), NO_API) \
+	DECLARE_SERIALIZER(UVoxelInstancedMaterialCollectionInstanceFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVoxelInstancedMaterialCollectionInstanceFactory(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVoxelInstancedMaterialCollectionInstanceFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelInstancedMaterialCollectionInstanceFactory); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelInstancedMaterialCollectionInstanceFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelInstancedMaterialCollectionInstanceFactory(UVoxelInstancedMaterialCollectionInstanceFactory&&); \
+	NO_API UVoxelInstancedMaterialCollectionInstanceFactory(const UVoxelInstancedMaterialCollectionInstanceFactory&); \
+public:
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVoxelInstancedMaterialCollectionInstanceFactory(UVoxelInstancedMaterialCollectionInstanceFactory&&); \
+	NO_API UVoxelInstancedMaterialCollectionInstanceFactory(const UVoxelInstancedMaterialCollectionInstanceFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVoxelInstancedMaterialCollectionInstanceFactory); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVoxelInstancedMaterialCollectionInstanceFactory); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVoxelInstancedMaterialCollectionInstanceFactory)
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_75_PROLOG
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_RPC_WRAPPERS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_INCLASS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_SPARSE_DATA \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h_78_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VOXELEDITOR_API UClass* StaticClass<class UVoxelInstancedMaterialCollectionInstanceFactory>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID HostProject_Plugins_VoxelFree_Source_VoxelEditor_Private_Factories_VoxelMaterialCollectionFactory_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
