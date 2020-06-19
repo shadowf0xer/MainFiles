@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.FastNoiseGenerator.cpp.o",
+		"Module.FastNoiseGenerator.gen.cpp.o"
+	]
+}

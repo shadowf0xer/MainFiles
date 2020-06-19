@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.FastNoiseGenerator.cppa7.o",
+		"Module.FastNoiseGenerator.cppa8.o",
+		"Module.FastNoiseGenerator.gen.cppa7.o",
+		"Module.FastNoiseGenerator.gen.cppa8.o"
+	]
+}

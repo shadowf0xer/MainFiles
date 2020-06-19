@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"FastNoise": "UE4Editor-FastNoise.dylib",
+		"FastNoiseGenerator": "UE4Editor-FastNoiseGenerator.dylib"
+	}
+}

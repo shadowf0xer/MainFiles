@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.GFur.cppa7.o",
+		"Module.GFur.cppa8.o",
+		"Module.GFur.gen.cppa7.o",
+		"Module.GFur.gen.cppa8.o"
+	]
+}

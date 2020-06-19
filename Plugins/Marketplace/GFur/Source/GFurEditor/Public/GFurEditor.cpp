@@ -1,0 +1,24 @@
+// Copyright 2018 GiM s.r.o. All Rights Reserved.
+
+#include "GFurEditor.h"
+#include "FurSplinesTypeActions.h"
+
+#define LOCTEXT_NAMESPACE "GFurEditor"
+
+void FGFurEditorModule::StartupModule()
+{
+//	FPropertyEditorModule& PropertyModule = FModuleManager::LoadModuleChecked<FPropertyEditorModule>("PropertyEditor");
+
+	//Custom detail views
+
+	IAssetTools& AssetTools = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools").Get();
+	EAssetTypeCategories::Type CreaturePackAssetCategoryBit = AssetTools.RegisterAdvancedAssetCategory(FName(TEXT("FurSplinesAssetCategory")), LOCTEXT("FurSplinesAssetCategory", "Fur Splines"));
+
+	AssetTools.RegisterAssetTypeActions(MakeShareable(new FFurSplinesTypeActions(CreaturePackAssetCategoryBit)));
+}
+
+void FGFurEditorModule::ShutdownModule()
+{
+}
+
+IMPLEMENT_MODULE(FGFurEditorModule, GFurEditor)
