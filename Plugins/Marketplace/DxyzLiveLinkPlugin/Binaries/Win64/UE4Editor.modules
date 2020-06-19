@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"DxyzLiveLinkPlugin": "UE4Editor-DxyzLiveLinkPlugin.dll",
+		"DxyzLiveLinkPluginEditor": "UE4Editor-DxyzLiveLinkPluginEditor.dll"
+	}
+}

@@ -1,0 +1,493 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Liven up your rig &mdash; Dxyz Live Link Plugin 1.2.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Miscellaneous" href="misc.html" />
+    <link rel="prev" title="Project set-up" href="project_setup.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Dxyz Live Link Plugin
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation from UE Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#installation-from-sources">Installation from sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project_setup.html">Project set-up</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Liven up your rig</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#basic-concept">Basic concept</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#connecting-a-dynamixyz-source">Connecting a Dynamixyz Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-an-animation-blueprint">Creating an Animation Blueprint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-a-dynamixyz-live-link-retarget-asset">Creating a Dynamixyz Live Link Retarget Asset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#setting-up-a-retarget-asset">Setting up a Retarget Asset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#customizing-bones">Customizing bones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#customizing-morph-targets">Customizing morph targets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#customizing-stream">Customizing stream</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linking-retarget-asset-to-animation-blueprint">Linking Retarget Asset to Animation Blueprint</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#modifying-dynamixyz-live-link-plugin-configuration-in-a-shipped-project">Modifying Dynamixyz Live Link Plugin configuration in a shipped project</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#modifying-the-sources">Modifying the sources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#modifying-a-retarget-asset">Modifying a Retarget Asset</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#animate-several-characters-in-realtime-with-dynamixyz-live-link-plugin">Animate several characters in realtime with Dynamixyz Live Link Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#character-blueprint-association-optional">Character Blueprint association (optional)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="misc.html">Miscellaneous</a></li>
+<li class="toctree-l1"><a class="reference internal" href="packaging.html">Packaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Dxyz Live Link Plugin</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Liven up your rig</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="liven-up-your-rig">
+<span id="blueprint"></span><h1>Liven up your rig<a class="headerlink" href="#liven-up-your-rig" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<p>To follow this tutorial, you will need to understand:</p>
+<ul class="simple">
+<li><p>What is Blueprint visual scripting and how to use it.</p></li>
+<li><p>How does the Animation instance work (See the Unreal official <a class="reference external" href="https://www.youtube.com/watch?v=AqYmC2wn7Cg">youtube video</a>)</p></li>
+</ul>
+<p>You will also need:</p>
+<ul class="simple">
+<li><p>A functional Unreal project containing at least one character with a valid Skeletal Mesh (See <a class="reference internal" href="project_setup.html"><span class="doc">How to set-up a proper project</span></a>)</p></li>
+<li><p>A compatible Performer RT project loaded in Dynamixyz Grabber. Ensure the Animation streaming is enabled in the Grabber and note down the IP address and animation port.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Convention in Unreal:</p>
+<ul class="simple">
+<li><p><strong>Blendshapes</strong> are named <strong>Morph Target</strong> or <strong>Curves</strong>.</p></li>
+<li><p><strong>Joints/Bones</strong> are named <strong>Bones</strong>.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="basic-concept">
+<h2>Basic concept<a class="headerlink" href="#basic-concept" title="Permalink to this headline">¶</a></h2>
+<p>In an <strong>Animation Blueprint</strong>, it is possible to animate a specific mesh by doing operations on its morph targets and bones. <strong>Unreal Live Link system</strong> can now be used to transparently animate these attributes consuming animation data from a <strong>Source</strong> for a <strong>Subject</strong>.</p>
+<p>Here is the Dynamixyz Live Link Plugin protocol:</p>
+<ol class="arabic simple">
+<li><p>The <strong>Dynamixyz Source</strong> connects to the Grabber animation server.</p></li>
+<li><p>The Grabber sends information about the rig so that the Source can create a Live Link <strong>Subject</strong>.</p></li>
+<li><p>Each time a frame is computed by the Grabber retargeting process, the animation server sends the coefficients of all the rig entities through the network. The Source receives the data, extracts the needed information (entities coefficients, timecode) and passes it on to the Live Link protocol for the targeted Subject.</p></li>
+<li><p>The Animation Blueprint associated with this Subject re-builds the character’s pose for this frame.</p></li>
+</ol>
+<p>A Subject can be used to animate multiple characters and several sources can be used at the same time.</p>
+</div>
+<div class="section" id="connecting-a-dynamixyz-source">
+<span id="sec-connectsource"></span><h2>Connecting a Dynamixyz Source<a class="headerlink" href="#connecting-a-dynamixyz-source" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Run Grabber, load your RT profile and select an input (camera or video file). Click on Start tracking.</p></li>
+<li><p>In the Editor, go to the <strong>Window</strong> menu and select <strong>LiveLink</strong> to open the Live Link client window.</p></li>
+</ol>
+<p><img alt="img_LLWindow" src="_images/livelink_window.png" /></p>
+<ol class="arabic simple" start="3">
+<li><p>Click on the <img alt="img_LLAdd" src="_images/icon_addLL.png" /> Add button and hover over <strong>Dynamixyz Source</strong>. Enter the Grabber’s IP address and the Animation server port, then click on OK.</p></li>
+</ol>
+<p><img alt="img_LLAddSource" src="_images/livelink_addsource.png" /></p>
+<ol class="arabic simple" start="4">
+<li><p>The new source appears in the Sources panel. The <strong>status</strong> indicates if the source has successfully established a connection. The Subject Name panel indicates the name of the <strong>Subject</strong> associated with the source. This name is important as you will need to pass it to Live Link in the next step. You can give your subject a special name by checking the <strong>Override Subject Name</strong> in the Details panel of the selected source (on the right).</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the RT project was exported with Performer 2.7.0.2 or above, the default subject name will be the name of the retargeting profile written in the ESC file.</p>
+</div>
+<p><img alt="img_LLSourceCo" src="_images/livelink_source_co.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>A “Connecting…” status means the source is trying to connect to the Grabber. If it takes more time than it should, you can check the connection logs by opening <strong>Window-&gt;Developper Tools-&gt;Output Log</strong>. In the meantime, check in the Network services configuration of the Grabber if the Animation streaming is enabled and if the port is the right one.</p></li>
+<li><p>A “Disconnected” status means the source found the Grabber but is no longer connected to it (the Grabber stopped streaming or was closed).</p></li>
+<li><p>Since DxyzLiveLinkPlugin v1.1.0, it is possible to prevent the plugin to log the multiple connection attempts in order to lighten the Output logs. To do this, uncheck <strong>Log connection attempts</strong> in the advanced <strong>Dxyz Live Link</strong> settings for the selected source.</p></li>
+</ul>
+</div>
+<p>If the source status is <strong>“Connected”</strong>, you can go on to the next step.</p>
+</div>
+<div class="section" id="creating-an-animation-blueprint">
+<span id="sec-createllinstance"></span><h2>Creating an Animation Blueprint<a class="headerlink" href="#creating-an-animation-blueprint" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Open the <strong>Content Browser</strong></p></li>
+<li><p>Create a new animation by clicking on <strong>Add New</strong>, and click on <strong>Animation</strong> -&gt; <strong>AnimationBlueprint</strong> in the context menu. The <em>Create Animation Blueprint</em> dialog should appear.</p></li>
+<li><p>Choose the <strong>Parent Class</strong> (basic one is <strong>AnimInstance</strong>), and select your character skeleton under the <strong>Target Skeleton</strong> section. <br /> <img alt="img_CreateAnimBP" src="_images/dxyzA_createAnimBP.png" /></p></li>
+<li><p>Open the Animation Blueprint. In the Animation Graph (accessible from the <strong>Graphs</strong> panel), add a new <strong>Live Link Pose</strong> node and connect it to the Final Animation Pose node. Enter the name of the <strong>Subject</strong> associated with your Source.</p></li>
+</ol>
+<p><img alt="img_LLNode" src="_images/livelink_node.png" /></p>
+<p>You should now see your character coming to life in the animation preview.</p>
+</div>
+<div class="section" id="creating-a-dynamixyz-live-link-retarget-asset">
+<span id="sec-createretargetasset"></span><h2>Creating a Dynamixyz Live Link Retarget Asset<a class="headerlink" href="#creating-a-dynamixyz-live-link-retarget-asset" title="Permalink to this headline">¶</a></h2>
+<p>If you are not satisfied with the final pose of your character, you can create a Dynamixyz Live Link Retaget Asset to rearrange it.</p>
+<div class="section" id="setting-up-a-retarget-asset">
+<h3>Setting up a Retarget Asset<a class="headerlink" href="#setting-up-a-retarget-asset" title="Permalink to this headline">¶</a></h3>
+<p>The Dynamixyz Live Link Retarget Asset looks like the image below :</p>
+<p><img alt="img_LLRetargDetails" src="_images/livelink_retargDetails.png" /></p>
+<ul class="simple">
+<li><p>The Dxyz Mapping Settings category (1) looks for a matching between a Skeletal Mesh and an ESC file.</p></li>
+<li><p>The Bone Mapping and the Morph Targets categories (2) are where operations can be made on bones and morph targets.</p></li>
+<li><p>The Dxyz Stream Configuration category (3) allows axis to be swapped and/or inverted.</p></li>
+</ul>
+<p>Follow the next steps to set up a proper Retargeting Asset :</p>
+<ol class="arabic simple">
+<li><p>Open the <strong>Content Browser</strong></p></li>
+<li><p>Create a new blueprint by clicking on <strong>Add New</strong>, and click on <strong>Blueprint Class</strong>. The “Pick Parent Class” dialog should appear.</p></li>
+<li><p>Search for <strong>DxyzLiveLinkRetargetAsset</strong> and click on the Select button.</p></li>
+</ol>
+<p><img alt="img_LLRetarg" src="_images/livelink_retarget.png" /></p>
+<ol class="arabic simple" start="4">
+<li><p>Open the Retargeting Blueprint.</p></li>
+<li><p>Select the Skeletal Mesh associated with your Animation Blueprint.</p></li>
+<li><p>Import the ESC used in your Grabber project. Once the two fields are filled, informations about bones and morph targets appear in the second category.</p></li>
+</ol>
+<p><img alt="img_LLFilled" src="_images/livelink_filled.png" /></p>
+<p>The plugin tries to find matching bones between the ESC and the Skeletal Mesh. If you want to manually remap the bones, you can do it by chosing another bone in the dropdown list. You can also map one bone to several bones in your character using the “+” button.
+A warning can appear if the automatic matching failed for one or many bones, the concerned bones will be ignored during animation. You will have to manually select the matching bone in the dropdown list.</p>
+<p><img alt="img_LLWarn" src="_images/livelink_warn.png" /></p>
+<p>The plugin tries to find matching blendshapes between the ESC and the Skeletal Mesh. If you want to manually remap the blendshapes, you can do it by chosing another shape in the dropdown list. You can also map one shape to several shapes in your character using the “+” button.
+A warning can appear if the automatic matching failed for one or many blendhsapes, the concerned blendhsapes will be ignored during animation. You will have to manually select the matching blendhsape in the dropdown list.</p>
+<p><img alt="img_LLWarnCurves" src="_images/livelink_warn_curves.png" /></p>
+<p>This warning can also appear if the ESC contains non-unique blendshape names. Once again, when creating your rig in Maya it can be crucial to give your blendshapes unique names. Unreal will combine every group of blendshapes and if some of the shapes have the same name they will be merged. If this happens, you can either :</p>
+<ol class="arabic simple">
+<li><p>Clean the rig in Maya (rename the conflicted shapes)</p></li>
+<li><p>Update the retargeting links in Performer</p></li>
+<li><p>Export again the RT profile and load it in Grabber</p></li>
+<li><p>Import the new rig in Unreal</p></li>
+<li><p>Update the Animation Blueprint and the Retarget Asset</p></li>
+</ol>
+<p>Or :</p>
+<p>In the Retarget Asset, identify which conflicted shape should be used to animate the merged shape on the mesh and disable the others. If you did not give those blendshapes the same name on purpose, we highly recommand you to do the first solution.</p>
+<p><img alt="img_LLWarnCurves2" src="_images/livelink_warn_curves_2.png" /></p>
+<p>By default, all the bones and blendshapes present in the ESC will be animated.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A Dynamixyz Live Link Retarget Asset refers to a particular Skeletal Mesh and a particular ESC.
+Using the same Retarget Asset on different Skeletal Meshes will fail.</p>
+</div>
+<p>You can now adjust the final pose of your character.</p>
+</div>
+<div class="section" id="customizing-bones">
+<h3>Customizing bones<a class="headerlink" href="#customizing-bones" title="Permalink to this headline">¶</a></h3>
+<p><img alt="img_LLBones" src="_images/livelink_bones.png" /></p>
+<ul class="simple">
+<li><p>The Bone Mapping category lists the bones as they appear in the ESC. For each bone name, you can select a corresponding bone in the Skeletal Mesh using the dropdown list.</p></li>
+<li><p>You can activate or deactivate one or many specific bones by checking the checkbox left to the bone name.</p></li>
+<li><p>You can activate/deactivate only the translation or the rotation for each bone.</p></li>
+<li><p>You can increase/decrease the translation and rotation values on X, Y and Z.</p></li>
+<li><p>You can clamp the translation and rotation values on X, Y and Z.</p></li>
+<li><p>The shortcut buttons allow you to enable/disable all bones, enable/disable all translations, enable/disable all rotations.</p></li>
+<li><p>You can use the search bar on the left to only display a few bones, in this case the shortcuts will apply to the present bones only.</p></li>
+</ul>
+<p><img alt="img_LLHeadGif" src="_images/head.gif" /></p>
+<ul class="simple">
+<li><p>It is possible to map several skeleton bones to the same bone. Click on the “+” button to add a line. You can now apply the source translation and/or rotation to each mapped bone, or share this value between them.</p></li>
+</ul>
+<p><img alt="img_LLMulti" src="_images/livelink_multi.png" /></p>
+</div>
+<div class="section" id="customizing-morph-targets">
+<h3>Customizing morph targets<a class="headerlink" href="#customizing-morph-targets" title="Permalink to this headline">¶</a></h3>
+<p><img alt="img_LLBlendshapes" src="_images/livelink_blendshapes.png" /></p>
+<ul class="simple">
+<li><p>The Morph Targets category lists the morph targets as they appear in the ESC. For each morph target, you can select a corresponding morph target in the Skeletal Mesh using the dropdown list.</p></li>
+<li><p>You can boost or ease its weight by using the slider.</p></li>
+<li><p>You can activate or deactivate one or many specific morph targets by checking the checkbox left to the morph target name.</p></li>
+<li><p>You can clamp the blendshape value.</p></li>
+<li><p>The shortcut buttons allow you to enable/disable all morph targets, ease/reset/boost all morph targets.</p></li>
+<li><p>You can use the search bar on the left to only display a few morph targets, in this case the shortcuts will apply to the present morph targets only.</p></li>
+<li><p>It is possible to map several skeleton morph targets to the same ESC morph target. Click on the “+” button to add a line. You can also boost or ease the value for the new shape.</p></li>
+</ul>
+<p><img alt="img_LLJawGif" src="_images/jaw.gif" /></p>
+</div>
+<div class="section" id="customizing-stream">
+<span id="sec-customstream"></span><h3>Customizing stream<a class="headerlink" href="#customizing-stream" title="Permalink to this headline">¶</a></h3>
+<p><img alt="img_LLLast" src="_images/livelink_last.png" /></p>
+<p>The coefficients streamed by the Grabber are in X,Y,Z coordinates. There is a distinction between the head and the other bones : the head uses world space coordinates and the other bones use parent bone space coordinates. Both can be modified using the <strong>Dxyz Stream Configuration</strong>.</p>
+<ul class="simple">
+<li><p>The first field <strong>Use Average Eye Rotation</strong> reduces the eyes animation noise by applying the same average value for each of them.</p></li>
+<li><p>It is possible to swap rotation and translation axis if there is an inversion in the rig</p></li>
+<li><p>It is possible to invert a specific axis direction for translation and/or for rotation.</p></li>
+<li><p>The positions can be multiplied by a scalar using the <strong>Head Position Scale</strong> and the <strong>Position Scale</strong> values.</p></li>
+<li><p>It is possible to log the Animation FPS (computed when the pose is updated).</p></li>
+</ul>
+</div>
+<div class="section" id="linking-retarget-asset-to-animation-blueprint">
+<h3>Linking Retarget Asset to Animation Blueprint<a class="headerlink" href="#linking-retarget-asset-to-animation-blueprint" title="Permalink to this headline">¶</a></h3>
+<p>Go to your Animation Blueprint and select the <strong>Live Link Pose Node</strong>.
+In the Details panel, select the corresponding <strong>Retarget Asset</strong>. Compile, and the animation should update.</p>
+<p><img alt="img_LLAsso" src="_images/livelink_asso.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Once the Retarget Asset is linked, you can still modify it and see the differences on your Animation Preview in realtime.</p>
+</div>
+</div>
+</div>
+<div class="section" id="modifying-dynamixyz-live-link-plugin-configuration-in-a-shipped-project">
+<span id="sec-shippedmodif"></span><h2>Modifying Dynamixyz Live Link Plugin configuration in a shipped project<a class="headerlink" href="#modifying-dynamixyz-live-link-plugin-configuration-in-a-shipped-project" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="modifying-the-sources">
+<h3>Modifying the sources<a class="headerlink" href="#modifying-the-sources" title="Permalink to this headline">¶</a></h3>
+<p>When you add/remove Dynamixyz Sources in the editor, the plugin automatically saves your new configuration to a file called “Sources.dxyz” located in your Content folder, under the DxyzSaved folder.
+Once you shipped your project, this file will be copied in your output folder (under the same path &lt;ProjectName&gt;/Content/DxyzSaved). Modifying this file will allow you to update your configuration without having to ship again your project. You can for instance change the IP adress of the connected Grabber, remove or add a source, etc.</p>
+<p>You will have to restart your exe for the modifications to be effective.</p>
+</div>
+<div class="section" id="modifying-a-retarget-asset">
+<h3>Modifying a Retarget Asset<a class="headerlink" href="#modifying-a-retarget-asset" title="Permalink to this headline">¶</a></h3>
+<p>When you create a new Dxyz Live Link Retarget Asset, the plugin automatically creates a DXYZ file with the same name, located in your Content folder, under the DxyzSaved folder. The file will be updated each time you save your Retarget Asset.
+Once you shipped your project, this file will be copied in your output folder (under the same path &lt;ProjectName&gt;/Content/DxyzSaved). Modifying this file will allow you to update your mapping without having to ship again your project. You can for instance disable a bone, change some rotation value, swap axis, etc.</p>
+<p>You will have to restart your exe for the modifications to be effective.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Please note that the “settings” part of this file is indicative only. If you want to change the input settings (either the Dynamixyz ESC or the targeted mesh), you will have to update and compile the Dxyz Live Link Retarget Asset in the Editor.</strong></p>
+</div>
+</div>
+</div>
+<div class="section" id="animate-several-characters-in-realtime-with-dynamixyz-live-link-plugin">
+<h2>Animate several characters in realtime with Dynamixyz Live Link Plugin<a class="headerlink" href="#animate-several-characters-in-realtime-with-dynamixyz-live-link-plugin" title="Permalink to this headline">¶</a></h2>
+<p>With Dynamixyz Live Link Plugin, it is possible to bring several characters to life at the same time.</p>
+<ul>
+<li><p>If the RT profile loaded in Grabber contains several ESC :</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>In Grabber, ensure all the ESC you want to use are checked in the bottom dropdown list.</p></li>
+<li><p>Create one Dynamixyz Live Link Source for each ESC. The provided IP adress will be the one of the computer on which Grabber is started, and the port follows this simple rule : the port P1 associated with the first ESC will be the Animation server port defined in the Grabber Network options (by default 5559). The port P2 associated with the second ESC will be P2 = P1+1 (by default 5560), the third port P3 will be P3 = P2+1 (by default 5561), etc… Each new Source will be associated to one particular Subject.</p></li>
+<li><p>Create one Animation Blueprint for each character and fill the name of the right Subject in the Live Link Pose Node.</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ul>
+<p><img alt="img_GrabMulti" src="_images/grab_multi.png" /></p>
+<p><img alt="img_LLSource2Co" src="_images/livelink_2sources_co.png" /></p>
+<ul>
+<li><p>If the ESC are streamed from different computers (different Grabbers) :</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Create one Dynamixyz Live Link Source for each ESC, providing the IP adress of the Grabber and the Animation server port defined in the Grabber Network options. Each new Source will be associated to one particular Subject.</p></li>
+<li><p>Create one Animation Blueprint for each character and fill the name of the right Subject in the Live Link Pose Node.</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="character-blueprint-association-optional">
+<h2>Character Blueprint association (optional)<a class="headerlink" href="#character-blueprint-association-optional" title="Permalink to this headline">¶</a></h2>
+<p>To associate a Character Blueprint with an Animation Blueprint, follow these steps :</p>
+<ol class="arabic">
+<li><p>Create a Character Blueprint.</p></li>
+<li><p>Go to the <strong>Viewport</strong> tab.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you do not see the Viewport tab, and you only have a list of properties, a message on the top will invite you to open the Full Blueprint Editor. <br /> <img alt="img_OpenFullBP" src="_images/dxyzA_openFullBlueprint.png" /></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Select the <strong>Mesh</strong> component in the <strong>Components</strong> panel.</p></li>
+</ol>
+<p><img alt="img_selectMesh" src="_images/dxyzA_component_mesh.png" /></p>
+<ol class="arabic">
+<li><p>On the <strong>Detail</strong> panel, under “Animation”, choose the following :</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Animation Mode</strong> -&gt; Select <em>“Use animation Blueprint”</em>.</p></li>
+<li><p><strong>Anim Class</strong> -&gt; Select the name of your Animation Blueprint class (the AnimationBlueprint with a _C suffix)</p></li>
+<li><p><strong>Skeletal Mesh</strong> -&gt; Select the animated mesh.</p></li>
+</ul>
+<p><img alt="img_associateCharacter" src="_images/dxyzA_associate_character.png" /></p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<ul class="simple">
+<li><p><strong>Never</strong> select an Animation instance with the <strong>_Class</strong> suffix. Your character will never be able to move otherwise.</p></li>
+<li><p>If you delete and recreate your animation, don’t forget to re-associate your animation instance with your character.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="misc.html" class="btn btn-neutral float-right" title="Miscellaneous" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="project_setup.html" class="btn btn-neutral float-left" title="Project set-up" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Dynamixyz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

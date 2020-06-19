@@ -1,0 +1,32 @@
+.. _overview:
+
+Overview
+========
+
+Introduction
+------------
+
+Unreal Engine 4.19 and above include **Live Link**, a system providing an interface for streaming animation data from sources outside of UE4. 
+The **Dynamixyz Live Link Plugin** uses Live Link to provide realtime facial animation for one or many characters in UE4. 
+Once a **Dynamixyz Source** is connected to Live Link, only one blueprint is required to animate a rig : an **Animation Blueprint**. 
+Dynamixyz also provides its own **retargeting blueprint** to customize the character's final pose in realtime.
+
+Check out our `tutorial video on Vimeo <https://vimeo.com/287218600>`__ !
+
+
+Basic functionning
+------------------
+
+In order to use the Dynamixyz Live Link Plugin, **Dynamixyz Grabber** must be started with the animation streaming activated. The plugin connects to the **animation server** through a **Dynamixyz Source** with an IP address and a port. When a connection is established, Grabber starts streaming information about the project rig entities. An entity can either be a **bone** (also called joint) or a **blenshape**.
+
+Each time the Dynamixyz Live Link Plugin receives new coefficients from the server, the character's pose is rebuilt in the Unreal Engine. The plugin assumes that the names of the bones and blendshapes in the targeted rig are the same as the ones provided by the retargeting profile loaded in Grabber. If this is not the case, it is possible to create a **Dynamixyz Live Link Retarget Asset** to manually remap the bones or the blendshapes. Furthermore, the Retarget Asset offers the possibility to activate/deactivate/clamp transformations for specific bones and morph targets and to boost/ease the animation coefficients.
+
+.. Note ::
+	The list of animated entities is contained in the \*.esc file located in your Grabber RT profile.
+
+**Here are the steps needed to animate a character with Dynamixyz Live Link Plugin in a UE4 project :**
+
+#. :ref:`sec_CreateChar`.
+#. :ref:`sec_ConnectSource`.
+#. :ref:`sec_CreateLLInstance`.
+#. (optional) :ref:`sec_CreateRetargetAsset`.

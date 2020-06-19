@@ -1,0 +1,430 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Troubleshooting &mdash; Dxyz Live Link Plugin 1.2.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Changelog" href="changelog.html" />
+    <link rel="prev" title="Packaging" href="packaging.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Dxyz Live Link Plugin
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation from UE Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#installation-from-sources">Installation from sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project_setup.html">Project set-up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blue_print.html">Liven up your rig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misc.html">Miscellaneous</a></li>
+<li class="toctree-l1"><a class="reference internal" href="packaging.html">Packaging</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Troubleshooting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#list-of-dxyzlog-warnings-errors">List of DxyzLog warnings/errors</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#warnings-from-dxyzlivelinkretargetasset">Warnings from DxyzLiveLinkRetargetAsset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#errors-from-dxyzlivelinkretargetasset">Errors from DxyzLiveLinkRetargetAsset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#warnings-from-dxyzlivelinksource">Warnings from DxyzLiveLinkSource</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#errors-from-dxyzlivelinksource">Errors from DxyzLiveLinkSource</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#errors-in-plugin-installation">Errors in plugin installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errors-in-rig-animation">Errors in rig animation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errors-while-packaging-project">Errors while packaging project</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Dxyz Live Link Plugin</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Troubleshooting</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="troubleshooting">
+<span id="faq"></span><h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please read carefully this section if you are encountering any problems. If you can’t find an answer here, please contact us at <strong>support&#64;dynamixyz.com</strong>.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Dxyz Live Link Plugin uses logs to trace down if something wrong happened. The list of warnings and errors is described here : <a class="reference internal" href="#sec-logs"><span class="std std-ref">List of DxyzLog warnings/errors</span></a>.
+To check out the logs :</p>
+<ul class="simple">
+<li><p>If you are running the Dxyz Live Link Plugin <strong>in the Editor</strong>, open the <strong>Console Log</strong> (Window menu =&gt; Developer Tools =&gt; Ouput Log). Look for the keywords “DxyzLog”.</p></li>
+<li><p>If you are running the Dxyz Live Link Plugin <strong>in a packaged game</strong>, check out the <strong>&lt;PACKAGE_NAME&gt;/Saved/Logs</strong> folder and open the newest file (if you cannot find this folder in your packaged project, try to change the shipping mode to “Development” in your packaging settings). Look for the keywords “DxyzLog”.</p></li>
+</ul>
+</div>
+<p><br /></p>
+<div class="section" id="list-of-dxyzlog-warnings-errors">
+<span id="sec-logs"></span><h2>List of DxyzLog warnings/errors<a class="headerlink" href="#list-of-dxyzlog-warnings-errors" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="warnings-from-dxyzlivelinkretargetasset">
+<h3>Warnings from DxyzLiveLinkRetargetAsset<a class="headerlink" href="#warnings-from-dxyzlivelinkretargetasset" title="Permalink to this headline">¶</a></h3>
+<p><font size="5"><i>Q.</i></font>
+<strong>“No bones were found in the provided ESC file.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+The ESC contains only blendshapes. If it should not be the case, try to reimport the ESC.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“No blendshapes were found in the provided ESC file.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+The ESC contains only bones. If it should not be the case, try to reimport the ESC.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“The list contains unmapped bones that will be ignored.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+This warning appears during the set up of a Retarget Asset. When the SkeletalMesh and the ESC are filled in, the plugin tries to map each bone in the ESC with a bone in the rig. If some names are ambiguous, then this warning appears. You will have to manually map the missing bones if you want them to be animated.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“The list contains unmapped curves that will be ignored.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+This warning appears during the set up of a Retarget Asset. When the SkeletalMesh and the ESC are filled in, the plugin tries to map each blendshape in the ESC with a morph target in the rig. If some names are ambiguous, then this warning appears. You will have to manually map the missing blendshapes if you want them to be animated.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“A Skeleton bone cannot be mapped to two ESC bones. One will be ignored.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+This warning appears during the set up of a Retarget Asset. In the list of bones, the same Mesh bone is mapped to several ESC bones, the plugin will chose only one (the first) and ignore the rest of them (meaning that the rest of them won’t be animated).</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“A Mesh curve cannot be mapped to two ESC curves. One will be ignored.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+This warning appears during the set up of a Retarget Asset. In the list of morph targets, the same Mesh blendshape is mapped to several ESC blendshapes, the plugin will chose only one (the first) and ignore the rest of them (meaning that the rest of them won’t be animated).</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“The rig contains non-null roation values. The animation could be wrong.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+The rotation values of the bones are sent in bone space by Grabber, considering that the initial rotation of the bone is (0, 0, 0). But if the character has rotations while in T-Pose, the animation will be wrong. The rig should be cleaned in order to use DxyzLiveLinkPlugin. See the <a class="reference internal" href="project_setup.html#sec-resetrotations"><span class="std std-ref">Clean a rig containing bad bone rotations in Maya (optional)</span></a> section.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“No Dynamixyz config folder was found.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+When you set up a new source or a new Retarget Asset, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to access the DxyzSaved folder but does not find it. It will be created again by the plugin if the sources change or if you save the Retarget Asset.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“Could not open Dynamixyz remap config file ‘&lt;name&gt;’.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+When you set up a new Retarget Asset, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to access the JSON file but does not find it. It will be created again by the plugin when you save your Retarget Asset.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“Could not deserialize Dynamixyz remap config file ‘&lt;name&gt;’.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+When you set up a new Retarget Asset, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to open the JSON file, but it seems corrupted. A correct version of this file should be created by the plugin when you save your Retarget Asset.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“Failed to create Dynamixyz config folder.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+When you set up a new Retarget Asset, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin could not create the file. Ensure you have the admin rights in the project folder.</p>
+</div></blockquote>
+</div>
+<div class="section" id="errors-from-dxyzlivelinkretargetasset">
+<h3>Errors from DxyzLiveLinkRetargetAsset<a class="headerlink" href="#errors-from-dxyzlivelinkretargetasset" title="Permalink to this headline">¶</a></h3>
+<p><font size="5"><i>Q.</i></font>
+<strong>“Unable to load the provided ESC.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+The ESC file could not be parsed. Either it is a wrong ESC, or the path to the ESC has changed.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“An error occured with the LiveLink associated skeleton.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+The Skeletal Mesh could not be extracted from LiveLink.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“The skeletal mesh associated with LiveLink differs from the RetargetingAsset skeletal mesh !”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+The skeletal mesh in the retargeting asset has to be the same as the one associated with the subject. This retargeting asset cannot be used with the chosen subject.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“The RetargetingAsset ESC differs from the grabber’s ESC !”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+In order to apply the retargeting on the chosen subject, the ESC used to do the mapping must be the same as the one streamed by Grabber. This retargeting asset cannot be used with the chosen subject.</p>
+</div></blockquote>
+</div>
+<div class="section" id="warnings-from-dxyzlivelinksource">
+<h3>Warnings from DxyzLiveLinkSource<a class="headerlink" href="#warnings-from-dxyzlivelinksource" title="Permalink to this headline">¶</a></h3>
+<p><font size="5"><i>Q.</i></font>
+<strong>“Failed to create/save Dynamixyz source config folder.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+When you set up a new source, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to access the DxyzSaved folder but does not find it. It will be created again by the plugin if the sources change or if you save a Retarget Asset.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“No Dynamixyz LiveLink config file was found.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+When you set up a new source, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to access the DxyzSaved folder but does not find it. It will be created again by the plugin if the sources change or if you save a Retarget Asset.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“Could not find LiveLink module while trying to load Dynamixyz LiveLink config file.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+Unreal Live Link was not detected by the plugin. Live Link should be enabled in the Plugins menu.</p>
+</div></blockquote>
+</div>
+<div class="section" id="errors-from-dxyzlivelinksource">
+<h3>Errors from DxyzLiveLinkSource<a class="headerlink" href="#errors-from-dxyzlivelinksource" title="Permalink to this headline">¶</a></h3>
+<p><font size="5"><i>Q.</i></font>
+<strong>“IP and/or port can’t be parsed for source ‘&lt;name&gt;’”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+The IP adress or the port entered by the user are wrong. If you manually modify the JSON sources file, check that you did not make a mistake.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“This source was already loaded.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+You cannot create two sources with the same IP adress and port.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>“The ESC contains non-unique blendshape names ! This ESC is likely to be incompatible with DxyzLiveLinkPlugin.”</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+The rig that was used to create the RT profile contains at least two blendshapes with the same absolute name. It is important to give your blendshapes unique names if they are not meant to be merged. Grouping them under different group names will not be enough. For example : forehead[shape1] and chin[shape1] will be merged under the name “shape1” in Unreal, leading to a possibly invalid blendshape. Renaming them into forehead[f_shape1] and chin[c_shape1] in the rig will work. Reimporting the corrected FBX in Unreal should be enough (using the remapping blendshapes process), but we advise you to re-create the entity set and the retargeting links in Performer with the correct rig to correct the ESC as well.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="errors-in-plugin-installation">
+<h2>Errors in plugin installation<a class="headerlink" href="#errors-in-plugin-installation" title="Permalink to this headline">¶</a></h2>
+<p><font size="5"><i>Q.</i></font>
+<strong>After copying the plugin into the *Plugins* folder of my project, Unreal ask me to recompile the project.</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+Check the Unreal Engine version of the plugin you copied. If you got the wrong version, please ask us to send you a plugin compiled for your version of Unreal Engine.</p>
+</div></blockquote>
+</div>
+<div class="section" id="errors-in-rig-animation">
+<h2>Errors in rig animation<a class="headerlink" href="#errors-in-rig-animation" title="Permalink to this headline">¶</a></h2>
+<p><font size="5"><i>Q.</i></font>
+<strong>My character looses its texture when I apply a Morph target in my Animation Event Graph.</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+Some materials are not associated with your textures material. Check if you have the <em>The following materials need morph support (‘Used with Morph Targets’ in material editor)</em> error message on your mesh blueprint. If yes, <a class="reference external" href="https://forums.unrealengine.com/showthread.php?46885-Material-needs-morph-support">see this thread on the official UE4 forum</a></p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>After loading my rig in Unreal, my mesh seems to be “exploded”.</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+This is due to an import/export issue between the software that generated your .fbx and Unreal. You can follow the section <a class="reference internal" href="project_setup.html#sec-createchar"><span class="std std-ref">Importing a character in UE4</span></a> to play with the importing parameters.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>When I import my rig, some bones are lying on the ground.</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+When you import your rig, check the <strong>Use T0As Ref Pose</strong> option. Please check the <a class="reference internal" href="project_setup.html#sec-createchar"><span class="std std-ref">Importing a character in UE4</span></a> section for more informations.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>When I play the animation, my rig explodes.</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+It may be because of bad local rotations on your bones. Please check the <a class="reference internal" href="project_setup.html#sec-resetrotations"><span class="std std-ref">Clean a rig containing bad bone rotations in Maya (optional)</span></a> section.</p>
+</div></blockquote>
+<p><font size="5"><i>Q.</i></font>
+<strong>Rotations on my bones are fine, but bones translations seems to be very small. It is like my bones are doing micro-movements.</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+This is due to an import/export issue between the software that generated your .fbx and Unreal. Result is every bones coefficients are multiplied by a scale <em>(1.0 by default)</em> that modifies how the bones are moving. To deal with this problem, check the <a class="reference internal" href="blue_print.html#sec-customstream"><span class="std std-ref">Customizing stream</span></a> section.</p>
+</div></blockquote>
+</div>
+<div class="section" id="errors-while-packaging-project">
+<h2>Errors while packaging project<a class="headerlink" href="#errors-while-packaging-project" title="Permalink to this headline">¶</a></h2>
+<p><font size="5"><i>Q.</i></font>
+<strong>Packaging failed using our plugin.</strong></p>
+<blockquote>
+<div><p><font size="5"><i>A.</i></font>
+Ensure you are building for Windows X64. We are only supporting this platform at the moment.</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="changelog.html" class="btn btn-neutral float-right" title="Changelog" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="packaging.html" class="btn btn-neutral float-left" title="Packaging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Dynamixyz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

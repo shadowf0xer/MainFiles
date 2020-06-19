@@ -1,0 +1,224 @@
+.. |br| raw:: html
+
+   <br />
+
+
+.. |Q| raw:: html
+
+    <font size="5"><i>Q.</i></font> 
+
+.. |A| raw:: html
+
+    <font size="5"><i>A.</i></font> 
+
+
+.. _faq:
+
+Troubleshooting
+===============
+
+.. note::
+	Please read carefully this section if you are encountering any problems. If you can't find an answer here, please contact us at **support@dynamixyz.com**.
+	
+.. tip::
+	Dxyz Live Link Plugin uses logs to trace down if something wrong happened. The list of warnings and errors is described here : :ref:`sec_Logs`.
+	To check out the logs :
+	
+	- If you are running the Dxyz Live Link Plugin **in the Editor**, open the **Console Log** (Window menu => Developer Tools => Ouput Log). Look for the keywords "DxyzLog".
+	
+	- If you are running the Dxyz Live Link Plugin **in a packaged game**, check out the **<PACKAGE_NAME>/Saved/Logs** folder and open the newest file (if you cannot find this folder in your packaged project, try to change the shipping mode to "Development" in your packaging settings). Look for the keywords "DxyzLog".
+	
+|br|
+
+.. _sec_Logs:
+
+List of DxyzLog warnings/errors
+-------------------------------
+
+Warnings from DxyzLiveLinkRetargetAsset
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|Q|
+**"No bones were found in the provided ESC file."**
+
+	|A|
+	The ESC contains only blendshapes. If it should not be the case, try to reimport the ESC.
+
+|Q|
+**"No blendshapes were found in the provided ESC file."** 
+
+	|A|
+	The ESC contains only bones. If it should not be the case, try to reimport the ESC.
+	
+|Q|
+**"The list contains unmapped bones that will be ignored."**
+
+	|A|
+	This warning appears during the set up of a Retarget Asset. When the SkeletalMesh and the ESC are filled in, the plugin tries to map each bone in the ESC with a bone in the rig. If some names are ambiguous, then this warning appears. You will have to manually map the missing bones if you want them to be animated.
+
+|Q|
+**"The list contains unmapped curves that will be ignored."**
+
+	|A|
+	This warning appears during the set up of a Retarget Asset. When the SkeletalMesh and the ESC are filled in, the plugin tries to map each blendshape in the ESC with a morph target in the rig. If some names are ambiguous, then this warning appears. You will have to manually map the missing blendshapes if you want them to be animated.
+
+|Q|
+**"A Skeleton bone cannot be mapped to two ESC bones. One will be ignored."**
+
+	|A|
+	This warning appears during the set up of a Retarget Asset. In the list of bones, the same Mesh bone is mapped to several ESC bones, the plugin will chose only one (the first) and ignore the rest of them (meaning that the rest of them won't be animated).
+
+|Q|
+**"A Mesh curve cannot be mapped to two ESC curves. One will be ignored."**
+
+	|A|
+	This warning appears during the set up of a Retarget Asset. In the list of morph targets, the same Mesh blendshape is mapped to several ESC blendshapes, the plugin will chose only one (the first) and ignore the rest of them (meaning that the rest of them won't be animated).
+
+|Q|
+**"The rig contains non-null roation values. The animation could be wrong."**
+
+	|A|
+	The rotation values of the bones are sent in bone space by Grabber, considering that the initial rotation of the bone is (0, 0, 0). But if the character has rotations while in T-Pose, the animation will be wrong. The rig should be cleaned in order to use DxyzLiveLinkPlugin. See the :ref:`sec_ResetRotations` section.
+	
+|Q|
+**"No Dynamixyz config folder was found."**
+
+	|A|
+	When you set up a new source or a new Retarget Asset, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to access the DxyzSaved folder but does not find it. It will be created again by the plugin if the sources change or if you save the Retarget Asset. 
+
+|Q|
+**"Could not open Dynamixyz remap config file '<name>'."**
+
+	|A|
+	When you set up a new Retarget Asset, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to access the JSON file but does not find it. It will be created again by the plugin when you save your Retarget Asset.
+
+|Q|
+**"Could not deserialize Dynamixyz remap config file '<name>'."**
+
+	|A|
+	When you set up a new Retarget Asset, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to open the JSON file, but it seems corrupted. A correct version of this file should be created by the plugin when you save your Retarget Asset.
+
+|Q|
+**"Failed to create Dynamixyz config folder."**
+
+	|A|
+	When you set up a new Retarget Asset, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin could not create the file. Ensure you have the admin rights in the project folder.
+	
+Errors from DxyzLiveLinkRetargetAsset
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|Q|
+**"Unable to load the provided ESC."**
+
+	|A|
+	The ESC file could not be parsed. Either it is a wrong ESC, or the path to the ESC has changed.
+
+|Q|
+**"An error occured with the LiveLink associated skeleton."**
+
+	|A|
+	The Skeletal Mesh could not be extracted from LiveLink.
+	
+|Q|
+**"The skeletal mesh associated with LiveLink differs from the RetargetingAsset skeletal mesh !"**
+
+	|A|
+	The skeletal mesh in the retargeting asset has to be the same as the one associated with the subject. This retargeting asset cannot be used with the chosen subject.
+
+|Q|
+**"The RetargetingAsset ESC differs from the grabber's ESC !"**
+
+	|A|
+	In order to apply the retargeting on the chosen subject, the ESC used to do the mapping must be the same as the one streamed by Grabber. This retargeting asset cannot be used with the chosen subject.
+
+Warnings from DxyzLiveLinkSource
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|Q|
+**"Failed to create/save Dynamixyz source config folder."**
+
+	|A|
+	When you set up a new source, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to access the DxyzSaved folder but does not find it. It will be created again by the plugin if the sources change or if you save a Retarget Asset. 
+
+|Q|
+**"No Dynamixyz LiveLink config file was found."**
+
+	|A|
+	When you set up a new source, the plugin creates a new JSON file in the DxyzSaved folder to allow you to modify this information at realtime. This warning appears when the plugin tries to access the DxyzSaved folder but does not find it. It will be created again by the plugin if the sources change or if you save a Retarget Asset. 
+	
+|Q|
+**"Could not find LiveLink module while trying to load Dynamixyz LiveLink config file."**
+
+	|A|
+	Unreal Live Link was not detected by the plugin. Live Link should be enabled in the Plugins menu.
+	
+Errors from DxyzLiveLinkSource
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|Q|
+**"IP and/or port can't be parsed for source '<name>'"** 
+
+	|A|
+	The IP adress or the port entered by the user are wrong. If you manually modify the JSON sources file, check that you did not make a mistake.
+	
+|Q|
+**"This source was already loaded."**
+
+	|A|
+	You cannot create two sources with the same IP adress and port.
+
+|Q|
+**"The ESC contains non-unique blendshape names ! This ESC is likely to be incompatible with DxyzLiveLinkPlugin."**
+
+	|A|
+	The rig that was used to create the RT profile contains at least two blendshapes with the same absolute name. It is important to give your blendshapes unique names if they are not meant to be merged. Grouping them under different group names will not be enough. For example : forehead[shape1] and chin[shape1] will be merged under the name "shape1" in Unreal, leading to a possibly invalid blendshape. Renaming them into forehead[f_shape1] and chin[c_shape1] in the rig will work. Reimporting the corrected FBX in Unreal should be enough (using the remapping blendshapes process), but we advise you to re-create the entity set and the retargeting links in Performer with the correct rig to correct the ESC as well.
+
+Errors in plugin installation
+-----------------------------
+|Q| 
+**After copying the plugin into the *Plugins* folder of my project, Unreal ask me to recompile the project.**
+
+	|A|
+	Check the Unreal Engine version of the plugin you copied. If you got the wrong version, please ask us to send you a plugin compiled for your version of Unreal Engine.
+
+Errors in rig animation
+-----------------------
+
+|Q| 
+**My character looses its texture when I apply a Morph target in my Animation Event Graph.**
+
+	|A| 
+	Some materials are not associated with your textures material. Check if you have the *The following materials need morph support ('Used with Morph Targets' in material editor)* error message on your mesh blueprint. If yes, `see this thread on the official UE4 forum <https://forums.unrealengine.com/showthread.php?46885-Material-needs-morph-support>`__
+
+|Q|
+**After loading my rig in Unreal, my mesh seems to be "exploded".**
+
+	|A|
+	This is due to an import/export issue between the software that generated your .fbx and Unreal. You can follow the section :ref:`sec_CreateChar` to play with the importing parameters. 
+
+|Q|
+**When I import my rig, some bones are lying on the ground.**
+
+	|A|
+	When you import your rig, check the **Use T0As Ref Pose** option. Please check the :ref:`sec_CreateChar` section for more informations.
+
+|Q|
+**When I play the animation, my rig explodes.**
+
+	|A|
+	It may be because of bad local rotations on your bones. Please check the :ref:`sec_ResetRotations` section.
+	
+|Q|
+**Rotations on my bones are fine, but bones translations seems to be very small. It is like my bones are doing micro-movements.**
+
+	|A|
+	This is due to an import/export issue between the software that generated your .fbx and Unreal. Result is every bones coefficients are multiplied by a scale *(1.0 by default)* that modifies how the bones are moving. To deal with this problem, check the :ref:`sec_customStream` section. 
+	
+Errors while packaging project
+------------------------------
+
+|Q|
+**Packaging failed using our plugin.**
+
+    |A|
+    Ensure you are building for Windows X64. We are only supporting this platform at the moment.

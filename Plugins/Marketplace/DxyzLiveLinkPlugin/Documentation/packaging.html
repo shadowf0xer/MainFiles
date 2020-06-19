@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Packaging &mdash; Dxyz Live Link Plugin 1.2.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Troubleshooting" href="faq.html" />
+    <link rel="prev" title="Miscellaneous" href="misc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Dxyz Live Link Plugin
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation from UE Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#installation-from-sources">Installation from sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project_setup.html">Project set-up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blue_print.html">Liven up your rig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misc.html">Miscellaneous</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Packaging</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-do-i-do-if-my-packaged-game-won-t-run">What do I do if my packaged game won’t run</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#on-windows-64-bit">On Windows 64-bit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#on-linux-64-bit">On Linux 64-bit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#on-macos">On MacOS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#still-not-able-to-run-your-packaged-project">Still not able to run your packaged project ?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Dxyz Live Link Plugin</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Packaging</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="packaging">
+<span id="id1"></span><h1>Packaging<a class="headerlink" href="#packaging" title="Permalink to this headline">¶</a></h1>
+<p>In order to package your game with our plugin, please ensure that you are using our plugin as an Engine Plugin. For more information, please consult sections <a class="reference internal" href="install.html#ssec-engineplugin"><span class="std std-ref">Setup as an engine plugin</span></a> and <a class="reference internal" href="install.html#ssec-switchpluginsetup"><span class="std std-ref">Switching from one mode to the other</span></a>.</p>
+<p>Packaging our project is straightforward and should not deviate from the steps given on the official Unreal documentation: <a class="reference external" href="https://docs.unrealengine.com/latest/INT/Engine/Basics/Projects/Packaging/">Packaging your Unreal Project</a></p>
+<p>If you want to modify the Sources or the Remapping Assets without re-shipping your project, please check the <a class="reference internal" href="blue_print.html#sec-shippedmodif"><span class="std std-ref">Modifying Dynamixyz Live Link Plugin configuration in a shipped project</span></a> section.</p>
+<p>Our plugin is designed to compile on all build type (Shipping, Development, Debug).</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>During the packaging, the plugin will copy the folder <em>DxyzSaved</em> which contains the configuration of the sources and the retargeting of your project in the packaged game folder. The third party libraries should also be copied. However, those files sometimes won’t be copied. In the next session, we will explain where to manually copy them if needed.</p>
+</div>
+<div class="section" id="what-do-i-do-if-my-packaged-game-won-t-run">
+<h2>What do I do if my packaged game won’t run<a class="headerlink" href="#what-do-i-do-if-my-packaged-game-won-t-run" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="on-windows-64-bit">
+<h3>On Windows 64-bit<a class="headerlink" href="#on-windows-64-bit" title="Permalink to this headline">¶</a></h3>
+<p><strong>Fatal error / Missing binaries</strong></p>
+<p>If the application does not open, it may be a binaries issue. In this case you will need to copy the third party binaries manually.</p>
+<ol class="arabic simple">
+<li><p>Go to the installation folder of Unreal Engine, in the version you are currently using. Look for the DxyzLiveLinkPlugin installation folder in the Engine plugins (something like <em>C:/Program Files/Epic Games/UE_4.21/Engine/Plugins/Marketplace/DxyzLiveLinkPlugin</em>)</p></li>
+<li><p>Go to the ThirdParty folder, and for each library, copy the win64 binaries (*.dll) next to the application executable in <em>&lt;PackagedFolder&gt;/WindowsNoEditor/&lt;PackagedName&gt;/Binaries/Win64/</em>.</p></li>
+<li><p>Restart your application</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In DxyzLiveLinkPlugin v1.2.0, only ffmpeg is used as a third party library.</p>
+</div>
+<p><strong>My character is not animated</strong></p>
+<p>It can be that the configuration files were not copied. You will need to copy them manually.</p>
+<ol class="arabic simple">
+<li><p>Go to your project folder and in the Content folder, look for the DxyzSaved folder. It contains a few *.dxyz files.</p></li>
+<li><p>Copy the DxyzSaved folder in the Content folder of your packaged project : <em>&lt;PackagedFolder&gt;/WindowsNoEditor/&lt;PackagedName&gt;/Content/</em>.</p></li>
+<li><p>Restart your application</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is how a functional packaged project should look on Win64 :</p>
+<p><img alt="img_win" src="_images/win.png" /></p>
+</div>
+</div>
+<div class="section" id="on-linux-64-bit">
+<h3>On Linux 64-bit<a class="headerlink" href="#on-linux-64-bit" title="Permalink to this headline">¶</a></h3>
+<p><strong>Fatal error / Missing binaries</strong></p>
+<p>If the application does not open, it may be a binaries issue. In this case you will need to copy the third party binaries manually.</p>
+<ol class="arabic simple">
+<li><p>Go to the DxyzLiveLinkPlugin folder.</p></li>
+<li><p>Go to the ThirdParty folder, and for each library, copy the lin64 binaries (*.so) next to the application executable in <em>&lt;PackagedFolder&gt;/LinuxNoEditor/&lt;PackagedName&gt;/Binaries/Linux/</em>.</p></li>
+<li><p>Restart your application</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In DxyzLiveLinkPlugin v1.2.0, only ffmpeg is used as a third party library.</p>
+</div>
+<p><strong>My character is not animated</strong></p>
+<p>It can be that the configuration files were not copied. You will need to copy them manually.</p>
+<ol class="arabic simple">
+<li><p>Go to your project folder and in the Content folder, look for the DxyzSaved folder. It contains a few *.dxyz files.</p></li>
+<li><p>Copy the DxyzSaved folder in the Content folder of your packaged project : <em>&lt;PackagedFolder&gt;/LinuxNoEditor/&lt;PackagedName&gt;/Content/</em>.</p></li>
+<li><p>Restart your application</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is how a functional packaged project should look on Linux :</p>
+<p><img alt="img_lin" src="_images/lin.png" /></p>
+</div>
+</div>
+<div class="section" id="on-macos">
+<h3>On MacOS<a class="headerlink" href="#on-macos" title="Permalink to this headline">¶</a></h3>
+<p><strong>Fatal error / Missing binaries</strong></p>
+<p>If the application does not open, it may be a binaries issue. In this case you will need to copy the third party binaries manually.</p>
+<ol class="arabic simple">
+<li><p>Go to the installation folder of Unreal Engine, in the version you are currently using. Look for the DxyzLiveLinkPlugin installation folder in the Engine plugins (something like <em>Users/Shared/Epic Games/UE_4.21/Engine/Plugins/Marketplace/DxyzLiveLinkPlugin</em>)</p></li>
+<li><p>Go to the ThirdParty folder, and for each library, copy the macOS binaries (*.dylib) next to the application executable : Go to <em>&lt;PackagedFolder&gt;/MacNoEditor/&lt;PackagedName&gt;</em>, right-click on the &lt;PackagedName&gt; and select “Show Package content”, then go in the <em>Contents/MacOS/</em>. Copy here the libraries.</p></li>
+<li><p>Restart your application</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In DxyzLiveLinkPlugin v1.2.0, only ffmpeg is used as a third party library.</p>
+</div>
+<p><strong>My character is not animated</strong></p>
+<p>It can be that the configuration files were not copied. You will need to copy them manually.</p>
+<ol class="arabic simple">
+<li><p>Go to your project folder and in the Content folder, look for the DxyzSaved folder. It contains a few *.dxyz files.</p></li>
+<li><p>Copy the DxyzSaved folder in the Content folder of your packaged project : Go to <em>&lt;PackagedFolder&gt;/MacNoEditor/&lt;PackagedName&gt;</em>, right-click on the <em>&lt;PackagedName&gt;</em> and select “Show Package content”, then go in the <em>Contents/UE4/&lt;PackagedName&gt;/Content/</em>. Copy here the DxyzSaved folder.</p></li>
+<li><p>Restart your application</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is how a functional packaged project should look on Mac :</p>
+<p><a class="reference internal" href="_images/mac.png"><img alt="img_mac" src="_images/mac.png" style="width: 389.2px; height: 594.3px;" /></a></p>
+</div>
+</div>
+</div>
+<div class="section" id="still-not-able-to-run-your-packaged-project">
+<h2>Still not able to run your packaged project ?<a class="headerlink" href="#still-not-able-to-run-your-packaged-project" title="Permalink to this headline">¶</a></h2>
+<p>Contact us at <a class="reference external" href="mailto:support&#37;&#52;&#48;dynamixyz&#46;com">support<span>&#64;</span>dynamixyz<span>&#46;</span>com</a>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="faq.html" class="btn btn-neutral float-right" title="Troubleshooting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="misc.html" class="btn btn-neutral float-left" title="Miscellaneous" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Dynamixyz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

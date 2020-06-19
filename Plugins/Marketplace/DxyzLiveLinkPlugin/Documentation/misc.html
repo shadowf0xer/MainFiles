@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Miscellaneous &mdash; Dxyz Live Link Plugin 1.2.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Packaging" href="packaging.html" />
+    <link rel="prev" title="Liven up your rig" href="blue_print.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Dxyz Live Link Plugin
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation from UE Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#installation-from-sources">Installation from sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project_setup.html">Project set-up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blue_print.html">Liven up your rig</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Miscellaneous</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#display-the-grabber-feedback-in-your-app">Display the Grabber feedback in your app</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#customize-the-eyes-and-the-head-rotations">Customize the eyes and the head rotations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#define-the-widget-in-unreal-4-23-and-above">Define the widget in Unreal 4.23 and above</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#define-the-widget-in-unreal-4-21-and-above">Define the widget in Unreal 4.21 and above</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#show-and-use-the-widget">Show and use the widget</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-dxyz-widget-calibration-light">The Dxyz Widget Calibration Light</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#display-the-timecode-of-the-frame-for-ue4-20-and-above">Display the timecode of the frame (for UE4.20 and above)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#in-unreal-4-23-and-above">In Unreal 4.23 and above</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#in-unreal-4-21-and-above">In Unreal 4.21 and above</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#in-unreal-4-20">In Unreal 4.20</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#display-the-reception-fps-for-ue-4-20-and-above">Display the reception fps (for UE 4.20 and above)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">In Unreal 4.23 and above</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#in-unreal-4-20-and-above">In Unreal 4.20 and above</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#remote-trigger-the-recording-in-grabber">Remote trigger the recording in Grabber</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="packaging.html">Packaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Dxyz Live Link Plugin</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Miscellaneous</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="miscellaneous">
+<span id="misc"></span><h1>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="display-the-grabber-feedback-in-your-app">
+<h2>Display the Grabber feedback in your app<a class="headerlink" href="#display-the-grabber-feedback-in-your-app" title="Permalink to this headline">¶</a></h2>
+<p>Open your Level Blueprint, and on the Event BeginPlay, add a “Create Widget” node. On the class input, select “DxyzWidgetFeedback”. Promote the output to a variable called “Feedback”. Add this widget to the viewport with a “Add to Viewport” node.</p>
+<p><img alt="img_feedback" src="_images/feedback1.png" /></p>
+<p>To get the feedback, make sure the RTP streaming is enabled in Grabber. Go on the “Network” menu and select “Service otpions”. Enable the RTP streaming and fill the IP and port fields, you will need them in Unreal.</p>
+<p><img alt="img_rtp" src="_images/rtp.png" /></p>
+<p>In Unreal, use your variable “Feedback” to add a “Open feedback” node. Enter the IP adress and port you set up earlier in Grabber. Note that you can map this node to a keyboard input to enable the feedback whenever you want.</p>
+<p><img alt="img_feedback2" src="_images/feedback.png" /></p>
+<p>If you press Play, you should see the feedback at runtime.</p>
+<p><img alt="img_feedback3" src="_images/grabber_feedback.png" /></p>
+<ul class="simple">
+<li><p>You can drag the window title to put the widget where you want. The new position will be saved in a config file</p></li>
+<li><p>You can change the size of the preview using the size slider that appears when hovering the widget with the mouse</p></li>
+<li><p>You can double click on the preview or use the square icon to hide/show the widget’s frame</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can create a DxyzWidgetMouseGrab and add it to the viewport before creating other widgets. This way you’ll be able to show/hide the mouse by clicking outside of the Dynamixyz widgets.</p>
+</div>
+</div>
+<div class="section" id="customize-the-eyes-and-the-head-rotations">
+<h2>Customize the eyes and the head rotations<a class="headerlink" href="#customize-the-eyes-and-the-head-rotations" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="define-the-widget-in-unreal-4-23-and-above">
+<h3>Define the widget in Unreal 4.23 and above<a class="headerlink" href="#define-the-widget-in-unreal-4-23-and-above" title="Permalink to this headline">¶</a></h3>
+<p>Open your Level Blueprint, and on the Event BeginPlay, add a “Create Widget” node. On the class input, select “DxyzWidgetCalib”. Promote the output to a variable called “Calib”. Add this widget to the viewport with a “Add to Viewport” node.</p>
+<p><img alt="img_calibBP" src="_images/calib_bp.png" /></p>
+</div>
+<div class="section" id="define-the-widget-in-unreal-4-21-and-above">
+<h3>Define the widget in Unreal 4.21 and above<a class="headerlink" href="#define-the-widget-in-unreal-4-21-and-above" title="Permalink to this headline">¶</a></h3>
+<p>Open your Level Blueprint, and on the Event BeginPlay, add a “Create Widget” node. On the class input, select “DxyzWidgetCalib”. Promote the output to a variable called “Calib”.</p>
+<p>Add a “Live Link Component”, and use your variable Calib to set its own LiveLinkComponent variable. Add the calibration widget to the viewport with a “Add to Viewport” node.</p>
+<p><img alt="img_calibBP21" src="_images/calib_bp21.png" /></p>
+</div>
+<div class="section" id="show-and-use-the-widget">
+<h3>Show and use the widget<a class="headerlink" href="#show-and-use-the-widget" title="Permalink to this headline">¶</a></h3>
+<p>Use your variable “Calib” to add a “Show widget” node to display the calibration GUI. Note that you can map this node to a keyboard input to show the calibration whenever you want.</p>
+<p><img alt="img_calibShow" src="_images/calib_show.png" /></p>
+<p>If you press Play, you should see the calibration widget at runtime.</p>
+<p><img alt="img_calib" src="_images/calib.png" /></p>
+<p><a class="reference internal" href="_images/g1.png"><img alt="bulletG1" src="_images/g1.png" style="width: 22.4px; height: 22.4px;" /></a> Use the dropdown list to select the Live Link subject for which you want to calibrate the animation. The refresh button allows you to update the list if a new source was added in Live Link.
+<a class="reference internal" href="_images/g2.png"><img alt="bulletG2" src="_images/g2.png" style="width: 22.4px; height: 22.4px;" /></a> With the “Retarg. OFF” button, you can activate or deactivate the retargeting for this subject</p>
+<p>The first part is the head control panel. You can :</p>
+<p><a class="reference internal" href="_images/g3.png"><img alt="bulletG3" src="_images/g3.png" style="width: 22.4px; height: 22.4px;" /></a> Compute an offset rotation (on one, two or three axis) or reset the offset to neutral
+<a class="reference internal" href="_images/g4.png"><img alt="bulletG4" src="_images/g4.png" style="width: 22.4px; height: 22.4px;" /></a> Lock the rotation on one, two or three axis
+<a class="reference internal" href="_images/g5.png"><img alt="bulletG5" src="_images/g5.png" style="width: 22.4px; height: 22.4px;" /></a> Clamp the rotation on one, two or three axis
+<a class="reference internal" href="_images/g6.png"><img alt="bulletG6" src="_images/g6.png" style="width: 22.4px; height: 22.4px;" /></a> Increase/decrease the roation on one, two or three axis</p>
+<p>The second part is the pupils control panel. You can :</p>
+<p><a class="reference internal" href="_images/g7.png"><img alt="bulletG7" src="_images/g7.png" style="width: 22.4px; height: 22.4px;" /></a> Compute an offset rotation (on one or two axis) or reset the offset to neutral
+<a class="reference internal" href="_images/g8.png"><img alt="bulletG8" src="_images/g8.png" style="width: 22.4px; height: 22.4px;" /></a> Lock the rotation on one or two axis
+<a class="reference internal" href="_images/g9.png"><img alt="bulletG9" src="_images/g9.png" style="width: 22.4px; height: 22.4px;" /></a> Clamp the rotation on one or two axis
+<a class="reference internal" href="_images/g10.png"><img alt="bulletG10" src="_images/g10.png" style="width: 22.4px; height: 22.4px;" /></a> Increase/decrease the roation on one or two axis</p>
+<p><a class="reference internal" href="_images/g11.png"><img alt="bulletG11" src="_images/g11.png" style="width: 22.4px; height: 22.4px;" /></a> Clicking on Save will save the configuration to a file that will be read each time you start again the application.
+<a class="reference internal" href="_images/g12.png"><img alt="bulletG12" src="_images/g12.png" style="width: 22.4px; height: 22.4px;" /></a> Closing the widget or clicking on Cancel will cancel the modifications and reload the configuration from the file if it exists, or to the default configuration if not.
+<a class="reference internal" href="_images/g13.png"><img alt="bulletG13" src="_images/g13.png" style="width: 22.4px; height: 22.4px;" /></a> You can also click on the top left arrow to minimize the widget :</p>
+<p><img alt="img_calibMini" src="_images/calib_mini.png" /></p>
+<p><a class="reference internal" href="_images/g1.png"><img alt="bulletG1" src="_images/g1.png" style="width: 22.4px; height: 22.4px;" /></a> Use the left arrow to maximize the widget
+<a class="reference internal" href="_images/g2.png"><img alt="bulletG2" src="_images/g2.png" style="width: 22.4px; height: 22.4px;" /></a> Use the dropdown list to select the Live Link subject for which you want to calibrate the animation.
+<a class="reference internal" href="_images/g3.png"><img alt="bulletG3" src="_images/g3.png" style="width: 22.4px; height: 22.4px;" /></a> Use this button to start/stop the retargeting
+<a class="reference internal" href="_images/g4.png"><img alt="bulletG4" src="_images/g4.png" style="width: 22.4px; height: 22.4px;" /></a> Use this button to compute the head offset rotation
+<a class="reference internal" href="_images/g5.png"><img alt="bulletG5" src="_images/g5.png" style="width: 22.4px; height: 22.4px;" /></a> Use this button to compute the eyes offset rotation
+<a class="reference internal" href="_images/g6.png"><img alt="bulletG6" src="_images/g6.png" style="width: 22.4px; height: 22.4px;" /></a> Use this button to save the configuration
+<a class="reference internal" href="_images/g7.png"><img alt="bulletG7" src="_images/g7.png" style="width: 22.4px; height: 22.4px;" /></a> Use this button to close the widget and cancels the modifications</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Dxyz Calibration assumes that the head bone is named Head and the left and right eyes bones are named Eye_L and Eye_R. If this is not the case, you can change the default name in the variables HeadBoneName, LeftEyeBoneName and RightEyeBoneName.</p>
+<p><img alt="img_calibVariables" src="_images/calib_variables.png" /></p>
+<p>If you use different rigs, you can create new blueprints that inherit a DxyzCalibration widget :</p>
+<p><img alt="img_pickparent" src="_images/pickparent.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you inherit from one of the DxyzWidgets, you will need to enable the EventTick to be sure that you can drag the widget anywhere on the screen (by default the parent’s EventTick will not be called).</p>
+<p><img alt="img_calibTick" src="_images/calib_tick.png" /></p>
+</div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can call the calibration and offsets functions from outside, for instance to map them on a keyboard input. Do not forget to uncheck “UseGUI” when it is in the function parameters.</p>
+<p><img alt="img_calibExternal" src="_images/calib_external.png" /></p>
+<p>This is the list of functions that can be called from the outside :</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><em>StartStopRetargetingForSubject</em> : Starts or stop the retargeting for a subject</p></li>
+<li><p><em>ApplyHeadCalibForSubject</em> : Applies the head calibration for a subject</p></li>
+<li><p><em>ApplyHeadOffsetForSubject</em> : Computes and applies the head rotation offset for a subject</p></li>
+<li><p><em>ResetHeadOffsetForSubject</em> : Resets the head rotation offset for a subject</p></li>
+<li><p><em>ApplyEyesCalibForSubject</em> : Applies the pupils calibration for a subject</p></li>
+<li><p><em>ApplyEyesOffsetForSubject</em> : Computes and applies the pupils rotation offset for a subject</p></li>
+<li><p><em>ResetEyesOffsetForSubject</em> : Resets the pupils rotation offset for a subject</p></li>
+<li><p><em>SaveConfiguration</em> : Saves the configuration to the config file</p></li>
+<li><p><em>ResetConfiguration</em> : Goes back to the previous configuration from the config file</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="the-dxyz-widget-calibration-light">
+<h3>The Dxyz Widget Calibration Light<a class="headerlink" href="#the-dxyz-widget-calibration-light" title="Permalink to this headline">¶</a></h3>
+<p>A second version of the calibration widget exists, the DxyzWidgetCalibrationLight. All of the above is also true with this second widget.</p>
+<p><img alt="img_calibLight" src="_images/calib_light.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can create a DxyzWidgetMouseGrab and add it to the viewport before creating other widgets. This way you’ll be able to show/hide the mouse by clicking outside of the Dynamixyz widgets.</p>
+</div>
+</div>
+</div>
+<div class="section" id="display-the-timecode-of-the-frame-for-ue4-20-and-above">
+<h2>Display the timecode of the frame (for UE4.20 and above)<a class="headerlink" href="#display-the-timecode-of-the-frame-for-ue4-20-and-above" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes for synchronization it is necessary to get the timecode of each frame in order to trace it in the logs or on the screen.</p>
+<div class="section" id="in-unreal-4-23-and-above">
+<h3>In Unreal 4.23 and above<a class="headerlink" href="#in-unreal-4-23-and-above" title="Permalink to this headline">¶</a></h3>
+<p>Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component “Live Link Skeletal Animation”.</p>
+<p><img alt="img_LLactorBp23" src="_images/actor_bp23.png" /></p>
+<p>Select the newly added component, and on the Details panel, look for the Events section and click on the “+” on the right of “On Live Link Updated”.</p>
+<p><img alt="img_LLupdated" src="_images/on_LL_updated.png" /></p>
+<p>On the Live Link Updated line, add a new node “Evaluate Live Link Frame” and fill the name of the Dynamixyz Live Link Subject you want to get info about. On the Role input, select “LiveLinkAnimationRole”.</p>
+<p>Drag the output pin and look for the “Get Metadata” function. Break the output pin to a SubjectMetadata. The “Scene Timecode” output pin should give you the current frame’s timecode.</p>
+<p><img alt="img_LLTimecode23" src="_images/get_timecode_23.png" /></p>
+<p>Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the timecode on your screen.</p>
+</div>
+<div class="section" id="in-unreal-4-21-and-above">
+<h3>In Unreal 4.21 and above<a class="headerlink" href="#in-unreal-4-21-and-above" title="Permalink to this headline">¶</a></h3>
+<p>Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component “Live Link”.</p>
+<p><img alt="img_LLactorBp" src="_images/actor_bp.png" /></p>
+<p>In the Event Graph tab, drag the new Live Link component in the graph, look for the node “Get Subject Data” and connect it to the Event Tick node. Fill the name of the subject you want to check out and drag the output Subject Frame Handle to select Get Metadata.</p>
+<p>Break the output pin to a SubjectMetadata. The “Scene Timecode” output pin should give you the current frame’s timecode.</p>
+<p><img alt="img_LLTimecode21" src="_images/get_timecode_21.png" /></p>
+<p>Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the timecode on your screen.</p>
+</div>
+<div class="section" id="in-unreal-4-20">
+<h3>In Unreal 4.20<a class="headerlink" href="#in-unreal-4-20" title="Permalink to this headline">¶</a></h3>
+<p>Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component “Live Link”.</p>
+<p>Break the output pin to a SubjectMetadata and look for the “Find” node on the String Metadata map. Enter “timecode” and the output pin should give you the current frame’s timecode.</p>
+<p><img alt="img_LLTimecode" src="_images/get_timecode.png" /></p>
+<p>Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the timecode on your screen.</p>
+</div>
+</div>
+<div class="section" id="display-the-reception-fps-for-ue-4-20-and-above">
+<h2>Display the reception fps (for UE 4.20 and above)<a class="headerlink" href="#display-the-reception-fps-for-ue-4-20-and-above" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>In Unreal 4.23 and above<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component “Live Link Skeletal Animation”.</p>
+<p><img alt="img_LLactorBp23" src="_images/actor_bp23.png" /></p>
+<p>Select the newly added component, and on the Details panel, look for the Events section and click on the “+” on the right of “On Live Link Updated”.</p>
+<p><img alt="img_LLupdated" src="_images/on_LL_updated.png" /></p>
+<p>On the Live Link Updated line, add a new node “Evaluate Live Link Frame” and fill the name of the Dynamixyz Live Link Subject you want to get info about. On the Role input, select “LiveLinkAnimationRole”.</p>
+<p>Drag the output pin and look for the “Get Metadata” function. Break the output pin to a SubjectMetadata and look for the “Find” node on the String Metadata map. Enter “fps” and the output pin should give you the current reception framerate.</p>
+<p><img alt="img_LLfps23" src="_images/get_fps23.png" /></p>
+<p>Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the fps on your screen.</p>
+</div>
+<div class="section" id="in-unreal-4-20-and-above">
+<h3>In Unreal 4.20 and above<a class="headerlink" href="#in-unreal-4-20-and-above" title="Permalink to this headline">¶</a></h3>
+<p>Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component “Live Link”.</p>
+<p><img alt="img_LLactorBp" src="_images/actor_bp.png" /></p>
+<p>In the Event Graph tab, drag the new Live Link component in the graph, look for the node “Get Subject Data” and connect it to the Event Tick node. Fill the name of the subject you want to check out and drag the output Subject Frame Handle to select Get Metadata.</p>
+<p>Break the output pin to a SubjectMetadata and look for the “Find” node on the String Metadata map. Enter “fps” and the output pin should give you the current reception framerate.</p>
+<p><img alt="img_LLfps" src="_images/get_fps.png" /></p>
+<p>Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the fps on your screen.</p>
+</div>
+</div>
+<div class="section" id="remote-trigger-the-recording-in-grabber">
+<h2>Remote trigger the recording in Grabber<a class="headerlink" href="#remote-trigger-the-recording-in-grabber" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature is still a WIP and could change in the next releases of Dynamixyz Grabber and Dxyz Live Link Plugin.</p>
+</div>
+<ol class="arabic simple">
+<li><p>In Grabber, go to the <strong>Network -&gt; Trigger options</strong> menu and enable the <strong>Motive</strong> trigger.</p></li>
+</ol>
+<p><img alt="img_GrabTriggerSettings" src="_images/grabber_triggersettings.png" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Chose a free port to establish a communication with Unreal.</p></li>
+<li><p>If you want to be able to use a custom path and to create the folder if it does not exist, check the two corresponding options.</p></li>
+<li><p>In UE, at the initialization of your level blueprint, add a <strong>Construct Object From Class</strong> node and select <strong>DxyzGrabberRemoteTrigger</strong>. Promote the output of this node to a new variable called Grabber Remote.</p></li>
+</ol>
+<p><img alt="img_GrabTrigger" src="_images/grabbertrigger.png" /></p>
+<ol class="arabic simple" start="5">
+<li><p>To start the recording, use the Grabber Remote to create a <strong>Send Start to Grabber</strong> node.</p></li>
+<li><p>Fill the IP adress of the Grabber and chose a free port to establish the communication.</p></li>
+<li><p>Enter a file name and a path for the video.</p></li>
+<li><p>Select the timecode at which you want to start recording. If you do not want to use a timecode, just leave the field empty.</p></li>
+<li><p>To stop recording, use the Grabber Remote to create a <strong>Send Stop to Grabber</strong> node.</p></li>
+<li><p>Fill the same IP address and port as before.</p></li>
+</ol>
+<p>Both these functions return true if the information could be sent to Grabber.</p>
+<p><img alt="img_GrabTriggerStart" src="_images/grabber_trigger2.png" /></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="packaging.html" class="btn btn-neutral float-right" title="Packaging" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="blue_print.html" class="btn btn-neutral float-left" title="Liven up your rig" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Dynamixyz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,313 @@
+
+.. Add support to linebreak
+.. |br| raw:: html
+
+   <br />
+
+.. Reference to images
+.. |img_feedback| image:: _img/feedback1.png
+.. |img_feedback2| image:: _img/feedback.png
+.. |img_feedback3| image:: _img/grabber_feedback.png
+.. |img_calibBP| image:: _img/calib_bp.png
+.. |img_calibShow| image:: _img/calib_show.png
+.. |img_calibLight| image:: _img/calib_light.png
+.. |img_calibBP21| image:: _img/calib_bp21.png
+.. |img_calib| image:: _img/calib.png
+.. |img_calibMini| image:: _img/calib_mini.png
+.. |img_calibExternal| image:: _img/calib_external.png
+.. |img_calibVariables| image:: _img/calib_variables.png
+.. |img_pickparent| image:: _img/pickparent.png
+.. |img_calibTick| image:: _img/calib_tick.png
+.. |img_rtp| image:: _img/rtp.png
+.. |img_LLactorBp| image:: _img/actor_bp.png
+.. |img_LLTimecode| image:: _img/get_timecode.png
+.. |img_LLTimecode21| image:: _img/get_timecode_21.png
+.. |img_LLfps| image:: _img/get_fps.png
+.. |img_GrabTrigger| image:: _img/grabbertrigger.png
+.. |img_GrabTriggerStart| image:: _img/grabber_trigger2.png
+.. |img_GrabTriggerSettings| image:: _img/grabber_triggersettings.png
+.. |img_LLactorBp23| image:: _img/actor_bp23.png
+.. |img_LLupdated| image:: _img/on_LL_updated.png
+.. |img_LLTimecode23| image:: _img/get_timecode_23.png
+.. |img_LLfps23| image:: _img/get_fps23.png
+.. |bulletG1| image:: _img/g1.png
+	:scale: 70
+.. |bulletG2| image:: _img/g2.png
+    :scale: 70
+.. |bulletG3| image:: _img/g3.png
+    :scale: 70
+.. |bulletG4| image:: _img/g4.png
+    :scale: 70
+.. |bulletG5| image:: _img/g5.png
+    :scale: 70
+.. |bulletG6| image:: _img/g6.png
+    :scale: 70
+.. |bulletG7| image:: _img/g7.png
+    :scale: 70
+.. |bulletG8| image:: _img/g8.png
+    :scale: 70
+.. |bulletG9| image:: _img/g9.png
+    :scale: 70
+.. |bulletG10| image:: _img/g10.png
+    :scale: 70
+.. |bulletG11| image:: _img/g11.png
+    :scale: 70
+.. |bulletG12| image:: _img/g12.png
+    :scale: 70
+.. |bulletG13| image:: _img/g13.png
+    :scale: 70
+
+
+.. _misc:
+
+Miscellaneous
+=============
+
+Display the Grabber feedback in your app
+----------------------------------------
+
+Open your Level Blueprint, and on the Event BeginPlay, add a "Create Widget" node. On the class input, select "DxyzWidgetFeedback". Promote the output to a variable called "Feedback". Add this widget to the viewport with a "Add to Viewport" node.
+
+|img_feedback|
+
+To get the feedback, make sure the RTP streaming is enabled in Grabber. Go on the "Network" menu and select "Service otpions". Enable the RTP streaming and fill the IP and port fields, you will need them in Unreal.
+
+|img_rtp|
+
+In Unreal, use your variable "Feedback" to add a "Open feedback" node. Enter the IP adress and port you set up earlier in Grabber. Note that you can map this node to a keyboard input to enable the feedback whenever you want.
+
+|img_feedback2|
+
+If you press Play, you should see the feedback at runtime.
+
+|img_feedback3|
+
+- You can drag the window title to put the widget where you want. The new position will be saved in a config file
+- You can change the size of the preview using the size slider that appears when hovering the widget with the mouse
+- You can double click on the preview or use the square icon to hide/show the widget's frame
+
+.. tip::
+	You can create a DxyzWidgetMouseGrab and add it to the viewport before creating other widgets. This way you'll be able to show/hide the mouse by clicking outside of the Dynamixyz widgets.
+
+Customize the eyes and the head rotations
+-----------------------------------------
+
+Define the widget in Unreal 4.23 and above
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Open your Level Blueprint, and on the Event BeginPlay, add a "Create Widget" node. On the class input, select "DxyzWidgetCalib". Promote the output to a variable called "Calib". Add this widget to the viewport with a "Add to Viewport" node.
+
+|img_calibBP|
+
+Define the widget in Unreal 4.21 and above
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Open your Level Blueprint, and on the Event BeginPlay, add a "Create Widget" node. On the class input, select "DxyzWidgetCalib". Promote the output to a variable called "Calib". 
+
+Add a "Live Link Component", and use your variable Calib to set its own LiveLinkComponent variable. Add the calibration widget to the viewport with a "Add to Viewport" node.
+
+|img_calibBP21|
+
+Show and use the widget
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Use your variable "Calib" to add a "Show widget" node to display the calibration GUI. Note that you can map this node to a keyboard input to show the calibration whenever you want.
+
+|img_calibShow|
+
+If you press Play, you should see the calibration widget at runtime.
+
+|img_calib|
+
+|bulletG1| Use the dropdown list to select the Live Link subject for which you want to calibrate the animation. The refresh button allows you to update the list if a new source was added in Live Link.
+|bulletG2| With the "Retarg. OFF" button, you can activate or deactivate the retargeting for this subject
+
+The first part is the head control panel. You can :
+
+|bulletG3| Compute an offset rotation (on one, two or three axis) or reset the offset to neutral
+|bulletG4| Lock the rotation on one, two or three axis
+|bulletG5| Clamp the rotation on one, two or three axis
+|bulletG6| Increase/decrease the roation on one, two or three axis
+
+The second part is the pupils control panel. You can :
+
+|bulletG7| Compute an offset rotation (on one or two axis) or reset the offset to neutral
+|bulletG8| Lock the rotation on one or two axis
+|bulletG9| Clamp the rotation on one or two axis
+|bulletG10| Increase/decrease the roation on one or two axis
+
+|bulletG11| Clicking on Save will save the configuration to a file that will be read each time you start again the application. 
+|bulletG12| Closing the widget or clicking on Cancel will cancel the modifications and reload the configuration from the file if it exists, or to the default configuration if not.
+|bulletG13| You can also click on the top left arrow to minimize the widget :
+
+|img_calibMini|
+
+|bulletG1| Use the left arrow to maximize the widget
+|bulletG2| Use the dropdown list to select the Live Link subject for which you want to calibrate the animation.
+|bulletG3| Use this button to start/stop the retargeting
+|bulletG4| Use this button to compute the head offset rotation
+|bulletG5| Use this button to compute the eyes offset rotation
+|bulletG6| Use this button to save the configuration
+|bulletG7| Use this button to close the widget and cancels the modifications
+
+.. note::
+	The Dxyz Calibration assumes that the head bone is named Head and the left and right eyes bones are named Eye_L and Eye_R. If this is not the case, you can change the default name in the variables HeadBoneName, LeftEyeBoneName and RightEyeBoneName. 
+	
+	|img_calibVariables|
+	
+	If you use different rigs, you can create new blueprints that inherit a DxyzCalibration widget :
+	
+	|img_pickparent|
+
+	.. warning::
+		If you inherit from one of the DxyzWidgets, you will need to enable the EventTick to be sure that you can drag the widget anywhere on the screen (by default the parent's EventTick will not be called).
+		
+		|img_calibTick|
+	
+.. tip::
+	You can call the calibration and offsets functions from outside, for instance to map them on a keyboard input. Do not forget to uncheck "UseGUI" when it is in the function parameters.
+	
+	|img_calibExternal|
+	
+	This is the list of functions that can be called from the outside :
+
+		- *StartStopRetargetingForSubject* : Starts or stop the retargeting for a subject
+		- *ApplyHeadCalibForSubject* : Applies the head calibration for a subject
+		- *ApplyHeadOffsetForSubject* : Computes and applies the head rotation offset for a subject
+		- *ResetHeadOffsetForSubject* : Resets the head rotation offset for a subject
+		- *ApplyEyesCalibForSubject* : Applies the pupils calibration for a subject
+		- *ApplyEyesOffsetForSubject* : Computes and applies the pupils rotation offset for a subject
+		- *ResetEyesOffsetForSubject* : Resets the pupils rotation offset for a subject
+		- *SaveConfiguration* : Saves the configuration to the config file
+		- *ResetConfiguration* : Goes back to the previous configuration from the config file
+
+The Dxyz Widget Calibration Light
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A second version of the calibration widget exists, the DxyzWidgetCalibrationLight. All of the above is also true with this second widget.
+
+|img_calibLight|
+
+.. tip::
+	You can create a DxyzWidgetMouseGrab and add it to the viewport before creating other widgets. This way you'll be able to show/hide the mouse by clicking outside of the Dynamixyz widgets.
+
+Display the timecode of the frame (for UE4.20 and above)
+--------------------------------------------------------
+
+Sometimes for synchronization it is necessary to get the timecode of each frame in order to trace it in the logs or on the screen. 
+
+In Unreal 4.23 and above
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component "Live Link Skeletal Animation". 
+
+|img_LLactorBp23|
+
+Select the newly added component, and on the Details panel, look for the Events section and click on the "+" on the right of "On Live Link Updated".
+
+|img_LLupdated|
+
+On the Live Link Updated line, add a new node "Evaluate Live Link Frame" and fill the name of the Dynamixyz Live Link Subject you want to get info about. On the Role input, select "LiveLinkAnimationRole". 
+
+Drag the output pin and look for the "Get Metadata" function. Break the output pin to a SubjectMetadata. The "Scene Timecode" output pin should give you the current frame's timecode.
+
+|img_LLTimecode23|
+
+Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the timecode on your screen.
+
+In Unreal 4.21 and above
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component "Live Link".
+
+|img_LLactorBp|
+
+In the Event Graph tab, drag the new Live Link component in the graph, look for the node "Get Subject Data" and connect it to the Event Tick node. Fill the name of the subject you want to check out and drag the output Subject Frame Handle to select Get Metadata. 
+
+Break the output pin to a SubjectMetadata. The "Scene Timecode" output pin should give you the current frame's timecode.
+
+|img_LLTimecode21|
+	
+Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the timecode on your screen.
+
+In Unreal 4.20
+^^^^^^^^^^^^^^
+
+Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component "Live Link".
+
+Break the output pin to a SubjectMetadata and look for the "Find" node on the String Metadata map. Enter "timecode" and the output pin should give you the current frame's timecode.
+	
+|img_LLTimecode|
+	
+Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the timecode on your screen.
+
+Display the reception fps (for UE 4.20 and above)
+-------------------------------------------------
+
+In Unreal 4.23 and above
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component "Live Link Skeletal Animation". 
+
+|img_LLactorBp23|
+
+Select the newly added component, and on the Details panel, look for the Events section and click on the "+" on the right of "On Live Link Updated".
+
+|img_LLupdated|
+
+On the Live Link Updated line, add a new node "Evaluate Live Link Frame" and fill the name of the Dynamixyz Live Link Subject you want to get info about. On the Role input, select "LiveLinkAnimationRole". 
+
+Drag the output pin and look for the "Get Metadata" function. Break the output pin to a SubjectMetadata and look for the "Find" node on the String Metadata map. Enter "fps" and the output pin should give you the current reception framerate.
+
+|img_LLfps23|
+
+Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the fps on your screen.
+
+In Unreal 4.20 and above
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create an Actor blueprint and open it. In the Components tab (usually top left), add a new component "Live Link".
+
+|img_LLactorBp|
+
+In the Event Graph tab, drag the new Live Link component in the graph, look for the node "Get Subject Data" and connect it to the Event Tick node. Fill the name of the subject you want to check out and drag the output Subject Frame Handle to select Get Metadata. 
+
+Break the output pin to a SubjectMetadata and look for the "Find" node on the String Metadata map. Enter "fps" and the output pin should give you the current reception framerate.
+
+|img_LLfps|
+
+Connect the string to a Print String node, drag the Actor blueprint in the scene for the Event Tick to be called, and you will see the fps on your screen.
+
+Remote trigger the recording in Grabber
+---------------------------------------
+
+.. note::
+	This feature is still a WIP and could change in the next releases of Dynamixyz Grabber and Dxyz Live Link Plugin.
+	
+1. In Grabber, go to the **Network -> Trigger options** menu and enable the **Motive** trigger.
+
+|img_GrabTriggerSettings|
+
+2. Chose a free port to establish a communication with Unreal.
+
+3. If you want to be able to use a custom path and to create the folder if it does not exist, check the two corresponding options.
+
+4. In UE, at the initialization of your level blueprint, add a **Construct Object From Class** node and select **DxyzGrabberRemoteTrigger**. Promote the output of this node to a new variable called Grabber Remote.
+
+|img_GrabTrigger|
+
+5. To start the recording, use the Grabber Remote to create a **Send Start to Grabber** node. 
+
+6. Fill the IP adress of the Grabber and chose a free port to establish the communication.
+
+7. Enter a file name and a path for the video.
+
+8. Select the timecode at which you want to start recording. If you do not want to use a timecode, just leave the field empty.
+
+9. To stop recording, use the Grabber Remote to create a **Send Stop to Grabber** node.
+
+10. Fill the same IP address and port as before.
+
+Both these functions return true if the information could be sent to Grabber.
+
+|img_GrabTriggerStart|

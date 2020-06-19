@@ -1,0 +1,344 @@
+
+.. Add support to linebreak
+.. |br| raw:: html
+
+   <br />
+
+.. Reference to images
+.. |img_selectMesh| image:: _img/dxyzA_component_mesh.png
+.. |img_associateCharacter| image:: _img/dxyzA_associate_character.png
+.. |img_BPConnectServer| image:: _img/dxyzA_BP_connect_server.png
+.. |img_OpenFullBP| image:: _img/dxyzA_openFullBlueprint.png
+.. |img_CreateAnimBP| image:: _img/dxyzA_createAnimBP.png
+.. |img_BPGetMesh| image:: _img/dxyzA_BP_getMesh.png
+.. |img_BPEventList| image:: _img/dxyzA_BP_eventList.png
+.. |img_BPEventConnect| image:: _img/dxyzA_BP_EventConnect.png
+.. |img_BPPromoteVar| image:: _img/dxyzA_BP_promoteVar.png
+.. |img_BPRenameVar| image:: _img/dxyzA_BP_renameVar.png
+.. |img_BPRetrieveFrame| image:: _img/dxyzA_BP_retrieveFrame.png
+.. |img_CheckBshape_notepad| image:: _img/checkBshape_notepad.png
+.. |img_CheckBshape_notepadReplaced| image:: _img/checkBshape_notepadReplaced.png
+.. |img_BPConstraintBShape| image:: _img/dxyzA_BP_constraintBShape.png
+.. |img_BPEventGraphOverview| image:: _img/dxyzA_BP_EvtGraphOverview.png
+.. |img_CheckBone_notepad| image:: _img/checkBone_notepad.png
+.. |img_BPBoneModify| image:: _img/dxyzA_BP_bone_modify.png
+.. |img_BPBoneConstraint| image:: _img/dxyzA_BP_bone_constraint.png
+.. |img_BPBoneOverview| image:: _img/dxyzA_BP_bone_overview.png
+.. |img_BPHead| image:: _img/dxyzA_BP_Head.png
+.. |img_BonesScaling| image:: _img/bones_change_scale.png
+.. |img_LLWindow| image:: _img/livelink_window.png
+.. |img_LLAddSource| image:: _img/livelink_addsource.png
+.. |img_LLSourceCo| image:: _img/livelink_source_co.png
+.. |img_LLAdd| image:: _img/icon_addLL.png
+.. |img_LLNode| image:: _img/livelink_node.png
+.. |img_LLRetarg| image:: _img/livelink_retarget.png
+.. |img_LLRetargDetails| image:: _img/livelink_retargDetails.png
+.. |img_LLBones| image:: _img/livelink_bones.png
+.. |img_LLBlendshapes| image:: _img/livelink_blendshapes.png
+.. |img_LLFilled| image:: _img/livelink_filled.png
+.. |img_LLWarn| image:: _img/livelink_warn.png
+.. |img_LLWarnCurves| image:: _img/livelink_warn_curves.png
+.. |img_LLWarnCurves2| image:: _img/livelink_warn_curves_2.png
+.. |img_LLLast| image:: _img/livelink_last.png
+.. |img_LLAsso| image:: _img/livelink_asso.png
+.. |img_LLMulti| image:: _img/livelink_multi.png
+.. |img_LLHeadGif| image:: _img/head.gif
+.. |img_LLJawGif| image:: _img/jaw.gif
+.. |img_LLSource2Co| image:: _img/livelink_2sources_co.png
+.. |img_GrabMulti| image:: _img/grab_multi.png
+
+.. _blueprint:
+
+Liven up your rig
+=================
+
+Prerequisite
+------------
+
+To follow this tutorial, you will need to understand:
+
+- What is Blueprint visual scripting and how to use it.
+- How does the Animation instance work (See the Unreal official `youtube video <https://www.youtube.com/watch?v=AqYmC2wn7Cg>`__)
+
+You will also need:
+
+- A functional Unreal project containing at least one character with a valid Skeletal Mesh (See :doc:`How to set-up a proper project</project_setup>`)
+- A compatible Performer RT project loaded in Dynamixyz Grabber. Ensure the Animation streaming is enabled in the Grabber and note down the IP address and animation port.
+
+.. Note ::
+	Convention in Unreal:
+
+	- **Blendshapes** are named **Morph Target** or **Curves**.
+	
+	- **Joints/Bones** are named **Bones**.
+
+Basic concept
+-------------
+
+In an **Animation Blueprint**, it is possible to animate a specific mesh by doing operations on its morph targets and bones. **Unreal Live Link system** can now be used to transparently animate these attributes consuming animation data from a **Source** for a **Subject**.
+
+Here is the Dynamixyz Live Link Plugin protocol:
+
+#. The **Dynamixyz Source** connects to the Grabber animation server.
+#. The Grabber sends information about the rig so that the Source can create a Live Link **Subject**.
+#. Each time a frame is computed by the Grabber retargeting process, the animation server sends the coefficients of all the rig entities through the network. The Source receives the data, extracts the needed information (entities coefficients, timecode) and passes it on to the Live Link protocol for the targeted Subject.
+#. The Animation Blueprint associated with this Subject re-builds the character's pose for this frame.
+
+A Subject can be used to animate multiple characters and several sources can be used at the same time.
+
+.. _sec_ConnectSource:
+
+Connecting a Dynamixyz Source
+-----------------------------
+
+1. Run Grabber, load your RT profile and select an input (camera or video file). Click on Start tracking.
+
+2. In the Editor, go to the **Window** menu and select **LiveLink** to open the Live Link client window. 
+
+|img_LLWindow|
+
+3. Click on the |img_LLAdd| Add button and hover over **Dynamixyz Source**. Enter the Grabber's IP address and the Animation server port, then click on OK. 
+
+|img_LLAddSource|
+
+4. The new source appears in the Sources panel. The **status** indicates if the source has successfully established a connection. The Subject Name panel indicates the name of the **Subject** associated with the source. This name is important as you will need to pass it to Live Link in the next step. You can give your subject a special name by checking the **Override Subject Name** in the Details panel of the selected source (on the right).
+
+.. Note ::
+	If the RT project was exported with Performer 2.7.0.2 or above, the default subject name will be the name of the retargeting profile written in the ESC file.
+
+|img_LLSourceCo|
+
+.. tip::
+	- A "Connecting..." status means the source is trying to connect to the Grabber. If it takes more time than it should, you can check the connection logs by opening **Window->Developper Tools->Output Log**. In the meantime, check in the Network services configuration of the Grabber if the Animation streaming is enabled and if the port is the right one.
+	- A "Disconnected" status means the source found the Grabber but is no longer connected to it (the Grabber stopped streaming or was closed).
+	- Since DxyzLiveLinkPlugin v1.1.0, it is possible to prevent the plugin to log the multiple connection attempts in order to lighten the Output logs. To do this, uncheck **Log connection attempts** in the advanced **Dxyz Live Link** settings for the selected source.
+	
+If the source status is **"Connected"**, you can go on to the next step.
+
+.. _sec_CreateLLInstance:
+
+Creating an Animation Blueprint
+-------------------------------
+
+1. Open the **Content Browser**
+2. Create a new animation by clicking on **Add New**, and click on **Animation** -> **AnimationBlueprint** in the context menu. The *Create Animation Blueprint* dialog should appear.
+3. Choose the **Parent Class** (basic one is **AnimInstance**), and select your character skeleton under the **Target Skeleton** section. |br| |img_CreateAnimBP|
+4. Open the Animation Blueprint. In the Animation Graph (accessible from the **Graphs** panel), add a new **Live Link Pose** node and connect it to the Final Animation Pose node. Enter the name of the **Subject** associated with your Source.
+
+|img_LLNode|
+
+You should now see your character coming to life in the animation preview.
+
+.. _sec_CreateRetargetAsset:
+
+Creating a Dynamixyz Live Link Retarget Asset
+---------------------------------------------
+
+If you are not satisfied with the final pose of your character, you can create a Dynamixyz Live Link Retaget Asset to rearrange it. 
+
+Setting up a Retarget Asset
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Dynamixyz Live Link Retarget Asset looks like the image below :
+
+|img_LLRetargDetails|
+
+- The Dxyz Mapping Settings category (1) looks for a matching between a Skeletal Mesh and an ESC file.
+
+- The Bone Mapping and the Morph Targets categories (2) are where operations can be made on bones and morph targets.
+
+- The Dxyz Stream Configuration category (3) allows axis to be swapped and/or inverted.
+
+Follow the next steps to set up a proper Retargeting Asset :
+
+1. Open the **Content Browser**
+2. Create a new blueprint by clicking on **Add New**, and click on **Blueprint Class**. The "Pick Parent Class" dialog should appear.
+3. Search for **DxyzLiveLinkRetargetAsset** and click on the Select button.
+
+|img_LLRetarg|
+
+4. Open the Retargeting Blueprint.
+5. Select the Skeletal Mesh associated with your Animation Blueprint.
+6. Import the ESC used in your Grabber project. Once the two fields are filled, informations about bones and morph targets appear in the second category.
+
+|img_LLFilled|
+
+The plugin tries to find matching bones between the ESC and the Skeletal Mesh. If you want to manually remap the bones, you can do it by chosing another bone in the dropdown list. You can also map one bone to several bones in your character using the "+" button.
+A warning can appear if the automatic matching failed for one or many bones, the concerned bones will be ignored during animation. You will have to manually select the matching bone in the dropdown list.
+
+|img_LLWarn|
+
+The plugin tries to find matching blendshapes between the ESC and the Skeletal Mesh. If you want to manually remap the blendshapes, you can do it by chosing another shape in the dropdown list. You can also map one shape to several shapes in your character using the "+" button.
+A warning can appear if the automatic matching failed for one or many blendhsapes, the concerned blendhsapes will be ignored during animation. You will have to manually select the matching blendhsape in the dropdown list.
+
+|img_LLWarnCurves|
+
+This warning can also appear if the ESC contains non-unique blendshape names. Once again, when creating your rig in Maya it can be crucial to give your blendshapes unique names. Unreal will combine every group of blendshapes and if some of the shapes have the same name they will be merged. If this happens, you can either :
+
+1. Clean the rig in Maya (rename the conflicted shapes)
+2. Update the retargeting links in Performer
+3. Export again the RT profile and load it in Grabber
+4. Import the new rig in Unreal
+5. Update the Animation Blueprint and the Retarget Asset
+
+Or :
+
+In the Retarget Asset, identify which conflicted shape should be used to animate the merged shape on the mesh and disable the others. If you did not give those blendshapes the same name on purpose, we highly recommand you to do the first solution.
+
+|img_LLWarnCurves2|
+
+By default, all the bones and blendshapes present in the ESC will be animated.
+
+.. Note ::
+	A Dynamixyz Live Link Retarget Asset refers to a particular Skeletal Mesh and a particular ESC.
+	Using the same Retarget Asset on different Skeletal Meshes will fail.
+
+You can now adjust the final pose of your character.
+
+Customizing bones
+^^^^^^^^^^^^^^^^^
+
+|img_LLBones|
+
+- The Bone Mapping category lists the bones as they appear in the ESC. For each bone name, you can select a corresponding bone in the Skeletal Mesh using the dropdown list.
+
+- You can activate or deactivate one or many specific bones by checking the checkbox left to the bone name.
+
+- You can activate/deactivate only the translation or the rotation for each bone.
+
+- You can increase/decrease the translation and rotation values on X, Y and Z.
+
+- You can clamp the translation and rotation values on X, Y and Z.
+
+- The shortcut buttons allow you to enable/disable all bones, enable/disable all translations, enable/disable all rotations. 
+
+- You can use the search bar on the left to only display a few bones, in this case the shortcuts will apply to the present bones only.
+
+|img_LLHeadGif|
+
+- It is possible to map several skeleton bones to the same bone. Click on the "+" button to add a line. You can now apply the source translation and/or rotation to each mapped bone, or share this value between them.
+
+|img_LLMulti|
+
+Customizing morph targets
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|img_LLBlendshapes|
+
+- The Morph Targets category lists the morph targets as they appear in the ESC. For each morph target, you can select a corresponding morph target in the Skeletal Mesh using the dropdown list. 
+
+- You can boost or ease its weight by using the slider.
+
+- You can activate or deactivate one or many specific morph targets by checking the checkbox left to the morph target name.
+
+- You can clamp the blendshape value.
+
+- The shortcut buttons allow you to enable/disable all morph targets, ease/reset/boost all morph targets.
+
+- You can use the search bar on the left to only display a few morph targets, in this case the shortcuts will apply to the present morph targets only.
+
+- It is possible to map several skeleton morph targets to the same ESC morph target. Click on the "+" button to add a line. You can also boost or ease the value for the new shape.
+
+|img_LLJawGif|
+
+.. _sec_customStream:
+
+Customizing stream
+^^^^^^^^^^^^^^^^^^
+
+|img_LLLast|
+
+The coefficients streamed by the Grabber are in X,Y,Z coordinates. There is a distinction between the head and the other bones : the head uses world space coordinates and the other bones use parent bone space coordinates. Both can be modified using the **Dxyz Stream Configuration**. 
+
+- The first field **Use Average Eye Rotation** reduces the eyes animation noise by applying the same average value for each of them.
+
+- It is possible to swap rotation and translation axis if there is an inversion in the rig
+
+- It is possible to invert a specific axis direction for translation and/or for rotation.
+
+- The positions can be multiplied by a scalar using the **Head Position Scale** and the **Position Scale** values.
+
+- It is possible to log the Animation FPS (computed when the pose is updated).
+
+Linking Retarget Asset to Animation Blueprint
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Go to your Animation Blueprint and select the **Live Link Pose Node**.
+In the Details panel, select the corresponding **Retarget Asset**. Compile, and the animation should update.
+
+|img_LLAsso|
+
+.. note ::
+	Once the Retarget Asset is linked, you can still modify it and see the differences on your Animation Preview in realtime.
+
+.. _sec_ShippedModif:
+
+Modifying Dynamixyz Live Link Plugin configuration in a shipped project
+-----------------------------------------------------------------------
+
+Modifying the sources
+^^^^^^^^^^^^^^^^^^^^^
+
+When you add/remove Dynamixyz Sources in the editor, the plugin automatically saves your new configuration to a file called "Sources.dxyz" located in your Content folder, under the DxyzSaved folder.
+Once you shipped your project, this file will be copied in your output folder (under the same path <ProjectName>/Content/DxyzSaved). Modifying this file will allow you to update your configuration without having to ship again your project. You can for instance change the IP adress of the connected Grabber, remove or add a source, etc.
+
+You will have to restart your exe for the modifications to be effective.
+
+Modifying a Retarget Asset
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When you create a new Dxyz Live Link Retarget Asset, the plugin automatically creates a DXYZ file with the same name, located in your Content folder, under the DxyzSaved folder. The file will be updated each time you save your Retarget Asset.
+Once you shipped your project, this file will be copied in your output folder (under the same path <ProjectName>/Content/DxyzSaved). Modifying this file will allow you to update your mapping without having to ship again your project. You can for instance disable a bone, change some rotation value, swap axis, etc. 
+
+You will have to restart your exe for the modifications to be effective.
+
+.. warning ::
+	**Please note that the "settings" part of this file is indicative only. If you want to change the input settings (either the Dynamixyz ESC or the targeted mesh), you will have to update and compile the Dxyz Live Link Retarget Asset in the Editor.**
+
+Animate several characters in realtime with Dynamixyz Live Link Plugin
+----------------------------------------------------------------------
+
+With Dynamixyz Live Link Plugin, it is possible to bring several characters to life at the same time.
+
+- If the RT profile loaded in Grabber contains several ESC :
+
+	1. In Grabber, ensure all the ESC you want to use are checked in the bottom dropdown list.
+	2. Create one Dynamixyz Live Link Source for each ESC. The provided IP adress will be the one of the computer on which Grabber is started, and the port follows this simple rule : the port P1 associated with the first ESC will be the Animation server port defined in the Grabber Network options (by default 5559). The port P2 associated with the second ESC will be P2 = P1+1 (by default 5560), the third port P3 will be P3 = P2+1 (by default 5561), etc... Each new Source will be associated to one particular Subject. 
+	3. Create one Animation Blueprint for each character and fill the name of the right Subject in the Live Link Pose Node.
+
+|img_GrabMulti|
+
+|img_LLSource2Co|
+	
+- If the ESC are streamed from different computers (different Grabbers) :
+
+	1. Create one Dynamixyz Live Link Source for each ESC, providing the IP adress of the Grabber and the Animation server port defined in the Grabber Network options. Each new Source will be associated to one particular Subject. 
+	2. Create one Animation Blueprint for each character and fill the name of the right Subject in the Live Link Pose Node.
+	
+Character Blueprint association (optional)
+------------------------------------------
+
+To associate a Character Blueprint with an Animation Blueprint, follow these steps :
+
+#. Create a Character Blueprint.
+#. Go to the **Viewport** tab.
+
+	.. note ::
+		If you do not see the Viewport tab, and you only have a list of properties, a message on the top will invite you to open the Full Blueprint Editor. |br| |img_OpenFullBP|
+
+
+#. Select the **Mesh** component in the **Components** panel.
+	
+|img_selectMesh|
+
+#. On the **Detail** panel, under "Animation", choose the following :
+
+	- **Animation Mode** -> Select *"Use animation Blueprint"*.
+	- **Anim Class** -> Select the name of your Animation Blueprint class (the AnimationBlueprint with a _C suffix)
+	- **Skeletal Mesh** -> Select the animated mesh.
+	
+	|img_associateCharacter|
+
+.. caution::
+	- **Never** select an Animation instance with the **_Class** suffix. Your character will never be able to move otherwise.
+	- If you delete and recreate your animation, don't forget to re-associate your animation instance with your character.

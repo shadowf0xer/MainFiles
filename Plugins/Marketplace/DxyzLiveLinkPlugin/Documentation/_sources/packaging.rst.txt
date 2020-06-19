@@ -1,0 +1,132 @@
+
+.. Add support to linebreak
+.. |br| raw:: html
+
+   <br />
+
+.. Reference to images
+.. |img_win| image:: _img/win.png
+.. |img_lin| image:: _img/lin.png
+.. |img_mac| image:: _img/mac.png
+	:scale: 70
+
+.. _packaging:
+
+Packaging
+=========
+
+In order to package your game with our plugin, please ensure that you are using our plugin as an Engine Plugin. For more information, please consult sections :ref:`ssec_EnginePlugin` and :ref:`ssec_SwitchPluginSetup`.
+
+Packaging our project is straightforward and should not deviate from the steps given on the official Unreal documentation: `Packaging your Unreal Project <https://docs.unrealengine.com/latest/INT/Engine/Basics/Projects/Packaging/>`__
+
+If you want to modify the Sources or the Remapping Assets without re-shipping your project, please check the :ref:`sec_ShippedModif` section.
+
+Our plugin is designed to compile on all build type (Shipping, Development, Debug).
+
+.. warning::
+    During the packaging, the plugin will copy the folder *DxyzSaved* which contains the configuration of the sources and the retargeting of your project in the packaged game folder. The third party libraries should also be copied. However, those files sometimes won't be copied. In the next session, we will explain where to manually copy them if needed.
+
+What do I do if my packaged game won't run
+------------------------------------------
+
+On Windows 64-bit
+^^^^^^^^^^^^^^^^^
+
+**Fatal error / Missing binaries**
+
+If the application does not open, it may be a binaries issue. In this case you will need to copy the third party binaries manually. 
+
+1. Go to the installation folder of Unreal Engine, in the version you are currently using. Look for the DxyzLiveLinkPlugin installation folder in the Engine plugins (something like *C:/Program Files/Epic Games/UE_4.21/Engine/Plugins/Marketplace/DxyzLiveLinkPlugin*)
+
+2. Go to the ThirdParty folder, and for each library, copy the win64 binaries (\*.dll) next to the application executable in *<PackagedFolder>/WindowsNoEditor/<PackagedName>/Binaries/Win64/*.
+
+3. Restart your application
+
+.. note::
+	In DxyzLiveLinkPlugin v1.2.0, only ffmpeg is used as a third party library.
+
+**My character is not animated**
+
+It can be that the configuration files were not copied. You will need to copy them manually.
+
+1. Go to your project folder and in the Content folder, look for the DxyzSaved folder. It contains a few \*.dxyz files.
+
+2. Copy the DxyzSaved folder in the Content folder of your packaged project : *<PackagedFolder>/WindowsNoEditor/<PackagedName>/Content/*.
+
+3. Restart your application
+
+.. note::
+	This is how a functional packaged project should look on Win64 :
+
+	|img_win|
+
+On Linux 64-bit
+^^^^^^^^^^^^^^^
+
+**Fatal error / Missing binaries**
+
+If the application does not open, it may be a binaries issue. In this case you will need to copy the third party binaries manually. 
+
+1. Go to the DxyzLiveLinkPlugin folder.
+
+2. Go to the ThirdParty folder, and for each library, copy the lin64 binaries (\*.so) next to the application executable in *<PackagedFolder>/LinuxNoEditor/<PackagedName>/Binaries/Linux/*.
+
+3. Restart your application
+
+.. note::
+	In DxyzLiveLinkPlugin v1.2.0, only ffmpeg is used as a third party library.
+
+**My character is not animated**
+
+It can be that the configuration files were not copied. You will need to copy them manually.
+
+1. Go to your project folder and in the Content folder, look for the DxyzSaved folder. It contains a few \*.dxyz files.
+
+2. Copy the DxyzSaved folder in the Content folder of your packaged project : *<PackagedFolder>/LinuxNoEditor/<PackagedName>/Content/*.
+
+3. Restart your application
+
+.. note::
+	This is how a functional packaged project should look on Linux :
+
+	|img_lin|
+
+
+On MacOS
+^^^^^^^^
+
+**Fatal error / Missing binaries**
+
+If the application does not open, it may be a binaries issue. In this case you will need to copy the third party binaries manually. 
+
+1. Go to the installation folder of Unreal Engine, in the version you are currently using. Look for the DxyzLiveLinkPlugin installation folder in the Engine plugins (something like *Users/Shared/Epic Games/UE_4.21/Engine/Plugins/Marketplace/DxyzLiveLinkPlugin*)
+
+2. Go to the ThirdParty folder, and for each library, copy the macOS binaries (\*.dylib) next to the application executable : Go to *<PackagedFolder>/MacNoEditor/<PackagedName>*, right-click on the <PackagedName> and select "Show Package content", then go in the *Contents/MacOS/*. Copy here the libraries.
+
+3. Restart your application
+
+.. note::
+	In DxyzLiveLinkPlugin v1.2.0, only ffmpeg is used as a third party library.
+
+**My character is not animated**
+
+It can be that the configuration files were not copied. You will need to copy them manually.
+
+1. Go to your project folder and in the Content folder, look for the DxyzSaved folder. It contains a few \*.dxyz files.
+
+2. Copy the DxyzSaved folder in the Content folder of your packaged project : Go to *<PackagedFolder>/MacNoEditor/<PackagedName>*, right-click on the *<PackagedName>* and select "Show Package content", then go in the *Contents/UE4/<PackagedName>/Content/*. Copy here the DxyzSaved folder.
+
+3. Restart your application
+
+.. note::
+	This is how a functional packaged project should look on Mac :
+
+	|img_mac|
+
+Still not able to run your packaged project ?
+---------------------------------------------
+
+Contact us at support@dynamixyz.com.
+
+
+    

@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.2.1",
+	"FriendlyName": "Dynamixyz Live Link Plugin",
+	"Description": "This plugin for UE4.25 provides realtime facial animation for one or many characters using the Unreal Live Link protocol combined with Dynamixyz Grabber",
+	"Category": "Dynamixyz",
+	"CreatedBy": "Dynamixyz",
+	"CreatedByURL": "http://www.dynamixyz.com",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/968f64347295452980b0662b1c5eb423",
+	"SupportURL": "support@dynamixyz.com",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DxyzLiveLinkPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "DxyzLiveLinkPluginEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		}
+	]
+}

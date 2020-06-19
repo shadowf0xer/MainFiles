@@ -1,0 +1,173 @@
+.. Add support to linebreak
+.. |br| raw:: html
+
+   <br />
+
+.. Reference to images
+.. |ico_import| image:: _img/fbx_import.png
+.. |ico_addNew| image:: _img/icon_addNew.png
+.. |img_selectMesh| image:: _img/dxyzA_component_mesh.png
+.. |img_associateCharacter| image:: _img/dxyzA_associate_character.png
+.. |img_OpenFullBP| image:: _img/dxyzA_openFullBlueprint.png
+.. |img_Char_meshAsso| image:: _img/Char_associateMesh.png
+.. |img_GameMode_pawn| image:: _img/gameMode_selectPawn.png
+.. |img_GameMode_world| image:: _img/gameMode_associateWorld.png
+.. |img_CheckBshape_meshTab| image:: _img/checkBshape_meshTab.png
+.. |img_CheckBone_skelTab| image:: _img/checkBone_SkeletonTab.png
+.. |img_jo_fini| image:: _img/jo_fini.png
+.. |img_jo_jointorient| image:: _img/jo_jointorient.png
+.. |img_jo_joints| image:: _img/jo_joints.png
+.. |img_jo_lock| image:: _img/jo_lock.png
+.. |img_jo_modif_joints| image:: _img/jo_modif_joints.png
+.. |img_jo_modif_rotate| image:: _img/jo_modif_rotate.png
+.. |img_jo_select_mesh| image:: _img/jo_select_mesh.png
+.. |img_jo_wireframe| image:: _img/jo_wireframe.png
+.. |img_jo_freeze| image:: _img/jo_freeze.png
+.. |img_jo_rotation| image:: _img/jo_rotation.png
+.. |img_jo_cleanedrotations| image:: _img/jo_cleanedrotations.png
+
+Project set-up
+==============
+
+Creating a new Unreal project
+-----------------------------
+
+#. Create a **blank project**, with the **"Starter Content"** selected.
+#. In your Content Browser panel, **open the default minimal level** (located in *StarterContent/Maps*).
+#. Once loaded, save this level under your root folder as a different name (**File** -> **Save as...**).
+
+You have now a basic level with some testing elements (a ground, some lights...). 
+
+.. _sec_CreateChar:
+
+Importing a character in UE4
+----------------------------
+
+For details about how characters works in Unreal, please see the `Unreal official documentation <https://docs.unrealengine.com/latest/INT/Engine/Animation/CharacterSetupOverview/index.html>`__
+
+Import your FBX file:
+
+	#. Create a new folder to store all your character elements (mesh, skeleton, etc).
+	#. In your content browser, click on Import and enter the path to your .fbx character, or directly drag'n'drop the .fbx file in your content browser. The FBX import dialog should appear.
+	#. Do not forget to check the **Import Morph Targets** and **Import Meshes in Bone Hierarchy** options. They will be targeted by the Dynamixyz Live Link Plugin for the character animation.
+	
+|ico_import|
+
+After the import, a Mesh asset and a Skeleton asset should appear.
+
+.. tip::
+	- Importing Morph Targets (blendshapes) may be a very long process.
+	- **Use T0As Ref Pose** option might be useful if the head of your bones is not well placed on the scene after import.
+	
+.. warning::
+	It is important to give your blendshapes **unique names**. Grouping them under different group names or putting them into different meshes may not be enough. The absolute name of the blendshape has to be unique, as **Unreal will merge every group of blendshapes**. For example : forehead[shape1] and chin[shape1] will create a conflict and the two morph targets will be merged under the name "shape1" in Unreal, leading to a possibly invalid shape. Renaming them into forehead[f_shape1] and chin[c_shape1] will work.
+	
+Checking imported Blendshapes and Bones names
+---------------------------------------------
+
+- Open the **Mesh** asset. On the Morph target Preview panel, all blendshapes should be listed |br| |img_CheckBshape_meshTab|
+
+.. hint::
+	If this list is empty, it is because you did not imported your blendshapes. To import them, expand **Import Settings** in the *Mesh detail* panel and check **Import Morph Targets**. Commit your changes clicking on **Reimport Mesh**. Be patient, this process takes time. 
+
+- Open the **Skeleton** asset. You should see the bone hierarchy of you character. |br| |img_CheckBone_skelTab|
+
+.. warning::
+	If your rig was created with Maya, make sure to reset to zero all the Joint Orients before you export it. The next section explains how to do it. Bad Joint Orients lead to wrong coordinate systems in Unreal for each bone and consequently to a broken animation.
+
+.. _sec_ResetRotations:
+
+Clean a rig containing bad bone rotations in Maya (optional)
+------------------------------------------------------------
+
+If your rig contains weird local rotations when you import it in Unreal, it may be because of wrong Joint Orientations. Here is one way to clean your rig.
+
+|img_jo_rotation|
+
+Open your FBX in Maya. Select a bone and go to the Attribute Editor to check its Joint Orient. The Joint Orient has to be (0, 0, 0) to be compatible with the plugin. 
+
+|img_jo_jointorient|
+
+If your rig contains bones with non-null Joint Orient values, follow this procedure.
+
+Step 1 : Dettach the skin
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To correct the bones orientations, **all the skins** have to be detached.
+
+Before starting, select the **Rigging Menu** in the dropdown list on the top-left corner of Maya.
+
+For every skinned mesh :
+
+1. Select the mesh in the Outliner and go to Skin -> Export weight maps. Chose the path and validate if a pop-up appears.
+
+2. Select again the mesh and go to Skin -> Unbind skin.
+
+|img_jo_select_mesh|
+
+To see all the skinned meshes, select the root of your skeleton and go to Shading -> Wireframe on Shaded. They should appear in a pink color.
+
+|img_jo_wireframe|
+
+Step 2 : Reset Joint Orients
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To display the skeleton only, go to Show -> None then again Show -> Joints.
+
+|img_jo_joints|
+
+For every bone that needs a modification :
+
+1. Select the bone
+
+2. Copy/Paste the Joint Orient values in the Rotate field (Transform Attributes). The bone will update in the scene with a new orientation.
+
+|img_jo_modif_rotate|
+
+3. Set the Joint Orient values to (0, 0, 0). The bone will get back to its right orientation.
+
+|img_jo_modif_joints|
+
+4. Right-clik on the Joint Orient attribute and select Lock Attribute.
+
+|img_jo_lock|
+
+5. Go to Modify -> Freeze Transformations. You should see the Rotate values reset to zero without the bone changing its orientation. 
+
+|img_jo_freeze|
+
+Step 3 : Re-attach the skin
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For every mesh you want to attach to the rig :
+
+1. Select both the mesh and the root of your skeleton and go to Skin -> Bind skin
+
+2. Select the mesh again and go to Skin -> Import weight maps, then select the map you exported in step 1 for this mesh.
+
+Once that all the skins are bound, you can move a joint to check your skinning.
+
+.. warning::
+	If your rig contains blendshapes, you may need to delete history by going in the Edit menu and selecting Delete By Type -> Non-deformer history to avoid problems with morph targets.
+
+|img_jo_fini|
+
+Import your cleaned rig in Unreal and open the skeleton asset. The local rotations of your bones should now be (0, 0, 0).
+
+|img_jo_cleanedrotations|
+	
+Create a new Character Blueprint (optional)
+-------------------------------------------
+
+	#. Click on |ico_addNew|  in the content browser panel and create a new **Blueprint Class**. Select **Character** Blueprint.
+	#. Open this new Blueprint and go to the **Viewport** tab.
+
+		.. note ::
+			If you don't see the Viewport tab, and you have only a list of properties, a message on the top is inviting you to open the Full Blueprint Editor. |br| |img_OpenFullBP|
+	#. Select the **Mesh** component in the **Components** panel. |br| |img_selectMesh|
+	#. On the **Detail** panel, for **Skeletal Mesh**, select your character Mesh. |br| |img_Char_meshAsso|
+
+.. tip::
+	- In order to see the face of the character, you can add a camera in the **Viewport** of your character.
+	
+Now, you can jump to the :doc:`next section </blue_print>` for animating your character with the Dynamixyz Live Link Plugin.

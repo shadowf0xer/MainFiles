@@ -1,0 +1,360 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Project set-up &mdash; Dxyz Live Link Plugin 1.2.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Liven up your rig" href="blue_print.html" />
+    <link rel="prev" title="Installation from UE Marketplace" href="install.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Dxyz Live Link Plugin
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation from UE Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#installation-from-sources">Installation from sources</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Project set-up</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#creating-a-new-unreal-project">Creating a new Unreal project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#importing-a-character-in-ue4">Importing a character in UE4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#checking-imported-blendshapes-and-bones-names">Checking imported Blendshapes and Bones names</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clean-a-rig-containing-bad-bone-rotations-in-maya-optional">Clean a rig containing bad bone rotations in Maya (optional)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#step-1-dettach-the-skin">Step 1 : Dettach the skin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#step-2-reset-joint-orients">Step 2 : Reset Joint Orients</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#step-3-re-attach-the-skin">Step 3 : Re-attach the skin</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#create-a-new-character-blueprint-optional">Create a new Character Blueprint (optional)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="blue_print.html">Liven up your rig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misc.html">Miscellaneous</a></li>
+<li class="toctree-l1"><a class="reference internal" href="packaging.html">Packaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Dxyz Live Link Plugin</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Project set-up</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="project-set-up">
+<h1>Project set-up<a class="headerlink" href="#project-set-up" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="creating-a-new-unreal-project">
+<h2>Creating a new Unreal project<a class="headerlink" href="#creating-a-new-unreal-project" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Create a <strong>blank project</strong>, with the <strong>“Starter Content”</strong> selected.</p></li>
+<li><p>In your Content Browser panel, <strong>open the default minimal level</strong> (located in <em>StarterContent/Maps</em>).</p></li>
+<li><p>Once loaded, save this level under your root folder as a different name (<strong>File</strong> -&gt; <strong>Save as…</strong>).</p></li>
+</ol>
+<p>You have now a basic level with some testing elements (a ground, some lights…).</p>
+</div>
+<div class="section" id="importing-a-character-in-ue4">
+<span id="sec-createchar"></span><h2>Importing a character in UE4<a class="headerlink" href="#importing-a-character-in-ue4" title="Permalink to this headline">¶</a></h2>
+<p>For details about how characters works in Unreal, please see the <a class="reference external" href="https://docs.unrealengine.com/latest/INT/Engine/Animation/CharacterSetupOverview/index.html">Unreal official documentation</a></p>
+<p>Import your FBX file:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Create a new folder to store all your character elements (mesh, skeleton, etc).</p></li>
+<li><p>In your content browser, click on Import and enter the path to your .fbx character, or directly drag’n’drop the .fbx file in your content browser. The FBX import dialog should appear.</p></li>
+<li><p>Do not forget to check the <strong>Import Morph Targets</strong> and <strong>Import Meshes in Bone Hierarchy</strong> options. They will be targeted by the Dynamixyz Live Link Plugin for the character animation.</p></li>
+</ol>
+</div></blockquote>
+<p><img alt="ico_import" src="_images/fbx_import.png" /></p>
+<p>After the import, a Mesh asset and a Skeleton asset should appear.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>Importing Morph Targets (blendshapes) may be a very long process.</p></li>
+<li><p><strong>Use T0As Ref Pose</strong> option might be useful if the head of your bones is not well placed on the scene after import.</p></li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is important to give your blendshapes <strong>unique names</strong>. Grouping them under different group names or putting them into different meshes may not be enough. The absolute name of the blendshape has to be unique, as <strong>Unreal will merge every group of blendshapes</strong>. For example : forehead[shape1] and chin[shape1] will create a conflict and the two morph targets will be merged under the name “shape1” in Unreal, leading to a possibly invalid shape. Renaming them into forehead[f_shape1] and chin[c_shape1] will work.</p>
+</div>
+</div>
+<div class="section" id="checking-imported-blendshapes-and-bones-names">
+<h2>Checking imported Blendshapes and Bones names<a class="headerlink" href="#checking-imported-blendshapes-and-bones-names" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Open the <strong>Mesh</strong> asset. On the Morph target Preview panel, all blendshapes should be listed <br /> <img alt="img_CheckBshape_meshTab" src="_images/checkBshape_meshTab.png" /></p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If this list is empty, it is because you did not imported your blendshapes. To import them, expand <strong>Import Settings</strong> in the <em>Mesh detail</em> panel and check <strong>Import Morph Targets</strong>. Commit your changes clicking on <strong>Reimport Mesh</strong>. Be patient, this process takes time.</p>
+</div>
+<ul class="simple">
+<li><p>Open the <strong>Skeleton</strong> asset. You should see the bone hierarchy of you character. <br /> <img alt="img_CheckBone_skelTab" src="_images/checkBone_SkeletonTab.png" /></p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If your rig was created with Maya, make sure to reset to zero all the Joint Orients before you export it. The next section explains how to do it. Bad Joint Orients lead to wrong coordinate systems in Unreal for each bone and consequently to a broken animation.</p>
+</div>
+</div>
+<div class="section" id="clean-a-rig-containing-bad-bone-rotations-in-maya-optional">
+<span id="sec-resetrotations"></span><h2>Clean a rig containing bad bone rotations in Maya (optional)<a class="headerlink" href="#clean-a-rig-containing-bad-bone-rotations-in-maya-optional" title="Permalink to this headline">¶</a></h2>
+<p>If your rig contains weird local rotations when you import it in Unreal, it may be because of wrong Joint Orientations. Here is one way to clean your rig.</p>
+<p><img alt="img_jo_rotation" src="_images/jo_rotation.png" /></p>
+<p>Open your FBX in Maya. Select a bone and go to the Attribute Editor to check its Joint Orient. The Joint Orient has to be (0, 0, 0) to be compatible with the plugin.</p>
+<p><img alt="img_jo_jointorient" src="_images/jo_jointorient.png" /></p>
+<p>If your rig contains bones with non-null Joint Orient values, follow this procedure.</p>
+<div class="section" id="step-1-dettach-the-skin">
+<h3>Step 1 : Dettach the skin<a class="headerlink" href="#step-1-dettach-the-skin" title="Permalink to this headline">¶</a></h3>
+<p>To correct the bones orientations, <strong>all the skins</strong> have to be detached.</p>
+<p>Before starting, select the <strong>Rigging Menu</strong> in the dropdown list on the top-left corner of Maya.</p>
+<p>For every skinned mesh :</p>
+<ol class="arabic simple">
+<li><p>Select the mesh in the Outliner and go to Skin -&gt; Export weight maps. Chose the path and validate if a pop-up appears.</p></li>
+<li><p>Select again the mesh and go to Skin -&gt; Unbind skin.</p></li>
+</ol>
+<p><img alt="img_jo_select_mesh" src="_images/jo_select_mesh.png" /></p>
+<p>To see all the skinned meshes, select the root of your skeleton and go to Shading -&gt; Wireframe on Shaded. They should appear in a pink color.</p>
+<p><img alt="img_jo_wireframe" src="_images/jo_wireframe.png" /></p>
+</div>
+<div class="section" id="step-2-reset-joint-orients">
+<h3>Step 2 : Reset Joint Orients<a class="headerlink" href="#step-2-reset-joint-orients" title="Permalink to this headline">¶</a></h3>
+<p>To display the skeleton only, go to Show -&gt; None then again Show -&gt; Joints.</p>
+<p><img alt="img_jo_joints" src="_images/jo_joints.png" /></p>
+<p>For every bone that needs a modification :</p>
+<ol class="arabic simple">
+<li><p>Select the bone</p></li>
+<li><p>Copy/Paste the Joint Orient values in the Rotate field (Transform Attributes). The bone will update in the scene with a new orientation.</p></li>
+</ol>
+<p><img alt="img_jo_modif_rotate" src="_images/jo_modif_rotate.png" /></p>
+<ol class="arabic simple" start="3">
+<li><p>Set the Joint Orient values to (0, 0, 0). The bone will get back to its right orientation.</p></li>
+</ol>
+<p><img alt="img_jo_modif_joints" src="_images/jo_modif_joints.png" /></p>
+<ol class="arabic simple" start="4">
+<li><p>Right-clik on the Joint Orient attribute and select Lock Attribute.</p></li>
+</ol>
+<p><img alt="img_jo_lock" src="_images/jo_lock.png" /></p>
+<ol class="arabic simple" start="5">
+<li><p>Go to Modify -&gt; Freeze Transformations. You should see the Rotate values reset to zero without the bone changing its orientation.</p></li>
+</ol>
+<p><img alt="img_jo_freeze" src="_images/jo_freeze.png" /></p>
+</div>
+<div class="section" id="step-3-re-attach-the-skin">
+<h3>Step 3 : Re-attach the skin<a class="headerlink" href="#step-3-re-attach-the-skin" title="Permalink to this headline">¶</a></h3>
+<p>For every mesh you want to attach to the rig :</p>
+<ol class="arabic simple">
+<li><p>Select both the mesh and the root of your skeleton and go to Skin -&gt; Bind skin</p></li>
+<li><p>Select the mesh again and go to Skin -&gt; Import weight maps, then select the map you exported in step 1 for this mesh.</p></li>
+</ol>
+<p>Once that all the skins are bound, you can move a joint to check your skinning.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If your rig contains blendshapes, you may need to delete history by going in the Edit menu and selecting Delete By Type -&gt; Non-deformer history to avoid problems with morph targets.</p>
+</div>
+<p><img alt="img_jo_fini" src="_images/jo_fini.png" /></p>
+<p>Import your cleaned rig in Unreal and open the skeleton asset. The local rotations of your bones should now be (0, 0, 0).</p>
+<p><img alt="img_jo_cleanedrotations" src="_images/jo_cleanedrotations.png" /></p>
+</div>
+</div>
+<div class="section" id="create-a-new-character-blueprint-optional">
+<h2>Create a new Character Blueprint (optional)<a class="headerlink" href="#create-a-new-character-blueprint-optional" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Click on <img alt="ico_addNew" src="_images/icon_addNew.png" />  in the content browser panel and create a new <strong>Blueprint Class</strong>. Select <strong>Character</strong> Blueprint.</p></li>
+<li><p>Open this new Blueprint and go to the <strong>Viewport</strong> tab.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you don’t see the Viewport tab, and you have only a list of properties, a message on the top is inviting you to open the Full Blueprint Editor. <br /> <img alt="img_OpenFullBP" src="_images/dxyzA_openFullBlueprint.png" /></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Select the <strong>Mesh</strong> component in the <strong>Components</strong> panel. <br /> <img alt="img_selectMesh" src="_images/dxyzA_component_mesh.png" /></p></li>
+<li><p>On the <strong>Detail</strong> panel, for <strong>Skeletal Mesh</strong>, select your character Mesh. <br /> <img alt="img_Char_meshAsso" src="_images/Char_associateMesh.png" /></p></li>
+</ol>
+</div></blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>In order to see the face of the character, you can add a camera in the <strong>Viewport</strong> of your character.</p></li>
+</ul>
+</div>
+<p>Now, you can jump to the <a class="reference internal" href="blue_print.html"><span class="doc">next section</span></a> for animating your character with the Dynamixyz Live Link Plugin.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="blue_print.html" class="btn btn-neutral float-right" title="Liven up your rig" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="install.html" class="btn btn-neutral float-left" title="Installation from UE Marketplace" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Dynamixyz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

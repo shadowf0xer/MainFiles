@@ -1,0 +1,91 @@
+
+
+
+.. |img_install_edit_plugin| image:: _img/install_edit_plugin.png 
+.. |img_install_select_plugin| image:: _img/install_select_plugin.png
+.. |img_install_select_plugin_engine| image:: _img/install_select_plugin_engine.png
+ 
+.. _sec_install:
+
+Installation from UE Marketplace
+================================
+
+If you downloaded Dynamixyz Live Link Plugin from the Marketplace, follow these steps to enable it :
+
+#. Open the Unreal Plugins Manager dialog by going into **Edit** -> **Plugins**. |img_install_edit_plugin|
+
+#. The Dynamixyz Plugins category should appear under **Installed** or **Built-in** plugins. Click on it, you should see the Dynamixyz Live Link Plugin. Check the **Enabled** field and restart the Editor. |img_install_select_plugin_engine|
+
+The plugin should now be ready for use.
+
+Installation from sources
+=========================
+
+There are two ways to install the Dynamixyz Live Link Plugin from the sources and binaries :
+
+- As a project plugin: the plugin is meant to be used in the **current project only**. It **will not be possible to package** the project with Unreal.
+
+- As an engine plugin: the plugin is installed in the Unreal Engine and can be used in **any project**. **Packaging** with Unreal is possible in this case.
+
+Note that you can easily switch from one mode to another at anytime during your production process.
+
+    .. warning::
+        If you have a custom version of Unreal Engine built from sources, the Editor will ask you to compile the sources. If the build is not successfull, please contact us at support@dynamixyz.com.
+
+Prerequisite
+------------
+
+- Before installing Dynamixyz Live Link Plugin, you need to create a valid Unreal project.
+
+You must ensure you have the correct version of the plugin for your Unreal Engine version : the suitable version is written in the name of the archive provided by Dynamixyz. For instance, *DxyzLiveLinkPlugin_1.1.1b_UE4.19.zip* indicates that the provided plugin will only be compatible with Unreal Engine 4.19. If you do not have the right plugin version, please contact the Dynamixyz team.
+
+.. note::
+    - **PROJECT_PATH** is the path to your UE4 project folder.
+    - **ENGINE_PATH** is the path to your UE4 engine folder. (by default: C:\\Program Files (x86)\\Epic Games\\UE_4.XX\\Engine)
+
+Setup as a project plugin
+-------------------------
+
+#. Close all running instances of Unreal Editor. 
+
+#. Copy the **DxyzLiveLinkPlugin_UE4.XX_X.X.X** folder under the **PROJECT_PATH\\Plugins** folder.
+
+#. Restart the Unreal Editor.
+
+#. Open the Unreal Plugins Manager dialog by going into **Edit** -> **Plugins**. |img_install_edit_plugin|
+
+#. The Dynamixyz Plugins category should appear under **Project** plugins. Click on it, you should see the Dynamixyz Live Link Plugin. Make sure the **Enabled** checkbox is checked. |img_install_select_plugin|
+
+The Dynamixyz Live Link Plugin is now activated and ready to use.
+
+
+.. _ssec_EnginePlugin:
+
+Setup as an engine plugin
+-------------------------
+
+#. Close all running instances of Unreal Editor. 
+
+#. Copy the **DxyzLiveLinkPlugin_UE4.XX_X.X.X** folder under the **ENGINE_PATH\\Plugins\\Runtime** folder.
+
+#. Restart the Unreal Editor.
+
+#. Open the Unreal Plugins Manager dialog by going into **Edit** -> **Plugins**. |img_install_edit_plugin|
+
+#. The Dynamixyz Plugins category should appear under **Installed** (or **Built-in**) plugins. Click on it, you should see the Dynamixyz Live Link Plugin. Make sure the **Enabled** checkbox is checked. |img_install_select_plugin_engine|
+
+.. _ssec_SwitchPluginSetup:
+
+Switching from one mode to the other
+------------------------------------
+
+#. Delete the existing Dynamixyz Live Link Plugin from the corresponding folder (either in your **PROJECT_PATH** if you are currently using it as a project plugin, or in the **ENGINE_PATH** if you are currently using it as an engine plugin)
+
+#. Delete the following folders from your project: Intermediate, Binaries, Build.
+
+    .. warning::
+        This step is important as it will force Unreal to rebuild your project.
+
+#. Open your project: Unreal Editor should ask you to rebuild the project. Accept.
+
+#. Once the project is loaded, check in the Plugins browser (**Edit** -> **Plugins**) that the "Enabled" checkbox is checked for the Dynamixyz Live Link Plugin.

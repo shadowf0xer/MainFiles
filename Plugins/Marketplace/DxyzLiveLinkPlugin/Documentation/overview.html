@@ -1,0 +1,240 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Overview &mdash; Dxyz Live Link Plugin 1.2.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation from UE Marketplace" href="install.html" />
+    <link rel="prev" title="Dynamixyz Live Link Plugin for UE4 documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Dxyz Live Link Plugin
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#basic-functionning">Basic functionning</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation from UE Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#installation-from-sources">Installation from sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project_setup.html">Project set-up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blue_print.html">Liven up your rig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misc.html">Miscellaneous</a></li>
+<li class="toctree-l1"><a class="reference internal" href="packaging.html">Packaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Dxyz Live Link Plugin</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="overview">
+<span id="id1"></span><h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Unreal Engine 4.19 and above include <strong>Live Link</strong>, a system providing an interface for streaming animation data from sources outside of UE4.
+The <strong>Dynamixyz Live Link Plugin</strong> uses Live Link to provide realtime facial animation for one or many characters in UE4.
+Once a <strong>Dynamixyz Source</strong> is connected to Live Link, only one blueprint is required to animate a rig : an <strong>Animation Blueprint</strong>.
+Dynamixyz also provides its own <strong>retargeting blueprint</strong> to customize the character’s final pose in realtime.</p>
+<p>Check out our <a class="reference external" href="https://vimeo.com/287218600">tutorial video on Vimeo</a> !</p>
+</div>
+<div class="section" id="basic-functionning">
+<h2>Basic functionning<a class="headerlink" href="#basic-functionning" title="Permalink to this headline">¶</a></h2>
+<p>In order to use the Dynamixyz Live Link Plugin, <strong>Dynamixyz Grabber</strong> must be started with the animation streaming activated. The plugin connects to the <strong>animation server</strong> through a <strong>Dynamixyz Source</strong> with an IP address and a port. When a connection is established, Grabber starts streaming information about the project rig entities. An entity can either be a <strong>bone</strong> (also called joint) or a <strong>blenshape</strong>.</p>
+<p>Each time the Dynamixyz Live Link Plugin receives new coefficients from the server, the character’s pose is rebuilt in the Unreal Engine. The plugin assumes that the names of the bones and blendshapes in the targeted rig are the same as the ones provided by the retargeting profile loaded in Grabber. If this is not the case, it is possible to create a <strong>Dynamixyz Live Link Retarget Asset</strong> to manually remap the bones or the blendshapes. Furthermore, the Retarget Asset offers the possibility to activate/deactivate/clamp transformations for specific bones and morph targets and to boost/ease the animation coefficients.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The list of animated entities is contained in the *.esc file located in your Grabber RT profile.</p>
+</div>
+<p><strong>Here are the steps needed to animate a character with Dynamixyz Live Link Plugin in a UE4 project :</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference internal" href="project_setup.html#sec-createchar"><span class="std std-ref">Importing a character in UE4</span></a>.</p></li>
+<li><p><a class="reference internal" href="blue_print.html#sec-connectsource"><span class="std std-ref">Connecting a Dynamixyz Source</span></a>.</p></li>
+<li><p><a class="reference internal" href="blue_print.html#sec-createllinstance"><span class="std std-ref">Creating an Animation Blueprint</span></a>.</p></li>
+<li><p>(optional) <a class="reference internal" href="blue_print.html#sec-createretargetasset"><span class="std std-ref">Creating a Dynamixyz Live Link Retarget Asset</span></a>.</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="install.html" class="btn btn-neutral float-right" title="Installation from UE Marketplace" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Dynamixyz Live Link Plugin for UE4 documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Dynamixyz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

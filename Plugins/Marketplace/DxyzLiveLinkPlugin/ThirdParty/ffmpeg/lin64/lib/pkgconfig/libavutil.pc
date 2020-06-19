@@ -1,0 +1,14 @@
+prefix=/opt/dxyzsdk
+exec_prefix=${prefix}
+libdir=/opt/dxyzsdk/lib
+includedir=/opt/dxyzsdk/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.22.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}
