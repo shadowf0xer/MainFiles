@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.Actions.cppa7.o",
+		"Module.Actions.cppa8.o",
+		"Module.Actions.gen.cppa7.o",
+		"Module.Actions.gen.cppa8.o"
+	]
+}

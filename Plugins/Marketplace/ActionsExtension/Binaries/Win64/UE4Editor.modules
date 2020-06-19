@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"Actions": "UE4Editor-Actions.dll",
+		"ActionsEditor": "UE4Editor-ActionsEditor.dll",
+		"ActionsTest": "UE4Editor-ActionsTest.dll"
+	}
+}

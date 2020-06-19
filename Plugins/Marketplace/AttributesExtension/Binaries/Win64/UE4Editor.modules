@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"Attributes": "UE4Editor-Attributes.dll",
+		"AttributesEditor": "UE4Editor-AttributesEditor.dll",
+		"AttributesTest": "UE4Editor-AttributesTest.dll"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.ACLPlugin.cpp.o",
+		"Module.ACLPlugin.gen.cpp.o"
+	]
+}

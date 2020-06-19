@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.ACLPlugin.cppa7.o",
+		"Module.ACLPlugin.cppa8.o",
+		"Module.ACLPlugin.gen.cppa7.o",
+		"Module.ACLPlugin.gen.cppa8.o"
+	]
+}

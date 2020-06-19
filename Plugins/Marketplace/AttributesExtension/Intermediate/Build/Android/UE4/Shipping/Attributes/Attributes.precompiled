@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.Attributes.cppa7.o",
+		"Module.Attributes.cppa8.o",
+		"Module.Attributes.gen.cppa7.o",
+		"Module.Attributes.gen.cppa8.o"
+	]
+}

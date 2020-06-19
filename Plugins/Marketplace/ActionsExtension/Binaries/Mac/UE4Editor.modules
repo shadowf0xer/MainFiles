@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"Actions": "UE4Editor-Actions.dylib",
+		"ActionsEditor": "UE4Editor-ActionsEditor.dylib",
+		"ActionsTest": "UE4Editor-ActionsTest.dylib"
+	}
+}
