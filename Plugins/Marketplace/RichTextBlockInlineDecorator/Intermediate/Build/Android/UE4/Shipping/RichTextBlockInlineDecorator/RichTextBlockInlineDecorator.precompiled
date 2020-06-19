@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.RichTextBlockInlineDecorator.cppa7.o",
+		"Module.RichTextBlockInlineDecorator.cppa8.o",
+		"Module.RichTextBlockInlineDecorator.gen.cppa7.o",
+		"Module.RichTextBlockInlineDecorator.gen.cppa8.o"
+	]
+}

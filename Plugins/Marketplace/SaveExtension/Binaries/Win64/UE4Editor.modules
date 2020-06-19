@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"SaveExtension": "UE4Editor-SaveExtension.dll",
+		"SaveExtensionEditor": "UE4Editor-SaveExtensionEditor.dll",
+		"SaveExtensionTest": "UE4Editor-SaveExtensionTest.dll"
+	}
+}

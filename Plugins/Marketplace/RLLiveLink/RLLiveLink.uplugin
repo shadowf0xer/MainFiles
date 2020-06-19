@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.12",
+	"FriendlyName": "iClone Live Link",
+	"Description": "Live Link Connection for receiving motion capture data. Sources can include : Facial and Body Capture, Lights, and Cameras.",
+	"Category": "Reallusion",
+	"CreatedBy": "Reallusion, Inc",
+	"CreatedByURL": "https://www.reallusion.com",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f6a79afa7d0e4d429be8b993f7b6f5ad",
+	"SupportURL": "https://www.reallusion.com/CustomerSupport/user/FAQList.html",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "RLLiveLink",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "RLLiveLinkEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		}
+	]
+}
