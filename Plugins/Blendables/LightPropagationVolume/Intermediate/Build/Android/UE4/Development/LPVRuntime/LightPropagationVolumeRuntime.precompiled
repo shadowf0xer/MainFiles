@@ -1,0 +1,10 @@
+{
+	"OutputFiles": [
+		"LightPropagationVolumeRuntimeModule.cppa7.o",
+		"LightPropagationVolumeRuntimeModule.cppa8.o",
+		"LightPropagationVolumeBlendable.gen.cppa7.o",
+		"LightPropagationVolumeRuntime.init.gen.cppa7.o",
+		"LightPropagationVolumeBlendable.gen.cppa8.o",
+		"LightPropagationVolumeRuntime.init.gen.cppa8.o"
+	]
+}

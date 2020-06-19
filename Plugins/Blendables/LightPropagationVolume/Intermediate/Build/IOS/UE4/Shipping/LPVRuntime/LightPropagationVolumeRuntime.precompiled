@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"LightPropagationVolumeRuntimeModule.cpp.o",
+		"LightPropagationVolumeBlendable.gen.cpp.o",
+		"LightPropagationVolumeRuntime.init.gen.cpp.o"
+	]
+}

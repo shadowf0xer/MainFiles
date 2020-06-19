@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\..\\..\\..\\..\\..\\..\\Intermediate\\Build\\Win64\\UE4\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h.obj",
+		"LightPropagationVolumeRuntimeModule.cpp.obj",
+		"LightPropagationVolumeBlendable.gen.cpp.obj",
+		"LightPropagationVolumeRuntime.init.gen.cpp.obj"
+	]
+}

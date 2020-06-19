@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"LightPropagationVolumeEditor": "UE4Editor-LightPropagationVolumeEditor.dll",
+		"LightPropagationVolumeRuntime": "UE4Editor-LightPropagationVolumeRuntime.dll"
+	}
+}
