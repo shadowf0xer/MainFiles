@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.OpenColorIO.cppa7.o",
+		"Module.OpenColorIO.cppa8.o",
+		"Module.OpenColorIO.gen.cppa7.o",
+		"Module.OpenColorIO.gen.cppa8.o"
+	]
+}

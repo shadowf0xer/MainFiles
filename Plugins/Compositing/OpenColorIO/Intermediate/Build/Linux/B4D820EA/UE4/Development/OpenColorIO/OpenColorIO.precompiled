@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.OpenColorIO.cpp.o",
+		"Module.OpenColorIO.gen.cpp.o"
+	]
+}

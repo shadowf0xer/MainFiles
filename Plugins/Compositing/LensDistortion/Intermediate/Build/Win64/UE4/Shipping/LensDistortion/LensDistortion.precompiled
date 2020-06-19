@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\..\\..\\..\\..\\..\\..\\Intermediate\\Build\\Win64\\UE4\\Shipping\\Engine\\SharedPCH.Engine.ShadowErrors.h.obj",
+		"Module.LensDistortion.cpp.obj",
+		"Module.LensDistortion.gen.cpp.obj"
+	]
+}

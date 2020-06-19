@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\..\\..\\..\\..\\..\\..\\Intermediate\\Build\\Win32\\UE4\\Shipping\\Engine\\SharedPCH.Engine.ShadowErrors.h.obj",
+		"Module.Composure.cpp.obj",
+		"Module.Composure.gen.1_of_2.cpp.obj",
+		"Module.Composure.gen.2_of_2.cpp.obj"
+	]
+}

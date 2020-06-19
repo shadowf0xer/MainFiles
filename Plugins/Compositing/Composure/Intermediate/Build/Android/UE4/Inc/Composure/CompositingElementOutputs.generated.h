@@ -1,0 +1,331 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef COMPOSURE_CompositingElementOutputs_generated_h
+#error "CompositingElementOutputs.generated.h already included, missing '#pragma once' in CompositingElementOutputs.h"
+#endif
+#define COMPOSURE_CompositingElementOutputs_generated_h
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_SPARSE_DATA
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_RPC_WRAPPERS
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUColorConverterOutputPass(); \
+	friend struct Z_Construct_UClass_UColorConverterOutputPass_Statics; \
+public: \
+	DECLARE_CLASS(UColorConverterOutputPass, UCompositingElementOutput, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/Composure"), NO_API) \
+	DECLARE_SERIALIZER(UColorConverterOutputPass) \
+	virtual UObject* _getUObject() const override { return const_cast<UColorConverterOutputPass*>(this); }
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_INCLASS \
+private: \
+	static void StaticRegisterNativesUColorConverterOutputPass(); \
+	friend struct Z_Construct_UClass_UColorConverterOutputPass_Statics; \
+public: \
+	DECLARE_CLASS(UColorConverterOutputPass, UCompositingElementOutput, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/Composure"), NO_API) \
+	DECLARE_SERIALIZER(UColorConverterOutputPass) \
+	virtual UObject* _getUObject() const override { return const_cast<UColorConverterOutputPass*>(this); }
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UColorConverterOutputPass(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UColorConverterOutputPass) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UColorConverterOutputPass); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UColorConverterOutputPass); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UColorConverterOutputPass(UColorConverterOutputPass&&); \
+	NO_API UColorConverterOutputPass(const UColorConverterOutputPass&); \
+public:
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UColorConverterOutputPass() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UColorConverterOutputPass(UColorConverterOutputPass&&); \
+	NO_API UColorConverterOutputPass(const UColorConverterOutputPass&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UColorConverterOutputPass); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UColorConverterOutputPass); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UColorConverterOutputPass)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__DefaultConverterClass() { return STRUCT_OFFSET(UColorConverterOutputPass, DefaultConverterClass); }
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_19_PROLOG
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_SPARSE_DATA \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_RPC_WRAPPERS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_INCLASS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_SPARSE_DATA \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_INCLASS_NO_PURE_DECLS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMPOSURE_API UClass* StaticClass<class UColorConverterOutputPass>();
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_SPARSE_DATA
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_RPC_WRAPPERS
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_RPC_WRAPPERS_NO_PURE_DECLS
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCompositingMediaCaptureOutput(); \
+	friend struct Z_Construct_UClass_UCompositingMediaCaptureOutput_Statics; \
+public: \
+	DECLARE_CLASS(UCompositingMediaCaptureOutput, UColorConverterOutputPass, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Composure"), NO_API) \
+	DECLARE_SERIALIZER(UCompositingMediaCaptureOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_INCLASS \
+private: \
+	static void StaticRegisterNativesUCompositingMediaCaptureOutput(); \
+	friend struct Z_Construct_UClass_UCompositingMediaCaptureOutput_Statics; \
+public: \
+	DECLARE_CLASS(UCompositingMediaCaptureOutput, UColorConverterOutputPass, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Composure"), NO_API) \
+	DECLARE_SERIALIZER(UCompositingMediaCaptureOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCompositingMediaCaptureOutput(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCompositingMediaCaptureOutput) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCompositingMediaCaptureOutput); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCompositingMediaCaptureOutput); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCompositingMediaCaptureOutput(UCompositingMediaCaptureOutput&&); \
+	NO_API UCompositingMediaCaptureOutput(const UCompositingMediaCaptureOutput&); \
+public:
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCompositingMediaCaptureOutput(UCompositingMediaCaptureOutput&&); \
+	NO_API UCompositingMediaCaptureOutput(const UCompositingMediaCaptureOutput&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCompositingMediaCaptureOutput); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCompositingMediaCaptureOutput); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCompositingMediaCaptureOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ActiveCapture() { return STRUCT_OFFSET(UCompositingMediaCaptureOutput, ActiveCapture); }
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_71_PROLOG
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_SPARSE_DATA \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_RPC_WRAPPERS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_INCLASS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_SPARSE_DATA \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_RPC_WRAPPERS_NO_PURE_DECLS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_INCLASS_NO_PURE_DECLS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_74_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMPOSURE_API UClass* StaticClass<class UCompositingMediaCaptureOutput>();
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_SPARSE_DATA
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_RPC_WRAPPERS
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_RPC_WRAPPERS_NO_PURE_DECLS
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderTargetCompositingOutput(); \
+	friend struct Z_Construct_UClass_URenderTargetCompositingOutput_Statics; \
+public: \
+	DECLARE_CLASS(URenderTargetCompositingOutput, UCompositingElementOutput, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Composure"), NO_API) \
+	DECLARE_SERIALIZER(URenderTargetCompositingOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderTargetCompositingOutput(); \
+	friend struct Z_Construct_UClass_URenderTargetCompositingOutput_Statics; \
+public: \
+	DECLARE_CLASS(URenderTargetCompositingOutput, UCompositingElementOutput, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Composure"), NO_API) \
+	DECLARE_SERIALIZER(URenderTargetCompositingOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderTargetCompositingOutput(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderTargetCompositingOutput) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderTargetCompositingOutput); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderTargetCompositingOutput); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderTargetCompositingOutput(URenderTargetCompositingOutput&&); \
+	NO_API URenderTargetCompositingOutput(const URenderTargetCompositingOutput&); \
+public:
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderTargetCompositingOutput() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderTargetCompositingOutput(URenderTargetCompositingOutput&&); \
+	NO_API URenderTargetCompositingOutput(const URenderTargetCompositingOutput&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderTargetCompositingOutput); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderTargetCompositingOutput); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(URenderTargetCompositingOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_PRIVATE_PROPERTY_OFFSET
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_113_PROLOG
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_SPARSE_DATA \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_RPC_WRAPPERS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_INCLASS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_SPARSE_DATA \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_RPC_WRAPPERS_NO_PURE_DECLS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_INCLASS_NO_PURE_DECLS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_116_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMPOSURE_API UClass* StaticClass<class URenderTargetCompositingOutput>();
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_SPARSE_DATA
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_RPC_WRAPPERS
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_RPC_WRAPPERS_NO_PURE_DECLS
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEXRFileCompositingOutput(); \
+	friend struct Z_Construct_UClass_UEXRFileCompositingOutput_Statics; \
+public: \
+	DECLARE_CLASS(UEXRFileCompositingOutput, UCompositingElementOutput, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Composure"), NO_API) \
+	DECLARE_SERIALIZER(UEXRFileCompositingOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_INCLASS \
+private: \
+	static void StaticRegisterNativesUEXRFileCompositingOutput(); \
+	friend struct Z_Construct_UClass_UEXRFileCompositingOutput_Statics; \
+public: \
+	DECLARE_CLASS(UEXRFileCompositingOutput, UCompositingElementOutput, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Composure"), NO_API) \
+	DECLARE_SERIALIZER(UEXRFileCompositingOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEXRFileCompositingOutput(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEXRFileCompositingOutput) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEXRFileCompositingOutput); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEXRFileCompositingOutput); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEXRFileCompositingOutput(UEXRFileCompositingOutput&&); \
+	NO_API UEXRFileCompositingOutput(const UEXRFileCompositingOutput&); \
+public:
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEXRFileCompositingOutput(UEXRFileCompositingOutput&&); \
+	NO_API UEXRFileCompositingOutput(const UEXRFileCompositingOutput&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEXRFileCompositingOutput); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEXRFileCompositingOutput); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEXRFileCompositingOutput)
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_PRIVATE_PROPERTY_OFFSET
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_137_PROLOG
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_SPARSE_DATA \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_RPC_WRAPPERS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_INCLASS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_SPARSE_DATA \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_RPC_WRAPPERS_NO_PURE_DECLS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_INCLASS_NO_PURE_DECLS \
+	Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h_140_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMPOSURE_API UClass* StaticClass<class UEXRFileCompositingOutput>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID Engine_Plugins_Compositing_Composure_Source_Composure_Classes_CompositingElements_CompositingElementOutputs_h
+
+
+#define FOREACH_ENUM_EEXRCOMPRESSIONOPTIONS(op) \
+	op(EExrCompressionOptions::Compressed) \
+	op(EExrCompressionOptions::Uncompressed) 
+
+enum class EExrCompressionOptions : uint8;
+template<> COMPOSURE_API UEnum* StaticEnum<EExrCompressionOptions>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

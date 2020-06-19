@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.LensDistortion.cpp.o",
+		"Module.LensDistortion.gen.cpp.o"
+	]
+}

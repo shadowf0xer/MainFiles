@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.OpenCVLensCalibration.cpp.o",
+		"Module.OpenCVLensCalibration.gen.cpp.o"
+	]
+}

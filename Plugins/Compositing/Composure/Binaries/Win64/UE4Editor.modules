@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"Composure": "UE4Editor-Composure.dll",
+		"ComposureEditor": "UE4Editor-ComposureEditor.dll",
+		"ComposureLayersEditor": "UE4Editor-ComposureLayersEditor.dll"
+	}
+}

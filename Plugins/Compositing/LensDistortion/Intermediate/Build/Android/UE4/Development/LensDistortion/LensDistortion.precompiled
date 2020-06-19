@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.LensDistortion.cppa7.o",
+		"Module.LensDistortion.cppa8.o",
+		"Module.LensDistortion.gen.cppa7.o",
+		"Module.LensDistortion.gen.cppa8.o"
+	]
+}
