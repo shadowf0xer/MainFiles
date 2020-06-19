@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.SubstanceCore.cpp.o",
+		"Module.SubstanceCore.gen.cpp.o"
+	]
+}

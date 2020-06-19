@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"SCUE4": "UE4Editor-SCUE4.dll",
+		"SCUE4Editor": "UE4Editor-SCUE4Editor.dll"
+	}
+}

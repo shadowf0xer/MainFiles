@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.SurfaceFootstepSystem.cppa7.o",
+		"Module.SurfaceFootstepSystem.cppa8.o",
+		"Module.SurfaceFootstepSystem.gen.cppa7.o",
+		"Module.SurfaceFootstepSystem.gen.cppa8.o"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"PCH.SCUE4.h.obj",
+		"Module.SCUE4.cpp.obj",
+		"Module.SCUE4.gen.1_of_2.cpp.obj",
+		"Module.SCUE4.gen.2_of_2.cpp.obj"
+	]
+}

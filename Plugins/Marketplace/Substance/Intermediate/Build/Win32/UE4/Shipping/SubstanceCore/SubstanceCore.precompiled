@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"PCH.SubstanceCore.h.obj",
+		"Module.SubstanceCore.cpp.obj",
+		"Module.SubstanceCore.gen.cpp.obj"
+	]
+}

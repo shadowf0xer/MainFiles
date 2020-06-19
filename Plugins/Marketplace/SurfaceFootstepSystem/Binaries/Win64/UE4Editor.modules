@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"SurfaceFootstepSystem": "UE4Editor-SurfaceFootstepSystem.dll",
+		"SurfaceFootstepSystemEditor": "UE4Editor-SurfaceFootstepSystemEditor.dll"
+	}
+}
