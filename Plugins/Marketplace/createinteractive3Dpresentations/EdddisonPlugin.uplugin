@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 6,
+	"VersionName": "2.1.0",
+	"FriendlyName": "edddison - create interactive 3D presentations",
+	"Description": "Interact with a scene using a webcam, tangible objects, printed plans, touchscreens or tablets (Android and iPad)",
+	"Category": "Interactive presentations",
+	"CreatedBy": "edddison technologies",
+	"CreatedByURL": "https://www.edddison.com/",
+	"DocsURL": "https://www.edddison.com/downloads-tutorials/?category=74",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/804369d3542644cf96c5c6c53d7085ef",
+	"SupportURL": "https://www.edddison.com/technical-request/",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "EdddisonPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
