@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.SourceFilteringTrace.cppa7.o",
+		"Module.SourceFilteringTrace.cppa8.o",
+		"Module.SourceFilteringTrace.gen.cppa7.o",
+		"Module.SourceFilteringTrace.gen.cppa8.o"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"AnimationSharing": "UE4Editor-AnimationSharing.dll",
+		"AnimationSharingEd": "UE4Editor-AnimationSharingEd.dll"
+	}
+}

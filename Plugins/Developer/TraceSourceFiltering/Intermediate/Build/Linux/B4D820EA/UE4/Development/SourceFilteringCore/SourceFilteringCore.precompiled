@@ -1,0 +1,10 @@
+{
+	"OutputFiles": [
+		"DataSourceFiltering.cpp.o",
+		"DataSourceFiltering.gen.cpp.o",
+		"IDataSourceFilterInterface.gen.cpp.o",
+		"IDataSourceFilterSetInterface.gen.cpp.o",
+		"SourceFilteringCore.init.gen.cpp.o",
+		"TraceSourceFilteringSettings.gen.cpp.o"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.SourceFilteringTrace.cpp.o",
+		"Module.SourceFilteringTrace.gen.cpp.o"
+	]
+}

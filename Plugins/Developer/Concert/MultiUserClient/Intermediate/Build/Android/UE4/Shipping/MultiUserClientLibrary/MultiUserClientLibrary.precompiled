@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.MultiUserClientLibrary.cppa7.o",
+		"Module.MultiUserClientLibrary.cppa8.o",
+		"Module.MultiUserClientLibrary.gen.cppa7.o",
+		"Module.MultiUserClientLibrary.gen.cppa8.o"
+	]
+}

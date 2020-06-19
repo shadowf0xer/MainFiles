@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"Concert": "UE4Editor-Concert.dll",
+		"ConcertTransport": "UE4Editor-ConcertTransport.dll"
+	}
+}

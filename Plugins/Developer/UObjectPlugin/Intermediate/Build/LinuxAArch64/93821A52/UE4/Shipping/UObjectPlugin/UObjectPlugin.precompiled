@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.UObjectPlugin.cpp.o",
+		"Module.UObjectPlugin.gen.cpp.o"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\..\\..\\..\\..\\..\\..\\Intermediate\\Build\\Win32\\UE4\\Development\\CoreUObject\\SharedPCH.CoreUObject.ShadowErrors.h.obj",
+		"DataSourceFiltering.cpp.obj",
+		"DataSourceFiltering.gen.cpp.obj",
+		"IDataSourceFilterInterface.gen.cpp.obj",
+		"IDataSourceFilterSetInterface.gen.cpp.obj",
+		"SourceFilteringCore.init.gen.cpp.obj",
+		"TraceSourceFilteringSettings.gen.cpp.obj"
+	]
+}

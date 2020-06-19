@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"SourceFilteringCore": "UE4Editor-SourceFilteringCore.dll",
+		"SourceFilteringEditor": "UE4Editor-SourceFilteringEditor.dll",
+		"SourceFilteringTrace": "UE4Editor-SourceFilteringTrace.dll"
+	}
+}

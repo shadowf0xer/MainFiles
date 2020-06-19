@@ -1,0 +1,16 @@
+{
+	"OutputFiles": [
+		"DataSourceFiltering.cppa7.o",
+		"DataSourceFiltering.cppa8.o",
+		"DataSourceFiltering.gen.cppa7.o",
+		"IDataSourceFilterInterface.gen.cppa7.o",
+		"IDataSourceFilterSetInterface.gen.cppa7.o",
+		"SourceFilteringCore.init.gen.cppa7.o",
+		"TraceSourceFilteringSettings.gen.cppa7.o",
+		"DataSourceFiltering.gen.cppa8.o",
+		"IDataSourceFilterInterface.gen.cppa8.o",
+		"IDataSourceFilterSetInterface.gen.cppa8.o",
+		"SourceFilteringCore.init.gen.cppa8.o",
+		"TraceSourceFilteringSettings.gen.cppa8.o"
+	]
+}

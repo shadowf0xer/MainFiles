@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\..\\..\\..\\..\\..\\..\\Intermediate\\Build\\Win32\\UE4\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h.obj",
+		"Module.SourceFilteringTrace.cpp.obj",
+		"Module.SourceFilteringTrace.gen.cpp.obj"
+	]
+}

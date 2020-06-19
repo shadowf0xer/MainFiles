@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.AnimationSharing.cppa7.o",
+		"Module.AnimationSharing.cppa8.o",
+		"Module.AnimationSharing.gen.cppa7.o",
+		"Module.AnimationSharing.gen.cppa8.o"
+	]
+}

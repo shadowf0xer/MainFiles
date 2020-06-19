@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"ConcertSyncClient": "UE4Editor-ConcertSyncClient.dll",
+		"ConcertSyncUI": "UE4Editor-ConcertSyncUI.dll"
+	}
+}
