@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.3",
+	"FriendlyName": "Light Explorer",
+	"Description": "Simple Editor Tool to help navigate, locate and edit light sources quicker.",
+	"Category": "SYNAPTECH",
+	"CreatedBy": "(C) Bruno Xavier Leite",
+	"CreatedByURL": "http://brunoxavierleite.wordpress.com",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4dc7591f494343f1ae6cac5192bb1f62",
+	"SupportURL": "mailto:bruno_xavier_@msn.com",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LightExplorer",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	]
+}

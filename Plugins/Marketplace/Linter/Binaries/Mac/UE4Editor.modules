@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"GamemakinLinter": "UE4Editor-GamemakinLinter.dylib",
+		"Linter": "UE4Editor-Linter.dylib",
+		"MarketplaceLinter": "UE4Editor-MarketplaceLinter.dylib"
+	}
+}
