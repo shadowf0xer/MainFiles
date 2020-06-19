@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"LidarPointCloudEditor": "UE4Editor-LidarPointCloudEditor.dll",
+		"LidarPointCloudRuntime": "UE4Editor-LidarPointCloudRuntime.dll"
+	}
+}

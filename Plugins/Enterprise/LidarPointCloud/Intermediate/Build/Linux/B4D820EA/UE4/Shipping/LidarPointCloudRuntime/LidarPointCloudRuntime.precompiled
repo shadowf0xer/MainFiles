@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.LidarPointCloudRuntime.cpp.o",
+		"Module.LidarPointCloudRuntime.gen.cpp.o"
+	]
+}

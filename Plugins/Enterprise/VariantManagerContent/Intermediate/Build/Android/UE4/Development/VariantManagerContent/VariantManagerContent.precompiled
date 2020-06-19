@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.VariantManagerContent.cppa7.o",
+		"Module.VariantManagerContent.cppa8.o",
+		"Module.VariantManagerContent.gen.cppa7.o",
+		"Module.VariantManagerContent.gen.cppa8.o"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"DatasmithContent": "UE4Editor-DatasmithContent.dll",
+		"DatasmithContentEditor": "UE4Editor-DatasmithContentEditor.dll"
+	}
+}

@@ -1,0 +1,118 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef DATASMITHCORETECHPARAMETRICSURFACEDATA_CoreTechParametricSurfaceExtension_generated_h
+#error "CoreTechParametricSurfaceExtension.generated.h already included, missing '#pragma once' in CoreTechParametricSurfaceExtension.h"
+#endif
+#define DATASMITHCORETECHPARAMETRICSURFACEDATA_CoreTechParametricSurfaceExtension_generated_h
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_33_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCoreTechMeshParameters_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> DATASMITHCORETECHPARAMETRICSURFACEDATA_API UScriptStruct* StaticStruct<struct FCoreTechMeshParameters>();
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_17_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCoreTechSceneParameters_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> DATASMITHCORETECHPARAMETRICSURFACEDATA_API UScriptStruct* StaticStruct<struct FCoreTechSceneParameters>();
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_SPARSE_DATA
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_RPC_WRAPPERS
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_RPC_WRAPPERS_NO_PURE_DECLS
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UCoreTechParametricSurfaceData, NO_API)
+
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCoreTechParametricSurfaceData(); \
+	friend struct Z_Construct_UClass_UCoreTechParametricSurfaceData_Statics; \
+public: \
+	DECLARE_CLASS(UCoreTechParametricSurfaceData, UDatasmithAdditionalData, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DatasmithCoreTechParametricSurfaceData"), NO_API) \
+	DECLARE_SERIALIZER(UCoreTechParametricSurfaceData) \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_ARCHIVESERIALIZER
+
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_INCLASS \
+private: \
+	static void StaticRegisterNativesUCoreTechParametricSurfaceData(); \
+	friend struct Z_Construct_UClass_UCoreTechParametricSurfaceData_Statics; \
+public: \
+	DECLARE_CLASS(UCoreTechParametricSurfaceData, UDatasmithAdditionalData, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DatasmithCoreTechParametricSurfaceData"), NO_API) \
+	DECLARE_SERIALIZER(UCoreTechParametricSurfaceData) \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_ARCHIVESERIALIZER
+
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCoreTechParametricSurfaceData(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCoreTechParametricSurfaceData) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCoreTechParametricSurfaceData); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCoreTechParametricSurfaceData); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCoreTechParametricSurfaceData(UCoreTechParametricSurfaceData&&); \
+	NO_API UCoreTechParametricSurfaceData(const UCoreTechParametricSurfaceData&); \
+public:
+
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCoreTechParametricSurfaceData() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCoreTechParametricSurfaceData(UCoreTechParametricSurfaceData&&); \
+	NO_API UCoreTechParametricSurfaceData(const UCoreTechParametricSurfaceData&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCoreTechParametricSurfaceData); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCoreTechParametricSurfaceData); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCoreTechParametricSurfaceData)
+
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__RawData_DEPRECATED() { return STRUCT_OFFSET(UCoreTechParametricSurfaceData, RawData_DEPRECATED); }
+
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_49_PROLOG
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_SPARSE_DATA \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_RPC_WRAPPERS \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_INCLASS \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_PRIVATE_PROPERTY_OFFSET \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_SPARSE_DATA \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_INCLASS_NO_PURE_DECLS \
+	Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h_52_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATASMITHCORETECHPARAMETRICSURFACEDATA_API UClass* StaticClass<class UCoreTechParametricSurfaceData>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID Engine_Plugins_Enterprise_DatasmithCADImporter_Source_DatasmithCoreTechParametricSurfaceData_Public_CoreTechParametricSurfaceExtension_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.DatasmithGLTFTranslator.cpp.o",
+		"Module.DatasmithGLTFTranslator.gen.cpp.o"
+	]
+}

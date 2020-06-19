@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"VariantManagerContent": "UE4Editor-VariantManagerContent.dll",
+		"VariantManagerContentEditor": "UE4Editor-VariantManagerContentEditor.dll"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.DatasmithGLTFTranslator.cppa7.o",
+		"Module.DatasmithGLTFTranslator.cppa8.o",
+		"Module.DatasmithGLTFTranslator.gen.cppa7.o",
+		"Module.DatasmithGLTFTranslator.gen.cppa8.o"
+	]
+}

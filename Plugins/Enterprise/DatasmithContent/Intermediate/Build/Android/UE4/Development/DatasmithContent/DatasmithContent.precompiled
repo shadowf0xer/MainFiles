@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.DatasmithContent.cppa7.o",
+		"Module.DatasmithContent.cppa8.o",
+		"Module.DatasmithContent.gen.cppa7.o",
+		"Module.DatasmithContent.gen.cppa8.o"
+	]
+}

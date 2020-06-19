@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\..\\..\\..\\..\\..\\..\\Intermediate\\Build\\Win64\\UE4\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h.obj",
+		"Module.DatasmithCoreTechParametricSurfaceData.cpp.obj",
+		"Module.DatasmithCoreTechParametricSurfaceData.gen.cpp.obj"
+	]
+}
