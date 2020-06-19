@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.MagicNodeRuntime.cpp.o",
+		"Module.MagicNodeRuntime.gen.cpp.o"
+	]
+}

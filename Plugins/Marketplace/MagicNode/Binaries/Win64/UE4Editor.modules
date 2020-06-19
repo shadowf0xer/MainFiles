@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"MagicNodeEditor": "UE4Editor-MagicNodeEditor.dll",
+		"MagicNodeKismet": "UE4Editor-MagicNodeKismet.dll",
+		"MagicNodeRuntime": "UE4Editor-MagicNodeRuntime.dll"
+	}
+}

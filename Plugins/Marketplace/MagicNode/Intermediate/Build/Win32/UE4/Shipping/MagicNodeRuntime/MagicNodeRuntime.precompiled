@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"PCH.MagicNodeRuntime.h.obj",
+		"Module.MagicNodeRuntime.cpp.obj",
+		"Module.MagicNodeRuntime.gen.cpp.obj"
+	]
+}

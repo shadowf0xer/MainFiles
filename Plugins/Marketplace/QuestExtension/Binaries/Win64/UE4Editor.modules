@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"QuestExtension": "UE4Editor-QuestExtension.dll",
+		"QuestExtensionEditor": "UE4Editor-QuestExtensionEditor.dll",
+		"QuestTest": "UE4Editor-QuestTest.dll"
+	}
+}

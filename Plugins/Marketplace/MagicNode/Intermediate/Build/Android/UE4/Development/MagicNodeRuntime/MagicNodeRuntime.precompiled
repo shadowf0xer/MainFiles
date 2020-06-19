@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.MagicNodeRuntime.cppa7.o",
+		"Module.MagicNodeRuntime.cppa8.o",
+		"Module.MagicNodeRuntime.gen.cppa7.o",
+		"Module.MagicNodeRuntime.gen.cppa8.o"
+	]
+}

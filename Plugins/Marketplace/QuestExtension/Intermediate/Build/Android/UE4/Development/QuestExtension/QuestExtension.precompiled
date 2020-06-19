@@ -1,0 +1,10 @@
+{
+	"OutputFiles": [
+		"Module.QuestExtension.cppa7.o",
+		"Module.QuestExtension.cppa8.o",
+		"Module.QuestExtension.gen.1_of_2.cppa7.o",
+		"Module.QuestExtension.gen.2_of_2.cppa7.o",
+		"Module.QuestExtension.gen.1_of_2.cppa8.o",
+		"Module.QuestExtension.gen.2_of_2.cppa8.o"
+	]
+}

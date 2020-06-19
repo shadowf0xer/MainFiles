@@ -1,0 +1,55 @@
+{
+	"FileVersion": 3,
+	"Version": 25,
+	"VersionName": "1.5c",
+	"FriendlyName": "Quest Extension",
+	"Description": "A plugin that adds a blueprint oriented Quest System to Unreal Engine 4",
+	"Category": "Piperift",
+	"CreatedBy": "Piperift",
+	"CreatedByURL": "https://piperift.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c47dc67dda684ee6b3685c64c8008428",
+	"SupportURL": "info@piperift.com",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "QuestExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"Android",
+				"PS4",
+				"XboxOne",
+				"Switch",
+				"Mac"
+			]
+		},
+		{
+			"Name": "QuestExtensionEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "QuestTest",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"Mac"
+			]
+		}
+	]
+}

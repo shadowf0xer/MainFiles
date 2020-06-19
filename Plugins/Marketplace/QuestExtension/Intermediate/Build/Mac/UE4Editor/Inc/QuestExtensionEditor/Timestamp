@@ -1,0 +1,14 @@
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/ConditionGraph/ConditionGraph.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/ConditionGraph/ConditionGraphNode.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/ConditionGraph/ConditionGraphNode_Base.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/ConditionGraph/ConditionGraphSchema.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/ConditionGraph/ConditionGraphNode_Root.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/QuestGraph/QuestGroupNode.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/QuestGraph/QuestGroupGraph.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/QuestGraph/QuestGroupNode_Root.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Public/QuestGraph/QuestGroupNode_Base.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Private/Asset/MemoryFactory.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Private/Asset/QuestFactory.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Private/Asset/QuestGroupFactory.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Private/Asset/QuestVolumeActorFactory.h
+/Users/build/Build/++Portal+Dev-Marketplace+Full/Sync/LocalBuilds/PluginTemp/HostProject/Plugins/QuestExtension/Source/Editor/Private/QuestGraph/QuestGroupGraphSchema.h
