@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.LiveLinkCurveDebugUI.cppa7.o",
+		"Module.LiveLinkCurveDebugUI.cppa8.o",
+		"Module.LiveLinkCurveDebugUI.gen.cppa7.o",
+		"Module.LiveLinkCurveDebugUI.gen.cppa8.o"
+	]
+}

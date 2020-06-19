@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.LiveLink.cpp.o",
+		"Module.LiveLink.gen.cpp.o"
+	]
+}

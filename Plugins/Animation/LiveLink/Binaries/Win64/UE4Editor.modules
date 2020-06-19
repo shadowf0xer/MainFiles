@@ -1,0 +1,12 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"LiveLink": "UE4Editor-LiveLink.dll",
+		"LiveLinkComponents": "UE4Editor-LiveLinkComponents.dll",
+		"LiveLinkEditor": "UE4Editor-LiveLinkEditor.dll",
+		"LiveLinkGraphNode": "UE4Editor-LiveLinkGraphNode.dll",
+		"LiveLinkMovieScene": "UE4Editor-LiveLinkMovieScene.dll",
+		"LiveLinkSequencer": "UE4Editor-LiveLinkSequencer.dll"
+	}
+}

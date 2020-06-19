@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.LiveLinkCurveDebugUI.cpp.o",
+		"Module.LiveLinkCurveDebugUI.gen.cpp.o"
+	]
+}
