@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"HTNPlanner": "UE4Editor-HTNPlanner.dll",
+		"HTNTestSuite": "UE4Editor-HTNTestSuite.dll"
+	}
+}

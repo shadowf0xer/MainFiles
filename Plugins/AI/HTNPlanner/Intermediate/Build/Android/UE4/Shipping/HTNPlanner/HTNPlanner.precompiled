@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.HTNPlanner.cppa7.o",
+		"Module.HTNPlanner.cppa8.o",
+		"Module.HTNPlanner.gen.cppa7.o",
+		"Module.HTNPlanner.gen.cppa8.o"
+	]
+}
