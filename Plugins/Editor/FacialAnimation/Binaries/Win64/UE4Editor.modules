@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"FacialAnimation": "UE4Editor-FacialAnimation.dll",
+		"FacialAnimationEditor": "UE4Editor-FacialAnimationEditor.dll"
+	}
+}

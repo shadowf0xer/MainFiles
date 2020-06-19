@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"CryptoKeys": "UE4Editor-CryptoKeys.dll",
+		"CryptoKeysOpenSSL": "UE4Editor-CryptoKeysOpenSSL.dll"
+	}
+}

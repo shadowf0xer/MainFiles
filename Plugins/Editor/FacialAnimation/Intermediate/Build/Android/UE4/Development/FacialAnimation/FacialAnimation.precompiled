@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.FacialAnimation.cppa7.o",
+		"Module.FacialAnimation.cppa8.o",
+		"Module.FacialAnimation.gen.cppa7.o",
+		"Module.FacialAnimation.gen.cppa8.o"
+	]
+}

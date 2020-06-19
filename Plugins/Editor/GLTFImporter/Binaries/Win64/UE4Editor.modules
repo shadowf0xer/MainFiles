@@ -1,0 +1,8 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"GLTFCore": "UE4Editor-GLTFCore.dll",
+		"GLTFImporter": "UE4Editor-GLTFImporter.dll"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"BspMode": "UE4Editor-BspMode.dll",
+		"GeometryMode": "UE4Editor-GeometryMode.dll",
+		"TextureAlignMode": "UE4Editor-TextureAlignMode.dll"
+	}
+}
